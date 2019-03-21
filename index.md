@@ -1,37 +1,39 @@
-## Welcome to GitHub Pages
+## 田谷昭仁 (Akihito Taya)
 
-You can use the [editor on GitHub](https://github.com/aktaya/github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+### 所属
+京都大学 大学院情報学研究科 守倉研究室 博士後期課程２年
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Ph.D. student, Graduate School of Informatics, Kyoto University
 
-### Markdown
+E-mail: taya\[at\]imc.cce.i.kyoto-u.ac.jp
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### 研究内容
+- ミリ波通信
+- コネクテッドカー
+- 機械学習
+- グラフ理論
 
-```markdown
-Syntax highlighted code block
+### 略歴
+2013/04 株式会社日立製作所　入社
+2017/04 京都大学情報学研究科　博士後期課程 編入学
 
-# Header 1
-## Header 2
-### Header 3
+### 研究業績
+#### 論文誌
+- A. Taya, T. Nishio, M. Morimura, K. Yamaoto, “Deep-Reinforcement-Learning-Based Distributed Vehicle Position Controls for Coverage Expansion in mmWave V2X,” IEICE Trans. Commun., 採録決定
+- A. Taya, T. Nishio, M. Morimura, K. Yamaoto, “Concurrent Transmission Scheduling for Perceptual Data Sharing in mmWaveVehicular Networks,” IEICE Trans. Inf. & Syst., Vol.E102-D, No.5, May 2019 採録決定
+- 田野哲, 田谷昭仁, 村田英一, 梅原大祐, 山本高至, 吉田進, 守倉正博, “フィードバック情報量低減を可能にする基地局協調システムのための線形プリコーディング,” 電子情報通信学会論文誌 B, Vol.J100-B, No.3, pp.270-279, Mar. 2017
+- A. Taya, S. Denno, K. Yamamoto, M. Morikura, D. Umehara, H. Murata, and S. Yoshida, “An iterative MIMO receiver employing virtual channels with a turbo decoder for OFDM wireless systems,” IEICE Trans. Commun., Vol.E98.B, No.5, pp.878-889, May 2015
 
-- Bulleted
-- List
+#### 査読付き国際会議
+- A. Taya, T. Nishio, M. Morimura, K. Yamaoto, “Concurrent Data Dissemination at Intersections in mmWave for Cooperative Perceptions,” Proc. IEEE Connected and Automated Vehicles Symposium, Chicago, USA, Aug. 2018
+- A. Taya, T. Nishio, M. Morikura, and K. Yamamoto, “Coverage Expansion through Dynamic Relay Vehicle Deployment in MmWave V2I Communications,” Proc. 2018 IEEE 87th Vehicular Technology Conference, Porto, Portugal, June 2018
+- S. Denno, A. Taya, M. Morikura, “A virtual channel detector for iterative receiver in overloaded MIMO OFDM systems,” Proc. 2014 8th ICSPCS, Gold Coast, QLD, Australia, Dec. 2014
+- A. Taya, S. Denno, K. Yamamoto, M. Morikura, D. Umehara, H. Murata, and S. Yoshida, “Turbo coded successive detector with virtual channels for MIMO-OFDM,” Proc. 2012 IEEE International Conference on Wireless Information Technology and Systems, Hawaii, USA, Nov. 2012.
+- A. Taya, S. Denno, K. Yamamoto, M. Morikura, D. Umehara, H. Murata, and S. Yoshida, “A successive detector with virtual channel detection for cooperative multiuser MIMO systems,” Proc. 9th IEEE Vehicular Technology Society Asia Pacific Wireless Communications Symposium, Kyoto, Japan, Aug. 2012
+- A. Taya, S. Denno, K. Yamamoto, M. Morikura, D. Umehara, H. Murata, and S. Yoshida, “A virtual successive detection for cooperative MU-MIMO systems with reduced CSI,” Proc. 2012 IEEE 75th Vehicular Technology Conference, Yokohama, Japan, May 2012
+- A. Taya, S. Denno, D. Umehara, M. Morikura, H. Murata, K. Yamamoto, and S. Yoshida, “A virtual layered space-frequency receiver for multiuser MIMO-OFDM systems,” Proc. 2011 IEEE 74th Vehicular Technology Conference, San Francisco, USA, Sep. 2011
 
-1. Numbered
-2. List
+#### 受賞歴
+- 電子情報通信学会 2018年度学術奨励賞
+- IEEE VTS Japan 2012 Young Researcher’s Encouragement Award 
 
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/aktaya/github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
