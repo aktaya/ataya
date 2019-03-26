@@ -20,5 +20,8 @@
 
 #### 受賞歴
 - 電子情報通信学会 2018年度学術奨励賞
-- IEEE VTS Japan 2012 Young Researcher’s Encouragement Award 
+- IEEE VTS Japan 2012 Young Researcher’s Encouragement Award
+
+#### 研究助成
+- 立石科学技術振興財団 研究助成(C), 自己拡大するVehicular Cloud Computing基盤, 研究代表者, 2018〜2019年度
 
