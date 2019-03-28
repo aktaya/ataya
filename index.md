@@ -5,13 +5,13 @@
 
 ### 研究業績
 #### 論文誌
-- A. Taya, T. Nishio, M. Morimura, and K. Yamamoto, “Deep-reinforcement-learning-based distributed vehicle position controls for coverage expansion in mmWave V2X,” IEICE Trans. Commun., 採録決定
-- A. Taya, T. Nishio, M. Morimura, and K. Yamamoto, “Concurrent transmission scheduling for perceptual data sharing in mmWave vehicular networks,” IEICE Trans. Inf. & Syst., Vol.E102-D, No.5, May 2019 採録決定
+- A. Taya, T. Nishio, M. Morikura, and K. Yamamoto, “Deep-reinforcement-learning-based distributed vehicle position controls for coverage expansion in mmWave V2X,” IEICE Trans. Commun., 採録決定
+- A. Taya, T. Nishio, M. Morikura, and K. Yamamoto, “Concurrent transmission scheduling for perceptual data sharing in mmWave vehicular networks,” IEICE Trans. Inf. & Syst., Vol.E102-D, No.5, May 2019 採録決定
 - 田野哲, 田谷昭仁, 村田英一, 梅原大祐, 山本高至, 吉田進, 守倉正博, “フィードバック情報量低減を可能にする基地局協調システムのための線形プリコーディング,” 電子情報通信学会論文誌 B, Vol.J100-B, No.3, pp.270-279, Mar. 2017
 - A. Taya, S. Denno, K. Yamamoto, M. Morikura, D. Umehara, H. Murata, and S. Yoshida, “An iterative MIMO receiver employing virtual channels with a turbo decoder for OFDM wireless systems,” IEICE Trans. Commun., Vol.E98.B, No.5, pp.878-889, May 2015
 
 #### 査読付き国際会議
-- A. Taya, T. Nishio, M. Morimura, and K. Yamamoto, “Concurrent data dissemination at intersections in mmWave for cooperative perceptions,” Proc. IEEE Connected and Automated Vehicles Symposium, Chicago, USA, Aug. 2018
+- A. Taya, T. Nishio, M. Morikura, and K. Yamamoto, “Concurrent data dissemination at intersections in mmWave for cooperative perceptions,” Proc. IEEE Connected and Automated Vehicles Symposium, Chicago, USA, Aug. 2018
 - A. Taya, T. Nishio, M. Morikura, and K. Yamamoto, “Coverage expansion through dynamic relay vehicle deployment in mmWave V2I communications,” Proc. 2018 IEEE 87th Vehicular Technology Conference, Porto, Portugal, June 2018
 - S. Denno, A. Taya, and M. Morikura, “A virtual channel detector for iterative receiver in overloaded MIMO OFDM systems,” Proc. 2014 8th ICSPCS, Gold Coast, QLD, Australia, Dec. 2014
 - A. Taya, S. Denno, K. Yamamoto, M. Morikura, D. Umehara, H. Murata, and S. Yoshida, “Turbo coded successive detector with virtual channels for MIMO-OFDM,” Proc. 2012 IEEE International Conference on Wireless Information Technology and Systems, Hawaii, USA, Nov. 2012.
