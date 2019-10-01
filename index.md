@@ -1,11 +1,12 @@
 ### 略歴
-2013年3月　京都大学大学院情報学研究科　修士課程　修了  
-2013年4月　株式会社日立製作所　入社  
-2017年4月　京都大学大学院情報学研究科　博士後期課程　編入学
+2013.3 京都大学大学院情報学研究科　修士課程　修了  
+2013.4 - 2017.2　株式会社日立製作所　入社  
+2017.4 - 2019.9　京都大学大学院情報学研究科　博士後期課程  
+2019.10 -        青山学院大学理工学部情報テクノロジー学科　助教
 
 ### 研究業績
 #### 論文誌
-- A. Taya, T. Nishio, M. Morikura, and K. Yamamoto, “Deep-reinforcement-learning-based distributed vehicle position controls for coverage expansion in mmWave V2X,” IEICE Trans. Commun., Vol.E102-B, No.10, Oct. 2019, 採録決定
+- A. Taya, T. Nishio, M. Morikura, and K. Yamamoto, “Deep-reinforcement-learning-based distributed vehicle position controls for coverage expansion in mmWave V2X,” IEICE Trans. Commun., Vol.E102-B, No.10, pp.2054-2065, Oct. 2019
 - A. Taya, T. Nishio, M. Morikura, and K. Yamamoto, “Concurrent transmission scheduling for perceptual data sharing in mmWave vehicular networks,” IEICE Trans. Inf. & Syst., Vol.E102-D, No.5, pp.952-962, May 2019
 - 田野哲, 田谷昭仁, 村田英一, 梅原大祐, 山本高至, 吉田進, 守倉正博, “フィードバック情報量低減を可能にする基地局協調システムのための線形プリコーディング,” 電子情報通信学会論文誌 B, Vol.J100-B, No.3, pp.270-279, Mar. 2017
 - A. Taya, S. Denno, K. Yamamoto, M. Morikura, D. Umehara, H. Murata, and S. Yoshida, “An iterative MIMO receiver employing virtual channels with a turbo decoder for OFDM wireless systems,” IEICE Trans. Commun., Vol.E98.B, No.5, pp.878-889, May 2015
