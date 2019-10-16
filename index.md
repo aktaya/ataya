@@ -12,6 +12,7 @@
 - A. Taya, S. Denno, K. Yamamoto, M. Morikura, D. Umehara, H. Murata, and S. Yoshida, “An iterative MIMO receiver employing virtual channels with a turbo decoder for OFDM wireless systems,” IEICE Trans. Commun., Vol.E98.B, No.5, pp.878-889, May 2015
 
 #### 査読付き国際会議
+- T. Sakakibara, T. Nishio, A. Taya, M. Morikura, K. Yamamoto, T. Nabetani, "Communication-efficient cooperative contextual bandit and its application to Wi-Fi BSS selection," Proc. 2020 IEEE 17th Annual Consumer Communications & Networking Conference (CCNC), Las Vegas, USA, Jan. 2020
 - A. Taya, T. Nishio, M. Morikura, and K. Yamamoto, “Concurrent data dissemination at intersections in mmWave for cooperative perceptions,” Proc. IEEE Connected and Automated Vehicles Symposium, Chicago, USA, Aug. 2018
 - A. Taya, T. Nishio, M. Morikura, and K. Yamamoto, “Coverage expansion through dynamic relay vehicle deployment in mmWave V2I communications,” Proc. 2018 IEEE 87th Vehicular Technology Conference, Porto, Portugal, June 2018
 - S. Denno, A. Taya, and M. Morikura, “A virtual channel detector for iterative receiver in overloaded MIMO OFDM systems,” Proc. 2014 8th ICSPCS, Gold Coast, QLD, Australia, Dec. 2014
