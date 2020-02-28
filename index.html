@@ -1,34 +1,70 @@
 ---
 ---
+<header>
+  {% assign prof = site.data.profile %}
+  <h2>{{ prof.jp.name }}/{{ prof.en.name }}</h2>
 
-### 略歴
-2013.3 京都大学大学院情報学研究科　修士課程　修了  
-2013.4 - 2017.2　株式会社日立製作所　入社  
-2017.4 - 2019.9　京都大学大学院情報学研究科　博士後期課程  
-2019.10 -        青山学院大学理工学部情報テクノロジー学科　助教
+  <div class="profile">
+    <p>{{ prof.jp.affiliation }}</p>
+    <p>{{ prof.en.affiliation }}</p>
 
-### 研究業績
-#### 論文誌
-- Akihito Taya, Takayuki Nishio, Masahiro Morikura, and Koji Yamamoto, “Deep-reinforcement-learning-based distributed vehicle position controls for coverage expansion in mmWave V2X,” IEICE Trans. Commun., Vol.E102-B, No.10, pp.2054-2065, Oct. 2019
-- Akihito Taya, Takayuki Nishio, Masahiro Morikura, and Koji Yamamoto, “Concurrent transmission scheduling for perceptual data sharing in mmWave vehicular networks,” IEICE Trans. Inf. & Syst., Vol.E102-D, No.5, pp.952-962, May 2019
-- 田野哲, 田谷昭仁, 村田英一, 梅原大祐, 山本高至, 吉田進, 守倉正博, “フィードバック情報量低減を可能にする基地局協調システムのための線形プリコーディング,” 電子情報通信学会論文誌 B, Vol.J100-B, No.3, pp.270-279, Mar. 2017
-- Akihito Taya, Satoshi Denno, Koji Yamamoto, Masahiro Morikura, Daisuke Umehara, Hidekazu Murata, and Susume Yoshida, “An iterative MIMO receiver employing virtual channels with a turbo decoder for OFDM wireless systems,” IEICE Trans. Commun., Vol.E98.B, No.5, pp.878-889, May 2015
+    <p>E-mail: {{ prof.email }}</p>
+  </div>
 
-#### 査読付き国際会議
-- Michiki Hara, Yuki Hayashi, Akihito Taya, Daisuke Shimotoku, Yoshito Tobe, Hiroki Kobayashi, "MTSW: towards tracking wild animals using only accelerometer and landmarks," in Proc. of the 8th International Conference on Green and Human Information Technology (ICGHIT), Hanoi, Vietnam, Feb. 2020
-- Taichi Sakakibara, Takayuki Nishio, Akihito Taya, Masahiro Morikura, Koji Yamamoto, Toshihisa Nabetani, "Communication-efficient cooperative contextual bandit and its application to Wi-Fi BSS selection," Proc. 2020 IEEE 17th Annual Consumer Communications & Networking Conference (CCNC), Las Vegas, USA, Jan. 2020
-- Akihito Taya, Takayuki Nishio, Masahiro Morikura, and Koji Yamamoto, “Concurrent data dissemination at intersections in mmWave for cooperative perceptions,” Proc. IEEE Connected and Automated Vehicles Symposium, Chicago, USA, Aug. 2018
-- Akihito Taya, Takayuki Nishio, Masahiro Morikura, and Koji Yamamoto, “Coverage expansion through dynamic relay vehicle deployment in mmWave V2I communications,” Proc. 2018 IEEE 87th Vehicular Technology Conference, Porto, Portugal, June 2018
-- Satoshi Denno, Akihito Taya, and Masahiro Morikura, “A virtual channel detector for iterative receiver in overloaded MIMO OFDM systems,” Proc. 2014 8th ICSPCS, Gold Coast, QLD, Australia, Dec. 2014
-- Akihito Taya, Satoshi Denno, Koji Yamamoto, Masahiro Morikura, Daisuke Umehara, Hidekazu Murata, and Susume Yoshida, “Turbo coded successive detector with virtual channels for MIMO-OFDM,” Proc. 2012 IEEE International Conference on Wireless Information Technology and Systems, Hawaii, USA, Nov. 2012.
-- Akihito Taya, Satoshi Denno, Koji Yamamoto, Masahiro Morikura, Daisuke Umehara, Hidekazu Murata, and Susume Yoshida, “A successive detector with virtual channel detection for cooperative multiuser MIMO systems,” Proc. 9th IEEE Vehicular Technology Society Asia Pacific Wireless Communications Symposium, Kyoto, Japan, Aug. 2012
-- Akihito Taya, Satoshi Denno, Koji Yamamoto, Masahiro Morikura, Daisuke Umehara, Hidekazu Murata, and Susume Yoshida, “A virtual successive detection for cooperative MU-MIMO systems with reduced CSI,” Proc. 2012 IEEE 75th Vehicular Technology Conference, Yokohama, Japan, May 2012
-- Akihito Taya, Satoshi Denno, Daisuke Umehara, Masahiro Morikura, Hidekazu Murata, Koji Yamamoto, and Susume Yoshida, “A virtual layered space-frequency receiver for multiuser MIMO-OFDM systems,” Proc. 2011 IEEE 74th Vehicular Technology Conference, San Francisco, USA, Sep. 2011
+  <h3>Links</h3>
+  <ul class="links">
+    {% for item in prof.links %}
+    <li><a href={{ item.url }}>{{ item.display }}</a></li>
+    {% endfor %}
+  </ul>
 
-#### 受賞歴
-- 電子情報通信学会 2018年度学術奨励賞
-- IEEE VTS Japan 2012 Young Researcher’s Encouragement Award
+  <h3>Research interests</h3>
+  <ul class="interests">
+    {% for item in prof.keywords %}
+      <li>{{ item  }}</li>
+    {% endfor %}
+  </ul>
 
-#### 研究助成
-- 立石科学技術振興財団 研究助成(C), 自己拡大するVehicular Cloud Computing基盤, 研究代表者, 2018〜2019年度
+  <h3>Biography</h3>
+  <ul class="biography">
+    {% for item in prof.biography %}
+      <li>
+        <ul>
+          <li class="date">{{ item.date }}</li>
+          <li class="affiliation">{{ item.affiliation }}</li>
+        </ul>
+      </li>
+    {% endfor %}
+  </ul>
+</header>
+<section>
+  {% assign pub = site.data.publications %}
+  <h3>Journal papers</h3>
+  <ol>
+    {% for item in pub.journals %}
+      <li>{{ item }}</li>
+    {% endfor %}
+  </ol>
 
+  <h3>International conferences (reviewed)</h3>
+  <ol>
+    {% for item in pub.int-conferences %}
+      <li>{{ item }}</li>
+    {% endfor %}
+  </ol>
+
+  <h3>Awards</h3>
+  <ol>
+    {% for item in pub.awards %}
+      <li>{{ item }}</li>
+    {% endfor %}
+  </ol>
+
+  <h3>Grants</h3>
+  <ol>
+    {% for item in pub.grants %}
+      <li>{{ item }}</li>
+    {% endfor %}
+  </ol>
+
+</section>

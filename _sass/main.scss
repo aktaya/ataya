@@ -1,10 +1,8 @@
-@import "fonts";
-
 body {
   background-color: #fff;
   padding:50px;
-  font: 14px/1.5 "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color:#727272;
+  font: 14px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color:#333;
   font-weight:400;
 }
 
@@ -26,11 +24,11 @@ h1 {
 }
 
 h2 {
-  color:#393939;
+  color:#222;
 }
 
 h3, h4, h5, h6 {
-  color:#494949;
+  color:#222;
 }
 
 a {
@@ -104,70 +102,63 @@ img {
 }
 
 header {
-  width:270px;
+  width:320px;
   float:left;
-  position:fixed;
   -webkit-font-smoothing:subpixel-antialiased;
+  overflow: auto;
 }
 
-ul.downloads {
-  list-style:none;
-  height:40px;
-  padding:0;
-  background: #f4f4f4;
-  border-radius:5px;
-  border:1px solid #e0e0e0;
-  width:270px;
+.profile {
+  margin-left: 20px;
 }
 
-.downloads li {
-  width:89px;
-  float:left;
-  border-right:1px solid #e0e0e0;
-  height:40px;
+ul.links {
+  list-style-type: none;
+  margin-left: 20px;
+  padding: 0px;
+}
+ul.links li {
+  float: left;
+  padding-right: 3px;
+  padding-left: 3px;
+  border-right: solid;
+  border-right-color: #777;
+}
+ul.links li:last-child {
+  float: none;
+  border-right: none;
 }
 
-.downloads li:first-child a {
-  border-radius:5px 0 0 5px;
+ul.interests {
+  list-style-type: none;
+  margin-left: 20px;
+  padding: 0px;
 }
 
-.downloads li:last-child a {
-  border-radius:0 5px 5px 0;
+ul.biography {
+  list-style-type: none;
+  margin-left: 20px;
+  padding: 0px;
 }
 
-.downloads a {
-  line-height:1;
-  font-size:11px;
-  color:#676767;
-  display:block;
-  text-align:center;
-  padding-top:6px;
-  height:34px;
+ul.biography li ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
 }
 
-.downloads a:hover, .downloads a:focus {
-  color:#675C5C;
-  font-weight:bold;
+ul.biography li ul li.date {
+  float: left;
+  width: 110px;
 }
-
-.downloads ul a:active {
-  background-color:#f0f0f0;
+ul.biography li ul li.affiliation {
+  padding-left: 110px;
+  width: 190px;
 }
 
 strong {
   color:#222;
   font-weight:700;
-}
-
-.downloads li + li + li {
-  border-right:none;
-  width:89px;
-}
-
-.downloads a strong {
-  font-size:14px;
-  display:block;
-  color:#222;
 }
 
 section {
@@ -251,14 +242,6 @@ footer {
 @media print, screen and (max-width: 480px) {
   body {
     padding:15px;
-  }
-
-  .downloads {
-    width:99%;
-  }
-
-  .downloads li, .downloads li + li + li {
-    width:33%;
   }
 }
 

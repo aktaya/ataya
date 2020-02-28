@@ -1,0 +1,24 @@
+jp:
+  name: 田谷昭仁
+  affiliation: 青山学院大学理工学部<br>情報テクノロジー学科 戸辺研究室 助教
+en:
+  name: Akihito Taya
+  affiliation: Assistant Professor,<br>College of Science and Engineering, Department of Integrated Information Technology, Aoyama Gakuin University
+email: taya[at]it.aoyama.ac.jp
+links:
+  - {display: Google Scholar, url: 'https://scholar.google.co.jp/citations?user=oGxZGCAAAAAJ'}
+  - {display: ResearchGate, url: 'https://www.researchgate.net/profile/Akihito_Taya'}
+  - {display: researchmap, url: 'https://researchmap.jp/a_taya/?lang=en'}
+  - {display: Tobe Lab., url: 'http://rcl.it.aoyama.ac.jp/'}
+keywords:
+  - Wireless Communications
+  - mmWave Communications
+  - Vehicular Communications
+  - IoT
+  - Machine Learning
+  - Distributed Systems
+biography:
+  - {date: 2013.3,          affiliation: 京都大学大学院情報学研究科　修士課程　修了}
+  - {date: 2013.4 - 2017.2, affiliation: 株式会社日立製作所}
+  - {date: 2017.4 - 2019.9, affiliation: 京都大学大学院情報学研究科　博士後期課程}
+  - {date: 2019.10 -,       affiliation: 青山学院大学理工学部情報テクノロジー学科　助教}
