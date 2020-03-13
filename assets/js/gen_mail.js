@@ -1,9 +1,5 @@
 ---
 ---
-
-// const str_ma = [0x45, 0x2d, 0x6d, 0x61, 0x69, 0x6c, 0x3a, 0x20];
-// const ma = document.getElementById('ma');
-// ma.innerHTML = String.fromCharCode(...str_ma);
 {% assign prof = site.data.profile %}
 
 const m_array = JSON.parse("{{ prof.email | jsonify }}");

@@ -1,8 +1,83 @@
+# IEICE 論文誌略記 https://www.ieice.org/eng/shiori/appc.html
 journals:
-  - Akihito Taya, Takayuki Nishio, Masahiro Morikura, and Koji Yamamoto, “Deep-reinforcement-learning-based distributed vehicle position controls for coverage expansion in mmWave V2X,” IEICE Trans. Commun., Vol.E102-B, No.10, pp.2054-2065, Oct. 2019
-  - Akihito Taya, Takayuki Nishio, Masahiro Morikura, and Koji Yamamoto, “Concurrent transmission scheduling for perceptual data sharing in mmWave vehicular networks,” IEICE Trans. Inf. & Syst., Vol.E102-D, No.5, pp.952-962, May 2019
-  - 田野哲, 田谷昭仁, 村田英一, 梅原大祐, 山本高至, 吉田進, 守倉正博, “フィードバック情報量低減を可能にする基地局協調システムのための線形プリコーディング,” 電子情報通信学会論文誌 B, Vol.J100-B, No.3, pp.270-279, Mar. 2017
-  - Akihito Taya, Satoshi Denno, Koji Yamamoto, Masahiro Morikura, Daisuke Umehara, Hidekazu Murata, and Susume Yoshida, “An iterative MIMO receiver employing virtual channels with a turbo decoder for OFDM wireless systems,” IEICE Trans. Commun., Vol.E98.B, No.5, pp.878-889, May 2015
+  - authors:
+      - {first: "Akihito", family: "Taya"}
+      - {first: "Takayuki", family: "Nishio"}
+      - {first: "Masahiro", family: "Morikura"}
+      - {first: "Koji", family: "Yamamoto"}
+    title:
+      UPPER: 'DEEP-REINFORCEMENT-LEARNING-BASED DISTRIBUTED VEHICLE POSITION CONTROLS FOR COVERAGE EXPANSION IN MMWAVE V2X'
+      Upper: 'Deep-reinforcement-learning-based Distributed Vehicle Position Controls for Coverage Expansion in mmWave V2X'
+      lower: 'Deep-reinforcement-learning-based distributed vehicle position controls for coverage expansion in mmWave V2X'
+    journal:
+      full: 'IEICE Transactions on Communications'
+      abbrv: 'IEICE Trans. Commun.'
+    vol: 'E102-B'
+    num: 10
+    pages: {"from": 2054, "to": 2065}
+    month: 10
+    year: 2019
+    lang: "en"
+
+  - authors:
+      - {first: "Akihito", family: "Taya"}
+      - {first: "Takayuki", family: "Nishio"}
+      - {first: "Masahiro", family: "Morikura"}
+      - {first: "Koji", family: "Yamamoto"}
+    title:
+      UPPER: 'CONCURRENT TRANSMISSION SCHEDULING FOR PERCEPTUAL DATA SHARING IN MMWAVE VEHICULAR NETWORKS'
+      Upper: 'Concurrent Transmission Scheduling for Perceptual Data Sharing in mmWave Vehicular Networks'
+      lower: 'Concurrent transmission scheduling for perceptual data sharing in mmWave vehicular networks'
+    journal:
+      full: 'IEICE Transactions on Information and Systems'
+      abbrv: 'IEICE Trans. Inf. & Syst.'
+    vol: 'E102-D'
+    num: 5
+    pages: {"from": 952, "to": 962}
+    month: 5
+    year: 2019
+    lang: en
+
+  - authors:
+      - {first: "哲", family: "田野"}
+      - {first: "昭仁", family: "田谷"}
+      - {first: "英一", family: "村田"}
+      - {first: "大祐", family: "梅原"}
+      - {first: "高至", family: "山本"}
+      - {first: "進", family: "吉田"}
+      - {first: "正博", family: "守倉"}
+    title: "フィードバック情報量低減を可能にする基地局協調システムのための線形プリコーディング"
+    journal:
+      full: "電子情報通信学会論文誌 B"
+      abbrv: "信学論(B)"
+    vol: "J100-B"
+    num: 3
+    pages: {"from": 270, "to": 279}
+    month: 3
+    year: 2017
+    lang: jp
+
+  - authors:
+      - {first: "Akihito", family: "Taya"}
+      - {first: "Satoshi", family: "Denno"}
+      - {first: "Koji", family: "Yamamoto"}
+      - {first: "Masahiro", family: "Morikura"}
+      - {first: "Daisuke", family: "Umehara"}
+      - {first: "Hidekazu", family: "Murata"}
+      - {first: "Susume", family: "Yoshida"}
+    title:
+      UPPER: "AN ITERATIVE MIMO RECEIVER EMPLOYING VIRTUAL CHANNELS WITH A TURBO DECODER FOR OFDM WIRELESS SYSTEMS"
+      Upper: "An Iterative MIMO Receiver Employing Virtual Channels with a Turbo Decoder for OFDM Wireless Systems"
+      lower: "An iterative MIMO receiver employing virtual channels with a turbo decoder for OFDM wireless systems"
+    journal:
+      full: 'IEICE Transactions on Communications'
+      abbrv: 'IEICE Trans. Commun.'
+    vol: "E98.B"
+    num: 5
+    pages: {"from": 878, "to": 889}
+    month: 5
+    year: 2015
+    lang: en
 
 int-conferences:
   - 'Michiki Hara, Yuki Hayashi, Akihito Taya, Daisuke Shimotoku, Yoshito Tobe, Hiroki Kobayashi, "MTSW: towards tracking wild animals using only accelerometer and landmarks," in Proc. of the 8th International Conference on Green and Human Information Technology (ICGHIT), Hanoi, Vietnam, Feb. 2020'
