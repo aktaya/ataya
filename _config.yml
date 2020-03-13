@@ -8,3 +8,7 @@ defaults:
       path: ""
     values:
       layout: "default"
+  - scope:
+      path: "assets/js"
+    values:
+      layout: "script"

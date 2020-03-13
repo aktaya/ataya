@@ -4,7 +4,7 @@ jp:
 en:
   name: Akihito Taya
   affiliation: Assistant Professor,<br>College of Science and Engineering, Department of Integrated Information Technology, Aoyama Gakuin University
-email: taya[at]it.aoyama.ac.jp
+email: [0x74, 0x61, 0x79, 0x61, 0x40, 0x69, 0x74, 0x2e, 0x61, 0x6f, 0x79, 0x61, 0x6d, 0x61, 0x2e, 0x61, 0x63, 0x2e, 0x6a, 0x70]
 links:
   - {display: Google Scholar, url: 'https://scholar.google.co.jp/citations?user=oGxZGCAAAAAJ'}
   - {display: ResearchGate, url: 'https://www.researchgate.net/profile/Akihito_Taya'}
@@ -18,7 +18,13 @@ keywords:
   - Machine Learning
   - Distributed Systems
 biography:
-  - {date: 2013.3,          affiliation: 京都大学大学院情報学研究科　修士課程　修了}
-  - {date: 2013.4 - 2017.2, affiliation: 株式会社日立製作所}
-  - {date: 2017.4 - 2019.9, affiliation: 京都大学大学院情報学研究科　博士後期課程}
-  - {date: 2019.10 -,       affiliation: 青山学院大学理工学部情報テクノロジー学科　助教}
+  jp:
+    - {date: 2013.3,          affiliation: 京都大学大学院情報学研究科　修士課程　修了}
+    - {date: 2013.4 - 2017.2, affiliation: 株式会社日立製作所}
+    - {date: 2017.4 - 2019.9, affiliation: 京都大学大学院情報学研究科　博士後期課程}
+    - {date: 2019.10 -,       affiliation: 青山学院大学理工学部情報テクノロジー学科　助教}
+  en:
+    - {date: 2011.4 - 2013.3, affiliation: 'M.I., Graduate School of Informatics, Kyoto University'}
+    - {date: 2013.4 - 2017.2, affiliation: 'Development of high performance computing clusters, Hitachi, Ltd.'}
+    - {date: 2017.4 - 2019.9, affiliation: 'Ph.D., Graduate School of Informatics, Kyoto University'}
+    - {date: 2019.10 -,       affiliation: 'Assistant Professor, Department of Integrated Information Technology, Aoyama Gakuin University'}

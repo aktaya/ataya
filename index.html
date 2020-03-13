@@ -2,13 +2,17 @@
 ---
 <header>
   {% assign prof = site.data.profile %}
-  <h2>{{ prof.jp.name }}/{{ prof.en.name }}</h2>
+  <h2>
+    {{ prof.en.name }} / {{ prof.jp.name }}
+    <button id="btn_lang"></button>
+  </h2>
 
-  <div class="profile">
-    <p>{{ prof.jp.affiliation }}</p>
-    <p>{{ prof.en.affiliation }}</p>
-
-    <p>E-mail: {{ prof.email }}</p>
+  <div class="profile" id="div_prof">
+    <p id="prof"></p>
+    {% comment %} <p id="ma">{{ prof.email }}</p> {% endcomment %}
+    <span id="mm">
+      <img src="{{ "/assets/images/micon.png" | relative_path }}" id="micon"/>
+    </span>
   </div>
 
   <h3>Links</h3>
@@ -26,16 +30,9 @@
   </ul>
 
   <h3>Biography</h3>
-  <ul class="biography">
-    {% for item in prof.biography %}
-      <li>
-        <ul>
-          <li class="date">{{ item.date }}</li>
-          <li class="affiliation">{{ item.affiliation }}</li>
-        </ul>
-      </li>
-    {% endfor %}
-  </ul>
+  <div id="biography">
+  <ul class="dummy"></ul>
+  </div>
 </header>
 <section>
   {% assign pub = site.data.publications %}
