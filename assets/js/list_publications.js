@@ -20,30 +20,51 @@ const month = {
     },
 };
 
-const format_name = (name, is_fisrt_initial, is_family_initial, concat) => {
-    const first = is_fisrt_initial ? name.first[0] : name.first;
-    const family = is_family_initial ? name.family[0] : name.family;
-    return concat(first, family);
+const concat = {
+    "en": (first, family) => first + " " + family,
+    "en_reverse": (first, family) => family + ", " + first,
+    "jp": (first, family) => family + first,
+};
+
+const name_fmt = {
+    "initial_en": {
+        "first_initial": true,
+        "family_initial": false,
+        "concat": concat.en,
+    },
+    "full_en": {
+        "first_initial": false,
+        "family_initial": false,
+        "concat": concat.en,
+    },
+    "jp": {
+        "first_initial": false,
+        "family_initial": false,
+        "concat": concat.jp,
+    }
 }
 
-const format_name_list = (name_list, lang, max_name) => {
-    const sep = {
-        "en": {
-            "comma": ", ",
-            "and": "and ",
-            "etal": "et al., ",
-        },
-        "jp": {
-            "comma": "，",
-            "and": "",
-            "etal": "et al.，",
-        }
-    }[lang];
-    const concat = {
-        "en": (first, family) => first + " " + family,
-        "jp": (first, family) => family + first,
-    }[lang];
-    const fmt_name = name_list.map((a) => format_name(a, false, false, concat));
+const format_name = (name, fmt) => {
+    const first = fmt.first_initial ? name.first[0] + "." : name.first;
+    const family = fmt.family_initial ? name.family[0] + "." : name.family;
+    return fmt.concat(first, family);
+};
+
+const sep = {
+    "en": {
+        "comma": ", ",
+        "and": "and ",
+        "etal": "et al., ",
+    },
+    "jp": {
+        "comma": "，",
+        "and": "",
+        "etal": "et al.，",
+    }
+};
+
+const format_name_list = (name_list, sep, fmt, max_name) => {
+    const fmt_name = name_list.map((a) => format_name(a, fmt));
     if (fmt_name.length === 1) {
         return fmt_name[0] + sep.comma;
     }
@@ -58,47 +79,234 @@ const format_name_list = (name_list, lang, max_name) => {
         fmt_name[last] = sep.and + fmt_name[last];
         return fmt_name.join(sep.comma) + sep.comma;
     }
-}
+};
+
+const format_title = {
+    "asis": (t) => t.replace(/[\{\}]/g, ""),
+    "upper": (t) => t.replace(/[\{\}]/g, "").toUpperCase(),
+    "lower": (t) => (
+        t.replace(/^[^\{]*/, (m) => m.toLowerCase())
+         .replace(/[^\}]*$/, (m) => m.toLowerCase())
+         .replace(/\}[^\{\}]*\{/g, (m) => m.toLowerCase())
+         .replace(/[\{\}]/g, "")
+         .replace(/^./, (m) => m.toUpperCase())
+    ),
+    "bibtex": (t) => t,
+};
+
+// IPSJ https://www.ipsj.or.jp/journal/submit/ronbun_j_prms.html
+// IEICE https://www.ieice.org/jpn/shiori/iss_2.html#2.6
+// IEEE https://pitt.libguides.com/citationhelp/ieee
 
 const formats = {
-    "journal_full_en": [
-        { "param": "authors", "func": (a) => format_name_list(a, "en") },
-        { "param": "title", "func": (t) => `"${t.lower}," ` },
-        { "param": "journal", "func": (j) => `${j.full}, ` },
-        { "param": "vol", "func": (v) => `vol.${v}, ` },
-        { "param": "num", "func": (n) => `no.${n}, ` },
-        { "param": "pages", "func": (p) => `pp.${p.from}-${p.to}, `},
+    "journal_full": {
+        "en": [
+            { "param": "authors", "func": (a) => format_name_list(a, sep.en, name_fmt.full_en) },
+            { "param": "title", "func": (t) => `"${format_title.lower(t)}," ` },
+            { "param": "journal", "func": (j) => `<i>${j.full}</i>, ` },
+            { "param": "vol", "func": (v) => `vol.${v}, ` },
+            { "param": "num", "func": (n) => `no.${n}, ` },
+            { "param": "pages", "func": (p) => `pp.${p.from}-${p.to}, ` },
+            { "param": "month", "func": (m) => month.abbrv3[m] + " " },
+            { "param": "year", "func": (y) => String(y) },
+        ],
+        "jp": [
+            { "param": "authors", "func": (a) => format_name_list(a.jp, sep.jp, name_fmt.jp) },
+            { "param": "title", "func": (t) => `"${t.jp}," ` },
+            { "param": "journal", "func": (j) => `${j.jp.full}，` },
+            { "param": "vol", "func": (v) => `vol.${v}，` },
+            { "param": "num", "func": (n) => `no.${n}，` },
+            { "param": "pages", "func": (p) => `pp.${p.from}-${p.to}，` },
+            { "param": "month", "func": (m) => month.abbrv3[m] + " " },
+            { "param": "year", "func": (y) => String(y) },
+        ],
+        "jp2en": [
+            { "param": "", "func": (_) => "[<strong>In Japanese</strong>] " },
+            { "param": "authors", "func": (a) => format_name_list(a.en, sep.en, name_fmt.full_en) },
+            { "param": "title", "func": (t) => `"${format_title.lower(t.en)}," ` },
+            { "param": "journal", "func": (j) => `<i>${j.en.full}</i>, ` },
+            { "param": "vol", "func": (v) => `vol.${v}, ` },
+            { "param": "num", "func": (n) => `no.${n}, ` },
+            { "param": "pages", "func": (p) => `pp.${p.from}-${p.to}, ` },
+            { "param": "month", "func": (m) => month.abbrv3[m] + " " },
+            { "param": "year", "func": (y) => String(y) },
+        ],
+    },
+    "journal_short": {
+        "en": [
+            { "param": "authors", "func": (a) => format_name_list(a, sep.en, name_fmt.initial_en) },
+            { "param": "title", "func": (t) => `"${format_title.lower(t)}," ` },
+            { "param": "journal", "func": (j) => `<i>${j.abbrv}</i>, ` },
+            { "param": "vol", "func": (v) => `vol.${v}, ` },
+            { "param": "num", "func": (n) => `no.${n}, ` },
+            { "param": "pages", "func": (p) => `pp.${p.from}-${p.to}, ` },
+            { "param": "month", "func": (m) => month.abbrv3[m] + " " },
+            { "param": "year", "func": (y) => String(y) },
+        ],
+        "jp": [
+            { "param": "authors", "func": (a) => format_name_list(a.jp, sep.jp, name_fmt.jp) },
+            { "param": "title", "func": (t) => `"${t.jp}," ` },
+            { "param": "journal", "func": (j) => `${j.jp.abbrv}，` },
+            { "param": "vol", "func": (v) => `vol.${v}，` },
+            { "param": "num", "func": (n) => `no.${n}，` },
+            { "param": "pages", "func": (p) => `pp.${p.from}-${p.to}，` },
+            { "param": "month", "func": (m) => month.abbrv3[m] + " " },
+            { "param": "year", "func": (y) => String(y) },
+        ],
+        "jp2en": [
+            { "param": "", "func": (_) => "[<strong>In Japanese</strong>] " },
+            { "param": "authors", "func": (a) => format_name_list(a.en, sep.en, name_fmt.initial_en) },
+            { "param": "title", "func": (t) => `"${format_title.lower(t.en)}," ` },
+            { "param": "journal", "func": (j) => `<i>${j.en.abbrv}</i>, ` },
+            { "param": "vol", "func": (v) => `vol.${v}, ` },
+            { "param": "num", "func": (n) => `no.${n}, ` },
+            { "param": "pages", "func": (p) => `pp.${p.from}-${p.to}, ` },
+            { "param": "month", "func": (m) => month.abbrv3[m] + " " },
+            { "param": "year", "func": (y) => String(y) },
+        ],
+    },
+    "int_conf_full": [
+        { "param": "authors", "func": (a) => format_name_list(a, sep.en, name_fmt.full_en) },
+        { "param": "title", "func": (t) => `"${format_title.lower(t)}," ` },
+        { "param": "conference", "func": (j) => `in <i>Proc. ${j.full} (${j.abbrv})</i>, ` },
+        { "param": "city", "func": (c) => `${c}, ` },
+        { "param": "country", "func": (c) => `${c}, ` },
         { "param": "month", "func": (m) => month.abbrv3[m] + " " },
         { "param": "year", "func": (y) => String(y) },
     ],
-    "journal_full_jp": [
-        { "param": "authors", "func": (a) => format_name_list(a, "jp") },
-        { "param": "title", "func": (t) => `"${t}," ` },
-        { "param": "journal", "func": (j) => `${j.full}，` },
-        { "param": "vol", "func": (v) => `vol.${v}，` },
-        { "param": "num", "func": (n) => `no.${n}，` },
-        { "param": "pages", "func": (p) => `pp.${p.from}-${p.to}，`},
+    "int_conf_short": [
+        { "param": "authors", "func": (a) => format_name_list(a, sep.en, name_fmt.initial_en) },
+        { "param": "title", "func": (t) => `"${format_title.lower(t)}," ` },
+        { "param": "conference", "func": (j) => `<i>${j.abbrv}</i>, ` },
+        { "param": "city", "func": (c) => `${c}, ` },
+        { "param": "country", "func": (c) => `${c}, ` },
         { "param": "month", "func": (m) => month.abbrv3[m] + " " },
         { "param": "year", "func": (y) => String(y) },
     ],
-}
+    "bibtex": [
+    ],
+    "awards": {
+        "en": [
+            { "param": "en", "func": (d) => d },
+        ],
+        "jp": [
+            { "param": "jp", "func": (d) => d },
+        ]
+    },
+    "grants": {
+        "en": [
+            { "param": "en", "func": (d) => d },
+        ],
+        "jp": [
+            { "param": "jp", "func": (d) => d },
+        ]
+    },
+};
 
 const format = (doc, fmt) => {
     return fmt.map((f) => f.func(doc[f.param])).join("");
 };
 
-// journal
-(() => {
-    const jrnl = JSON.parse('{{ pub.journals | jsonify }}');
+const create_list = (div_id, docs, fmt) => {
     const ol = document.createElement('ol');
-    jrnl.forEach((doc) => {
-        fmt = doc.lang === "en" ? formats.journal_full_en : formats.journal_full_jp;
-        const text = format(doc, fmt);
+    docs.forEach((doc) => {
+        const text = format(doc, fmt(doc));
         const li = document.createElement('li');
         li.innerHTML = text;
         ol.appendChild(li);
     });
-    const div_jrnl = document.getElementById('div_journal');
-    div_jrnl.appendChild(ol);
-})();
+    const div = document.getElementById(div_id);
+    while (div.firstChild) {
+        div.removeChild(div.firstChild);
+    }
+    div.appendChild(ol);
+};
 
+const categories = ["journals", "int_conf", "awards", "grants"];
+
+const div_ids = {
+    "journals": "div_journals",
+    "int_conf": "div_int_conferences",
+    "awards": "div_awards",
+    "grants": "div_grants",
+};
+
+const publish_data = {
+    "journals": {{ pub.journals | jsonify }},
+    "int_conf": {{ pub.int-conferences | jsonify }},
+    "awards": {{ pub.awards | jsonify }},
+    "grants": {{ pub.grants | jsonify }},
+};
+
+const create_list_all = (fmt) => {
+    categories.forEach(
+        (cat) => { create_list(div_ids[cat], publish_data[cat], fmt[cat]); }
+    );
+};
+
+const list_publish = {
+    "full": {
+        "en": (() => {
+            create_list_all({
+                "journals": (doc) => formats.journal_full[doc.lang === "en" ? "en" : "jp2en"],
+                "int_conf": (doc) => formats.int_conf_full,
+                "awards": (doc) => formats.awards.en,
+                "grants": (doc) => formats.grants.en,
+            });
+        }),
+        "jp": (() => {
+            create_list_all({
+                "journals": (doc) => formats.journal_full[doc.lang],
+                "int_conf": (doc) => formats.int_conf_full,
+                "awards": (doc) => formats.awards[doc.lang],
+                "grants": (doc) => formats.grants[doc.lang],
+            });
+        }),
+    },
+
+    "short": {
+        "en": (() => {
+            create_list_all({
+                "journals": (doc) => formats.journal_short[doc.lang === "en" ? "en" : "jp2en"],
+                "int_conf": (doc) => formats.int_conf_short,
+                "awards": (doc) => formats.awards.en,
+                "grants": (doc) => formats.grants.en,
+            });
+        }),
+        "jp": (() => {
+            create_list_all({
+                "journals": (doc) => formats.journal_short[doc.lang],
+                "int_conf": (doc) => formats.int_conf_short,
+                "awards": (doc) => formats.awards[doc.lang],
+                "grants": (doc) => formats.grants[doc.lang],
+            });
+        }),
+    },
+};
+
+const select_format = {
+    "full": () => {
+        window.list_publish = {
+            "en": list_publish.full.en,
+            "jp": list_publish.full.jp,
+        };
+    },
+    "short": () => {
+        window.list_publish = {
+            "en": list_publish.short.en,
+            "jp": list_publish.short.jp,
+        };
+    },
+};
+
+// select format
+const btn_fmt = document.getElementsByClassName("format_btn");
+Array.from(btn_fmt).forEach((btn) => {
+    btn.addEventListener("click", () => {
+        select_format[btn.value]();
+        window.list_publish[window.lang]();
+    });
+});
+
+// default
+select_format.full();

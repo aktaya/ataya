@@ -1,4 +1,8 @@
 ---
+scriptfiles:
+  - assets/js/list_publications.js
+  - assets/js/gen_m.js
+  - assets/js/toggle_lang.js
 ---
 <header>
   {% assign prof = site.data.profile %}
@@ -9,9 +13,9 @@
 
   <div class="profile" id="div_prof">
     <p id="prof"></p>
-    {% comment %} <p id="ma">{{ prof.email }}</p> {% endcomment %}
     <span id="mm">
       <img src="assets/images/micon.png" id="micon"/>
+      <span id="mlabel"></span>
     </span>
   </div>
 
@@ -34,30 +38,34 @@
   <ul class="dummy"></ul>
   </div>
 </header>
+
 <section>
-  {% assign pub = site.data.publications %}
+  <h2>Published lists</h2>
+  <span id="format_label">
+    <span>Citation style</span>
+    <span id="radio_box">
+      <input type="radio" class="format_btn" name="format" id="full" value="full" checked>
+      <label for="full" class="format">long</label>
+
+      <input type="radio" class="format_btn" name="format" id="short" value="short">
+      <label for="short" class="format">short</label>
+
+      {% comment %}
+      <input type="radio" class="format_btn" name="format" id="ieice" value="ieice">
+      <label for="ieice" class="format">IEICE</label>
+      {% endcomment %}
+    </span>
+  </span>
+
   <h3>Journal papers</h3>
-  <div id="div_journal"></div>
+  <div id="div_journals"></div>
 
   <h3>International conferences (reviewed)</h3>
-  <ol>
-    {% for item in pub.int-conferences %}
-      <li>{{ item }}</li>
-    {% endfor %}
-  </ol>
+  <div id="div_int_conferences"></div>
 
   <h3>Awards</h3>
-  <ol>
-    {% for item in pub.awards %}
-      <li>{{ item }}</li>
-    {% endfor %}
-  </ol>
+  <div id="div_awards"></div>
 
   <h3>Grants</h3>
-  <ol>
-    {% for item in pub.grants %}
-      <li>{{ item }}</li>
-    {% endfor %}
-  </ol>
-
+  <div id="div_grants"></div>
 </section>

@@ -2,7 +2,6 @@ google_analytics: UA-136830931-1
 title: Akihito Taya, Aoyama Gakuin University
 plugins:
   - jekyll-seo-tag
-
 defaults:
   - scope:
       path: ""

@@ -3,15 +3,16 @@
 {% assign prof = site.data.profile %}
 
 // toggle lang wrapper
-const ToggleLang = (EnToJp, JpToEn) => {
+const toggleLang = (EnToJp, JpToEn) => {
     const btn = document.getElementById('btn_lang');
-    let jp_on = false;
+    let lang_jp = false;
     btn.addEventListener("click", () => {
-        (jp_on ?
-            () => { JpToEn(); jp_on = false; } :
-            () => { EnToJp(); jp_on = true; }
+        (lang_jp ?
+            () => { JpToEn(); lang_jp = false; window.lang="en"; } :
+            () => { EnToJp(); lang_jp = true; window.lang="jp"; }
         )();
     });
+    window.lang = "en";
     JpToEn();
 };
 
@@ -24,7 +25,7 @@ const ToggleLang = (EnToJp, JpToEn) => {
     const JpToEn = () => {
         btn.innerHTML = "jp"; // en時はボタン表示は"jp"
     };
-    ToggleLang(EnToJp, JpToEn);
+    toggleLang(EnToJp, JpToEn);
 })();
 
 // toggle profile
@@ -36,14 +37,13 @@ const ToggleLang = (EnToJp, JpToEn) => {
     const JpToEn = () => {
         prof.innerHTML = "{{ prof.en.affiliation }}";
     }
-    ToggleLang(EnToJp, JpToEn);
+    toggleLang(EnToJp, JpToEn);
 })();
 
 // toggle biography
 (() => {
     const div_bio = document.getElementById('biography');
-    const bio = JSON.parse('{{ prof.biography | jsonify }}');
-    const BioToTable = (bio_data) => {
+    const bioToTable = (bio_data) => {
         const ul_bio = document.createElement('ul');
         ul_bio.className = "biography";
         bio_data.forEach(line => {
@@ -68,7 +68,19 @@ const ToggleLang = (EnToJp, JpToEn) => {
         }
         div_bio.appendChild(ul_bio);
     }
-    const EnToJp = () => { BioToTable(bio.jp); };
-    const JpToEn = () => { BioToTable(bio.en); };
-    ToggleLang(EnToJp, JpToEn);
+    const bio = {{ prof.biography | jsonify }};
+    const EnToJp = () => { bioToTable(bio.jp); };
+    const JpToEn = () => { bioToTable(bio.en); };
+    toggleLang(EnToJp, JpToEn);
+})();
+
+// toggle publish list
+(() => {
+    const EnToJp = () => {
+        window.list_publish.jp();
+    };
+    const JpToEn = () => {
+        window.list_publish.en();
+    }
+    toggleLang(EnToJp, JpToEn);
 })();

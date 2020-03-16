@@ -5,10 +5,7 @@ journals:
       - {first: "Takayuki", family: "Nishio"}
       - {first: "Masahiro", family: "Morikura"}
       - {first: "Koji", family: "Yamamoto"}
-    title:
-      UPPER: 'DEEP-REINFORCEMENT-LEARNING-BASED DISTRIBUTED VEHICLE POSITION CONTROLS FOR COVERAGE EXPANSION IN MMWAVE V2X'
-      Upper: 'Deep-reinforcement-learning-based Distributed Vehicle Position Controls for Coverage Expansion in mmWave V2X'
-      lower: 'Deep-reinforcement-learning-based distributed vehicle position controls for coverage expansion in mmWave V2X'
+    title: 'Deep-reinforcement-learning-based Distributed Vehicle Position Controls for Coverage Expansion in {mmWave} {V2X}'
     journal:
       full: 'IEICE Transactions on Communications'
       abbrv: 'IEICE Trans. Commun.'
@@ -24,10 +21,7 @@ journals:
       - {first: "Takayuki", family: "Nishio"}
       - {first: "Masahiro", family: "Morikura"}
       - {first: "Koji", family: "Yamamoto"}
-    title:
-      UPPER: 'CONCURRENT TRANSMISSION SCHEDULING FOR PERCEPTUAL DATA SHARING IN MMWAVE VEHICULAR NETWORKS'
-      Upper: 'Concurrent Transmission Scheduling for Perceptual Data Sharing in mmWave Vehicular Networks'
-      lower: 'Concurrent transmission scheduling for perceptual data sharing in mmWave vehicular networks'
+    title: 'Concurrent Transmission Scheduling for Perceptual Data Sharing in {mmWave} Vehicular Networks'
     journal:
       full: 'IEICE Transactions on Information and Systems'
       abbrv: 'IEICE Trans. Inf. & Syst.'
@@ -39,17 +33,32 @@ journals:
     lang: en
 
   - authors:
-      - {first: "哲", family: "田野"}
-      - {first: "昭仁", family: "田谷"}
-      - {first: "英一", family: "村田"}
-      - {first: "大祐", family: "梅原"}
-      - {first: "高至", family: "山本"}
-      - {first: "進", family: "吉田"}
-      - {first: "正博", family: "守倉"}
-    title: "フィードバック情報量低減を可能にする基地局協調システムのための線形プリコーディング"
+      jp:
+        - {first: "哲", family: "田野"}
+        - {first: "昭仁", family: "田谷"}
+        - {first: "英一", family: "村田"}
+        - {first: "大祐", family: "梅原"}
+        - {first: "高至", family: "山本"}
+        - {first: "進", family: "吉田"}
+        - {first: "正博", family: "守倉"}
+      en:
+        - {first: "Satoshi", family: "Denno"}
+        - {first: "Akihito", family: "Taya"}
+        - {first: "Hidekazu", family: "Murata"}
+        - {first: "Daisuke", family: "Umehara"}
+        - {first: "Koji", family: "Yamamoto"}
+        - {first: "Susume", family: "Yoshida"}
+        - {first: "Masahiro", family: "Morikura"}
+    title:
+      jp: "フィードバック情報量低減を可能にする基地局協調システムのための線形プリコーディング"
+      en: "Linear Precoding with Reduced Channel State Information for Base Station Cooperation"
     journal:
-      full: "電子情報通信学会論文誌 B"
-      abbrv: "信学論(B)"
+      jp:
+        full: "電子情報通信学会論文誌 B"
+        abbrv: "信学論(B)"
+      en:
+        full: 'IEICE Transactions on Communications'
+        abbrv: "IEICE Trans. Commun."
     vol: "J100-B"
     num: 3
     pages: {"from": 270, "to": 279}
@@ -65,10 +74,7 @@ journals:
       - {first: "Daisuke", family: "Umehara"}
       - {first: "Hidekazu", family: "Murata"}
       - {first: "Susume", family: "Yoshida"}
-    title:
-      UPPER: "AN ITERATIVE MIMO RECEIVER EMPLOYING VIRTUAL CHANNELS WITH A TURBO DECODER FOR OFDM WIRELESS SYSTEMS"
-      Upper: "An Iterative MIMO Receiver Employing Virtual Channels with a Turbo Decoder for OFDM Wireless Systems"
-      lower: "An iterative MIMO receiver employing virtual channels with a turbo decoder for OFDM wireless systems"
+    title: "An Iterative {MIMO} Receiver Employing Virtual Channels with a Turbo Decoder for {OFDM} Wireless Systems"
     journal:
       full: 'IEICE Transactions on Communications'
       abbrv: 'IEICE Trans. Commun.'
@@ -80,19 +86,155 @@ journals:
     lang: en
 
 int-conferences:
-  - 'Michiki Hara, Yuki Hayashi, Akihito Taya, Daisuke Shimotoku, Yoshito Tobe, Hiroki Kobayashi, "MTSW: towards tracking wild animals using only accelerometer and landmarks," in Proc. of the 8th International Conference on Green and Human Information Technology (ICGHIT), Hanoi, Vietnam, Feb. 2020'
-  - Taichi Sakakibara, Takayuki Nishio, Akihito Taya, Masahiro Morikura, Koji Yamamoto, Toshihisa Nabetani, "Communication-efficient cooperative contextual bandit and its application to Wi-Fi BSS selection," Proc. 2020 IEEE 17th Annual Consumer Communications & Networking Conference (CCNC), Las Vegas, USA, Jan. 2020
-  - Akihito Taya, Takayuki Nishio, Masahiro Morikura, and Koji Yamamoto, “Concurrent data dissemination at intersections in mmWave for cooperative perceptions,” Proc. IEEE Connected and Automated Vehicles Symposium, Chicago, USA, Aug. 2018
-  - Akihito Taya, Takayuki Nishio, Masahiro Morikura, and Koji Yamamoto, “Coverage expansion through dynamic relay vehicle deployment in mmWave V2I communications,” Proc. 2018 IEEE 87th Vehicular Technology Conference, Porto, Portugal, June 2018
-  - Satoshi Denno, Akihito Taya, and Masahiro Morikura, “A virtual channel detector for iterative receiver in overloaded MIMO OFDM systems,” Proc. 2014 8th ICSPCS, Gold Coast, QLD, Australia, Dec. 2014
-  - Akihito Taya, Satoshi Denno, Koji Yamamoto, Masahiro Morikura, Daisuke Umehara, Hidekazu Murata, and Susume Yoshida, “Turbo coded successive detector with virtual channels for MIMO-OFDM,” Proc. 2012 IEEE International Conference on Wireless Information Technology and Systems, Hawaii, USA, Nov. 2012.
-  - Akihito Taya, Satoshi Denno, Koji Yamamoto, Masahiro Morikura, Daisuke Umehara, Hidekazu Murata, and Susume Yoshida, “A successive detector with virtual channel detection for cooperative multiuser MIMO systems,” Proc. 9th IEEE Vehicular Technology Society Asia Pacific Wireless Communications Symposium, Kyoto, Japan, Aug. 2012
-  - Akihito Taya, Satoshi Denno, Koji Yamamoto, Masahiro Morikura, Daisuke Umehara, Hidekazu Murata, and Susume Yoshida, “A virtual successive detection for cooperative MU-MIMO systems with reduced CSI,” Proc. 2012 IEEE 75th Vehicular Technology Conference, Yokohama, Japan, May 2012
-  - Akihito Taya, Satoshi Denno, Daisuke Umehara, Masahiro Morikura, Hidekazu Murata, Koji Yamamoto, and Susume Yoshida, “A virtual layered space-frequency receiver for multiuser MIMO-OFDM systems,” Proc. 2011 IEEE 74th Vehicular Technology Conference, San Francisco, USA, Sep. 2011
+  - authors:
+      - {first: Michiki, family: Hara}
+      - {first: Yuki, family: Hayashi}
+      - {first: Akihito, family: Taya}
+      - {first: Daisuke, family: Shimotoku}
+      - {first: Yoshito, family: Tobe}
+      - {first: Hiroki, family: Kobayashi}
+    title: '{MTSW}: Towards Tracking Wild Animals Using Only Accelerometer and Landmarks'
+    conference:
+      full: 'the 8th International Conference on Green and Human Information Technology'
+      abbrv: ICGHIT
+    city: Hanoi
+    country: Vietnam
+    month: 2
+    year: 2020
+
+  - authors:
+      - {first: Taichi, family: Sakakibara}
+      - {first: Takayuki, family: Nishio}
+      - {first: Akihito, family: Taya}
+      - {first: Masahiro, family: Morikura}
+      - {first: Koji, family: Yamamoto}
+      - {first: Toshihisa, family: Nabetani}
+    title: 'Communication-efficient Cooperative Contextual Bandit and Its Application to {Wi-Fi} {BSS} Selection'
+    conference:
+      full: 'the 2020 IEEE 17th Annual Consumer Communications & Networking Conference'
+      abbrv: CCNC
+    city: 'Las Vegas'
+    country: USA
+    month: 1
+    year: 2020
+
+  - authors:
+      - {first: Akihito, family: Taya}
+      - {first: Takayuki, family: Nishio}
+      - {first: Masahiro, family: Morikura}
+      - {first: Koji, family: Yamamoto}
+    title: 'Concurrent Data Dissemination at Intersections in {mmWave} for Cooperative Perceptions'
+    conference: 
+      full: 'the IEEE Connected and Automated Vehicles Symposium'
+      abbrv: CAVS
+    city: Chicago
+    country: USA
+    month: 8
+    year: 2018
+
+  - authors:
+      - {first: Akihito, family: Taya}
+      - {first: Takayuki, family: Nishio}
+      - {first: Masahiro, family: Morikura}
+      - {first: Koji, family: Yamamoto}
+    title: 'Coverage Expansion through Dynamic Relay Vehicle Deployment in {mmWave} {V2I} Communications'
+    conference:
+      full: 'the 2018 IEEE 87th Vehicular Technology Conference'
+      abbrv: 'VTC Spring'
+    city: Porto
+    country: Portugal
+    month: 6
+    year: 2018
+
+  - authors:
+      - {first: Satoshi, family: Denno}
+      - {first: Akihito, family: Taya}
+      - {first: Masahiro, family: Morikura}
+    title: 'A Virtual Channel Detector for Iterative Receiver in Overloaded {MIMO} {OFDM} Systems'
+    conference:
+      full: 'the 2014 8th International Conference on Signal Processing and Communication Systems'
+      abbrv: ICSPCS
+    city: 'Gold Coast, QLD'
+    country: Australia
+    month: 12
+    year: 2014
+
+  - authors:
+      - {first: Akihito, family: Taya}
+      - {first: Satoshi, family: Denno}
+      - {first: Koji, family: Yamamoto}
+      - {first: Masahiro, family: Morikura}
+      - {first: Daisuke, family: Umehara}
+      - {first: Hidekazu, family: Murata}
+      - {first: Susume, family: Yoshida}
+    title: 'Turbo Coded Successive Detector with Virtual Channels for {MIMO-OFDM}'
+    conference:
+      full: 'the 2012 IEEE International Conference on Wireless Information Technology and Systems'
+      abbrv: ICWITS
+    city: Hawaii
+    country: USA
+    month: 11
+    year: 2012
+
+  - authors:
+      - {first: Akihito, family: Taya}
+      - {first: Satoshi, family: Denno}
+      - {first: Koji, family: Yamamoto}
+      - {first: Masahiro, family: Morikura}
+      - {first: Daisuke, family: Umehara}
+      - {first: Hidekazu, family: Murata}
+      - {first: Susume, family: Yoshida}
+    title: 'A Successive Detector with Virtual Channel Detection for Cooperative Multiuser {MIMO} Systems'
+    conference:
+      full: 'the 9th IEEE Vehicular Technology Society Asia Pacific Wireless Communications Symposium'
+      abbrv: APWCS
+    city: Kyoto
+    country: Japan
+    month: 8
+    year: 2012
+
+  - authors:
+      - {first: Akihito, family: Taya}
+      - {first: Satoshi, family: Denno}
+      - {first: Koji, family: Yamamoto}
+      - {first: Masahiro, family: Morikura}
+      - {first: Daisuke, family: Umehara}
+      - {first: Hidekazu, family: Murata}
+      - {first: Susume, family: Yoshida}
+    title: 'A Virtual Successive Detection for Cooperative {MU-MIMO} Systems with Reduced {CSI}'
+    conference:
+      full: 'the 2012 IEEE 75th Vehicular Technology Conference'
+      abbrv: "VTC Spring"
+    city: Yokohama
+    country: Japan
+    month: 5
+    year: 2012
+
+  - authors:
+      - {first: Akihito, family: Taya}
+      - {first: Satoshi, family: Denno}
+      - {first: Daisuke, family: Umehara}
+      - {first: Masahiro, family: Morikura}
+      - {first: Hidekazu, family: Murata}
+      - {first: Koji, family: Yamamoto}
+      - {first: Susume, family: Yoshida}
+    title: 'A Virtual Layered Space-frequency Receiver for Multiuser {MIMO-OFDM} Systems'
+    conference:
+      full: 'the 2011 IEEE 74th Vehicular Technology Conference'
+      abbrv: "VTC Fall"
+    city: 'San Francisco'
+    country: USA
+    month: 9
+    year: 2011
 
 awards:
-  - 電子情報通信学会 2018年度学術奨励賞
-  - IEEE VTS Japan 2012 Young Researcher’s Encouragement Award
+  - jp: "電子情報通信学会 2018年度学術奨励賞"
+    en: "IEICE Young Researcher's Award in 2018"
+    lang: jp
+  - en: "IEEE VTS Japan 2012 Young Researcher's Encouragement Award"
+    lang: en
 
 grants:
-  - 立石科学技術振興財団 研究助成(C), 自己拡大するVehicular Cloud Computing基盤, 研究代表者, 2018〜2019年度
+  - jp: '立石科学技術振興財団 研究助成(C), "自己拡大するVehicular Cloud Computing基盤," 研究代表者, 2018〜2019年度'
+    en: 'Tateisi Science and Technology Foundation, Research Grant (C), 2018-2019'
+    lang: jp
