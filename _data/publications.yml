@@ -87,6 +87,21 @@ journals:
 
 int-conferences:
   - authors:
+      - {first: Yuki, family: Hayashi}
+      - {first: Michiki, family: Hara}
+      - {first: Akihito, family: Taya}
+      - {first: Yoshito, family: Tobe}
+      - {first: Hiroki, family: Kobayashi}
+    title: 'Prediction of the Location of Sea Turtles Based on Bio-logged Data'
+    conference:
+      full: 'the 8th International Conference on Green and Human Information Technology'
+      abbrv: ICGHIT
+    city: Hanoi
+    country: Vietnam
+    month: 2
+    year: 2020
+
+  - authors:
       - {first: Michiki, family: Hara}
       - {first: Yuki, family: Hayashi}
       - {first: Akihito, family: Taya}
