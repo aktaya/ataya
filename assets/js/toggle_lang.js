@@ -5,15 +5,15 @@
 // toggle lang wrapper
 const toggleLang = (EnToJp, JpToEn) => {
     const btn = document.getElementById('btn_lang');
-    let lang_jp = false;
+    let lang_jp;
+    const _JpToEn = () => { JpToEn(); lang_jp = false; window.lang="en"; };
+    const _EnToJp = () => { EnToJp(); lang_jp = true; window.lang="jp"; };
     btn.addEventListener("click", () => {
-        (lang_jp ?
-            () => { JpToEn(); lang_jp = false; window.lang="en"; } :
-            () => { EnToJp(); lang_jp = true; window.lang="jp"; }
-        )();
+        (lang_jp ? _JpToEn : _EnToJp)();
     });
-    window.lang = "en";
-    JpToEn();
+    // set default lang
+    const default_lang = document.getElementById('btn_lang').innerHTML;
+    (default_lang === "jp" ? _JpToEn : _EnToJp)(); // ボタン表示は設定値と逆
 };
 
 // toggle lang button

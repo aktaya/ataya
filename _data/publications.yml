@@ -242,6 +242,32 @@ int-conferences:
     month: 9
     year: 2011
 
+dom-tech-reports:
+  - authors:
+      jp:
+        - {first: "昭仁", family: "田谷"}
+        - {first: "義人", family: "戸辺"}
+      en:
+        - {first: "Akihito", family: "Taya"}
+        - {first: "Yoshito", family: "Tobe"}
+    title:
+      jp: "深層学習における関数空間上の勾配法の近似アルゴリズム"
+      en: "Taylor Approximation for Gradient Decent in Functional Space"
+    workgroup:
+      jp:
+        full: "電子情報通信学会総合大会"
+        abbrv: "IEICE総合大会"
+      en:
+        full: "IEICE General Conference"
+        abbrv: "IEICE General Conference"
+    index: D-20-12
+    city:
+      jp: "東広島"
+      en: "Higashihiroshima"
+    month: 3
+    year: 2020
+    lang: jp
+
 awards:
   - jp: "電子情報通信学会 2018年度学術奨励賞"
     en: "IEICE Young Researcher's Award in 2018"

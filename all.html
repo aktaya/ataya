@@ -8,7 +8,7 @@ scriptfiles:
   {% assign prof = site.data.profile %}
   <h2>
     {{ prof.en.name }} / {{ prof.jp.name }}
-    <button id="btn_lang">jp</button>
+    <button id="btn_lang">en</button>
   </h2>
 
   <div class="profile" id="div_prof">
@@ -50,10 +50,8 @@ scriptfiles:
       <input type="radio" class="format_btn" name="format" id="short" value="short">
       <label for="short" class="format">short</label>
 
-      {% comment %}
       <input type="radio" class="format_btn" name="format" id="ieice" value="ieice">
       <label for="ieice" class="format">IEICE</label>
-      {% endcomment %}
     </span>
   </span>
 
@@ -62,6 +60,9 @@ scriptfiles:
 
   <h3>International conferences</h3>
   <div id="div_int_conferences"></div>
+
+  <h3>Domestic conferences</h3>
+  <div id="div_dom_tech_reports"></div>
 
   <h3>Awards</h3>
   <div id="div_awards"></div>
