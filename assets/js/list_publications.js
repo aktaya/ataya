@@ -345,6 +345,27 @@ const list_publish = {
             });
         }),
     },
+
+    "bibtex": {
+        "en": (() => {
+            create_list_all({
+                "journals": (doc) => formats.journal_bibtex[doc.lang === "en" ? "en" : "jp2en"],
+                "int_conf": (doc) => formats.int_conf_bibtex,
+                "dom_reports": (doc) => formats.dom_reports_bibtex[doc.lang === "en" ? "en" : "jp2en"],
+                "awards": (doc) => formats.awards.en,
+                "grants": (doc) => formats.grants.en,
+            });
+        }),
+        "jp": (() => {
+            create_list_all({
+                "journals": (doc) => formats.journal_bibtex[doc.lang],
+                "int_conf": (doc) => formats.int_conf_bibtex,
+                "dom_reports": (doc) => formats.dom_reports_bibtex[doc.lang],
+                "awards": (doc) => formats.awards[doc.lang],
+                "grants": (doc) => formats.grants[doc.lang],
+            });
+        }),
+    },
 };
 
 const select_format = {
@@ -358,6 +379,12 @@ const select_format = {
         window.list_publish = {
             "en": list_publish.short.en,
             "jp": list_publish.short.jp,
+        };
+    },
+    "bibtex": () => {
+        window.list_publish = {
+            "en": list_publish.bibtex.en,
+            "jp": list_publish.bibtex.jp,
         };
     },
 };
