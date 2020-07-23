@@ -217,48 +217,54 @@ ul.biography li ul li.affiliation {
   }
 }
 
-#format_label {
-  position: absolute;
+#list_format {
   display: flex;
-  flex-direction: column;
-  background: #e8f0ff;
-  border-radius: 3px;
-  max-width: 250px;
-  font-size: 17px;
-  top: 3px;
-  right: 10px;
+  flex-direction: row;
+  margin-bottom: 20px;
 
-  :first-child {
-    color: #134CB9;
-    margin-left: 3px;
-  }
-
-  #radio_box {
+  .style_option {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    background: #e8e8e8;
+    border-radius: 3px;
+    max-width: 250px;
+    font-size: 17px;
+    top: 3px;
+    bottom: 3px;
+    margin-right: 3px;
 
-    label.format {
-      background: #ffffff;
-      color: #267CB9;
-      font-size: 17px;
-      padding: 0px 6px 0px 6px;
-      margin-left: 2px;
-      margin-right: 2px;
-      border-radius: 3px;
-      border: 2px solid #96BCE9;
-      transition: all 0.2s ease-in-out;
-      &:hover {
-        border: 2px solid #267CB9;
+    :first-child {
+      color: #666666;
+      margin-left: 3px;
+    }
+
+    .radio_box {
+      display: flex;
+      flex-direction: row;
+
+      label.format {
+        background: #ffffff;
+        color: #888888;
+        font-size: 17px;
+        padding: 0px 6px 0px 6px;
+        margin-left: 2px;
+        margin-right: 2px;
+        border-radius: 3px;
+        border: 2px solid #c0c0c0;
+        transition: all 0.2s ease-in-out;
+        &:hover {
+          border: 2px solid #888888;
+        }
       }
-    }
-    input.format_btn:checked + label.format {
-      transition: all 0.2s ease-in-out;
-      background: #267CB9;
-      border: 2px solid #267CB9;
-      color: #ffffff;
-    }
-    input.format_btn {
-      display: none;
+      input.format_btn:checked + label.format {
+        transition: all 0.2s ease-in-out;
+        background: #888888;
+        border: 2px solid #888888;
+        color: #ffffff;
+      }
+      input.format_btn {
+        display: none;
+      }
     }
   }
 }

@@ -41,21 +41,28 @@ scriptfiles:
 
 <section>
   <h2>Published lists</h2>
-  <span id="format_label">
-    <span>Citation style</span>
-    <span id="radio_box">
-      <input type="radio" class="format_btn" name="format" id="full" value="full" checked>
-      <label for="full" class="format">long</label>
+  <form id="list_format">
+    <span class="style_option">
+      <span>Citation style</span>
+      <span class="radio_box">
+        <input type="radio" class="format_btn" name="style" id="full" value="full" checked>
+        <label for="full" class="format">long</label>
 
-      <input type="radio" class="format_btn" name="format" id="short" value="short">
-      <label for="short" class="format">short</label>
-
-      {% comment %}
-      <input type="radio" class="format_btn" name="format" id="ieice" value="ieice">
-      <label for="ieice" class="format">IEICE</label>
-      {% endcomment %}
+        <input type="radio" class="format_btn" name="style" id="short" value="short">
+        <label for="short" class="format">short</label>
+      </span>
     </span>
-  </span>
+    <span class="style_option">
+      <span>Order</span>
+      <span class="radio_box">
+        <input type="radio" class="format_btn" name="order" id="ascending" value="ascending">
+        <label for="ascending" class="format">ascending</label>
+
+        <input type="radio" class="format_btn" name="order" id="descending" value="descending" checked>
+        <label for="descending" class="format">descending</label>
+      </span>
+    </span>
+  </form>
 
   <h3>Journal papers</h3>
   <div id="div_journals"></div>
