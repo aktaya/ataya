@@ -1,0 +1,7 @@
+{% assign prof = site.data.profile %}
+<h3>Links</h3>
+<ul class="links">
+{% for item in prof.links %}
+<li><a href={{ item.url }}>{{ item.display }}</a></li>
+{% endfor %}
+</ul>

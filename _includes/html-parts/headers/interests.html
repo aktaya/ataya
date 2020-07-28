@@ -1,0 +1,7 @@
+{% assign prof = site.data.profile %}
+<h3>Research interests</h3>
+<ul class="interests">
+  {% for item in prof.keywords %}
+    <li>{{ item  }}</li>
+  {% endfor %}
+</ul>

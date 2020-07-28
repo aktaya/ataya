@@ -5,68 +5,19 @@ scriptfiles:
   - assets/js/toggle_lang.js
 ---
 <header>
-  {% assign prof = site.data.profile %}
-  <h2>
-    {{ prof.en.name }} / {{ prof.jp.name }}
-    <button id="btn_lang">en</button>
-  </h2>
-
-  <div class="profile" id="div_prof">
-    <p id="prof"></p>
-    <span id="mm">
-      <img src="assets/images/micon.png" id="micon"/>
-      <span id="mlabel"></span>
-    </span>
-  </div>
-
-  <h3>Links</h3>
-  <ul class="links">
-    {% for item in prof.links %}
-    <li><a href={{ item.url }}>{{ item.display }}</a></li>
-    {% endfor %}
-  </ul>
-
-  <h3>Research interests</h3>
-  <ul class="interests">
-    {% for item in prof.keywords %}
-      <li>{{ item  }}</li>
-    {% endfor %}
-  </ul>
-
-  <h3>Biography</h3>
-  <div id="biography">
-  <ul class="dummy"></ul>
-  </div>
+  {% include html-parts/headers/name.html display_text="en" %}
+  {% include html-parts/headers/profile.html %}
+  {% include html-parts/headers/links.html %}
+  {% include html-parts/headers/interests.html %}
+  {% include html-parts/headers/biography.html %}
 </header>
 
 <section>
-  <h2>Published lists</h2>
-  <span id="format_label">
-    <span>Citation style</span>
-    <span id="radio_box">
-      <input type="radio" class="format_btn" name="format" id="full" value="full" checked>
-      <label for="full" class="format">long</label>
-
-      <input type="radio" class="format_btn" name="format" id="short" value="short">
-      <label for="short" class="format">short</label>
-
-      <input type="radio" class="format_btn" name="format" id="ieice" value="ieice">
-      <label for="ieice" class="format">IEICE</label>
-    </span>
-  </span>
-
-  <h3>Journal papers</h3>
-  <div id="div_journals"></div>
-
-  <h3>International conferences</h3>
-  <div id="div_int_conferences"></div>
-
-  <h3>Domestic conferences</h3>
-  <div id="div_dom_tech_reports"></div>
-
-  <h3>Awards</h3>
-  <div id="div_awards"></div>
-
-  <h3>Grants</h3>
-  <div id="div_grants"></div>
+  {% include html-parts/sections/section-title.html %}
+  {% include html-parts/sections/style-option.html %}
+  {% include html-parts/sections/journals.html %}
+  {% include html-parts/sections/int-conferences.html %}
+  {% include html-parts/sections/tech-reports.html %}
+  {% include html-parts/sections/awards.html %}
+  {% include html-parts/sections/grants.html %}
 </section>
