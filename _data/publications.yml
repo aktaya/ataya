@@ -87,6 +87,21 @@ journals:
 
 int-conferences:
   - authors:
+      - {first: Yuma, family: Tsurugasaki}
+      - {first: Koichi, family: Shimoda}
+      - {first: Michael, family: Hefenbrock}
+      - {first: Akihito, family: Taya}
+      - {first: Sejun, family: Song}
+      - {first: Yoshito, family: Tobe}
+    title: 'Scalable Selection of {EEG} Features for Compression'
+    conference:
+      full: 'the third International Workshop on Computing for Well-Being - UbiComp/ISWC 2020'
+      abbrv: 'WellComp'
+    country: online event
+    month: 9
+    year: 2020 accepted
+
+  - authors:
       - {first: Yuki, family: Hayashi}
       - {first: Michiki, family: Hara}
       - {first: Akihito, family: Taya}
