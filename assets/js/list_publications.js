@@ -109,7 +109,7 @@ const styles = {
             { "param": "num", "func": (n) => `no.${n}, ` },
             { "param": "pages", "func": (p) => `pp.${p.from}-${p.to}, ` },
             { "param": "month", "func": (m) => month.abbrv3[m] + " " },
-            { "param": "year", "func": (y) => String(y) },
+            { "param": "year", "func": (y) => String(y) + "." },
         ],
         "jp": [
             { "param": "authors", "func": (a) => format_name_list(a.jp, sep.jp, name_style.jp) },
@@ -130,7 +130,7 @@ const styles = {
             { "param": "num", "func": (n) => `no.${n}, ` },
             { "param": "pages", "func": (p) => `pp.${p.from}-${p.to}, ` },
             { "param": "month", "func": (m) => month.abbrv3[m] + " " },
-            { "param": "year", "func": (y) => String(y) },
+            { "param": "year", "func": (y) => String(y) + "." },
         ],
     },
     "journal_short": {
@@ -142,7 +142,7 @@ const styles = {
             { "param": "num", "func": (n) => `no.${n}, ` },
             { "param": "pages", "func": (p) => `pp.${p.from}-${p.to}, ` },
             { "param": "month", "func": (m) => month.abbrv3[m] + " " },
-            { "param": "year", "func": (y) => String(y) },
+            { "param": "year", "func": (y) => String(y) + "." },
         ],
         "jp": [
             { "param": "authors", "func": (a) => format_name_list(a.jp, sep.jp, name_style.jp) },
@@ -163,7 +163,7 @@ const styles = {
             { "param": "num", "func": (n) => `no.${n}, ` },
             { "param": "pages", "func": (p) => `pp.${p.from}-${p.to}, ` },
             { "param": "month", "func": (m) => month.abbrv3[m] + " " },
-            { "param": "year", "func": (y) => String(y) },
+            { "param": "year", "func": (y) => String(y) + "." },
         ],
     },
     "int_conf_full": [
@@ -173,7 +173,7 @@ const styles = {
         { "param": "city", "func": (c) => `${c}, ` },
         { "param": "country", "func": (c) => `${c}, ` },
         { "param": "month", "func": (m) => month.abbrv3[m] + " " },
-        { "param": "year", "func": (y) => String(y) },
+        { "param": "year", "func": (y) => String(y) + "." },
     ],
     "int_conf_short": [
         { "param": "authors", "func": (a) => format_name_list(a, sep.en, name_style.initial_en) },
@@ -182,7 +182,7 @@ const styles = {
         { "param": "city", "func": (c) => `${c}, ` },
         { "param": "country", "func": (c) => `${c}, ` },
         { "param": "month", "func": (m) => month.abbrv3[m] + " " },
-        { "param": "year", "func": (y) => String(y) },
+        { "param": "year", "func": (y) => String(y) + "." },
     ],
     "dom_reports_full": {
         "en": [
@@ -191,7 +191,7 @@ const styles = {
             { "param": "notes", "func": (n) => `<i>${n.en.full}</i>, ` },
             { "param": "city", "func": (c) => `${c.en}, ` },
             { "param": "month", "func": (m) => month.abbrv3[m] + " " },
-            { "param": "year", "func": (y) => String(y) },
+            { "param": "year", "func": (y) => String(y) + "." },
         ],
         "jp": [
             { "param": "authors", "func": (a) => format_name_list(a.jp, sep.jp, name_style.jp) },
@@ -208,7 +208,7 @@ const styles = {
             { "param": "notes", "func": (n) => `<i>${n.en.full}</i>, ` },
             { "param": "city", "func": (c) => `${c.en}, ` },
             { "param": "month", "func": (m) => month.abbrv3[m] + " " },
-            { "param": "year", "func": (y) => String(y) },
+            { "param": "year", "func": (y) => String(y) + "." },
         ],
     },
     "dom_reports_short": {
@@ -218,7 +218,7 @@ const styles = {
             { "param": "notes", "func": (n) => `<i>${n.en.abbrv}</i>, ` },
             { "param": "city", "func": (c) => `${c.en}, ` },
             { "param": "month", "func": (m) => month.abbrv3[m] + " " },
-            { "param": "year", "func": (y) => String(y) },
+            { "param": "year", "func": (y) => String(y) + "." },
         ],
         "jp": [
             { "param": "authors", "func": (a) => format_name_list(a.jp, sep.jp, name_style.jp) },
@@ -235,7 +235,7 @@ const styles = {
             { "param": "notes", "func": (n) => `<i>${n.en.abbrv}</i>, ` },
             { "param": "city", "func": (c) => `${c.en}, ` },
             { "param": "month", "func": (m) => month.abbrv3[m] + " " },
-            { "param": "year", "func": (y) => String(y) },
+            { "param": "year", "func": (y) => String(y) + "." },
         ],
     },
     "awards": {
@@ -257,7 +257,7 @@ const styles = {
 };
 
 const format = (doc, style) => {
-    return style.map((f) => f.func(doc[f.param])).join("");
+    return style.map((f) => doc[f.param] ? f.func(doc[f.param]) : "").join("");
 };
 
 const create_list = (div_id, docs, settings) => {
