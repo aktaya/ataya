@@ -1,6 +1,24 @@
 # IEICE 論文誌略記 https://www.ieice.org/eng/shiori/appc.html
 journals:
   - authors:
+      - {first: "Koichi", family: "Shimoda"}
+      - {first: "Dennis", family: "Diefenbach"}
+      - {first: "Kamal", family: "Singh"}
+      - {first: "Akihito", family: "Taya"}
+      - {first: "Yoshito", family: "Tobe"}
+      - {first: "Pierre", family: "Maret"}
+    title: '{RW-QAnswer}: an assisting system for intelligent environments using semantic technology'
+    journal:
+      full: 'Journal of Reliable Intelligent Environments'
+      abbrv: 'Journal of Reliable Intelligent Environments'
+    vol: '-'
+    num: "-"
+    pages: {"from": 1, "to": 17}
+    month: 0
+    year: accepted
+    lang: "en"
+
+  - authors:
       - {first: "Akihito", family: "Taya"}
       - {first: "Takayuki", family: "Nishio"}
       - {first: "Masahiro", family: "Morikura"}
@@ -99,7 +117,7 @@ int-conferences:
       abbrv: 'WellComp'
     country: online event
     month: 9
-    year: 2020 accepted
+    year: 2020
 
   - authors:
       - {first: Yuki, family: Hayashi}
@@ -258,6 +276,110 @@ int-conferences:
     year: 2011
 
 dom-tech-reports:
+  - authors:
+      jp:
+        - {first: "優衣", family: "山下"}
+        - {first: "昭仁", family: "田谷"}
+        - {first: "義人", family: "戸辺"}
+      en:
+        - {first: "Akihito", family: "Taya"}
+    title:
+      jp: "IoT機器におけるプライバシー保護のための決定木分散学習"
+      en: ""
+    notes:
+      jp:
+        full: "情報処理学会研究報告，Vol. 2020-DPS-184"
+        abbrv: "情処研報 DPS-184"
+      en:
+        full: ""
+        abbrv: ""
+    city:
+      jp: "松江"
+      en: ""
+    month: 9
+    year: 2020
+    lang: jp
+
+  - authors:
+      jp:
+        - {first: "航樹", family: "田澤"}
+        - {first: "道樹", family: "原"}
+        - {first: "昭仁", family: "田谷"}
+        - {first: "義人", family: "戸辺"}
+      en:
+        - {first: "Akihito", family: "Taya"}
+    title:
+      jp: "アクセス遷移予測に基づくスマートフォンWebプリフェッチの検討"
+      en: ""
+    notes:
+      jp:
+        full: "情報処理学会研究報告，Vol. 2020-DPS-184"
+        abbrv: "情処研報 DPS-184"
+      en:
+        full: ""
+        abbrv: ""
+    city:
+      jp: "松江"
+      en: ""
+    month: 9
+    year: 2020
+    lang: jp
+
+  - authors:
+      jp:
+        - {first: "道樹", family: "原"}
+        - {first: "大祐", family: "下徳"}
+        - {first: "博樹", family: "小林"}
+        - {first: "昭仁", family: "田谷"}
+        - {first: "義人", family: "戸辺"}
+      en:
+        - {first: "Michiki", family: "Hara"}
+        - {first: "Daisuke", family: "Shimotoku"}
+        - {first: "Hiroki", family: "Kobayashi"}
+        - {first: "Akihito", family: "Taya"}
+        - {first: "Yoshito", family: "Tobe"}
+    title:
+      jp: "3次元情報を考慮した野生動物の行動経路の推定"
+      en: "Estimation of Wild Animal's Traces Using {3D} Map Information"
+    notes:
+      jp:
+        full: "電子情報通信学会技術報告 HPB第23回研究会"
+        abbrv: "信学技報 HPB第23回研究会"
+      en:
+        full: ""
+        abbrv: ""
+    city:
+      jp: "オンライン"
+      en: "online event"
+    month: 8
+    year: 2020
+    lang: jp
+
+  - authors:
+      jp:
+        - {first: "維", family: "陳"}
+        - {first: "裕真", family: "鶴ヶ崎"}
+        - {first: "昭仁", family: "田谷"}
+        - {first: "義人", family: "戸辺"}
+      en:
+        - {first: "Akihito", family: "Taya"}
+    title:
+      jp: "機械学習に向けた脳波状態判別の最適化雑音除去手法の検討"
+      en: ""
+    notes:
+      jp:
+        full: "電子情報通信学会技術報告 HPB第23回研究会"
+        abbrv: "信学技報 HPB第23回研究会"
+      en:
+        full: ""
+        abbrv: ""
+    city:
+      jp: "オンライン"
+      en: "online event"
+    month: 8
+    year: 2020
+    lang: jp
+
   - authors:
       jp:
         - {first: "Yasuhiro", family: "Horibe"}
@@ -455,7 +577,7 @@ dom-tech-reports:
         full: ""
         abbrv: ""
     city:
-      jp: ""
+      jp: "相模原"
       en: ""
     month: 2
     year: 2020
@@ -480,7 +602,7 @@ dom-tech-reports:
         full: ""
         abbrv: ""
     city:
-      jp: ""
+      jp: "相模原"
       en: ""
     month: 2
     year: 2020
@@ -505,7 +627,7 @@ dom-tech-reports:
         full: ""
         abbrv: ""
     city:
-      jp: ""
+      jp: "相模原"
       en: ""
     month: 2
     year: 2020
@@ -531,7 +653,7 @@ dom-tech-reports:
         full: ""
         abbrv: ""
     city:
-      jp: ""
+      jp: "相模原"
       en: ""
     month: 2
     year: 2020
@@ -557,7 +679,7 @@ dom-tech-reports:
         full: ""
         abbrv: ""
     city:
-      jp: ""
+      jp: "相模原"
       en: ""
     month: 2
     year: 2020
@@ -733,7 +855,7 @@ dom-tech-reports:
         abbrv: ""
     city:
       jp: "北九州"
-      en: ""
+      en: "Kitakyushu"
     month: 11
     year: 2017
     lang: en
