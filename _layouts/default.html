@@ -16,6 +16,7 @@
       {{ content }}
     </div>
     <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
+    <script>const page_name = '{{ page.name }}';</script>
     {% for src in page.scriptfiles %}
       <script src="{{ src }}"></script>
     {% endfor %}

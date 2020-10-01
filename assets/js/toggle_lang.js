@@ -2,42 +2,47 @@
 ---
 {% assign prof = site.data.profile %}
 
-// toggle lang wrapper
-const toggleLang = (EnToJp, JpToEn) => {
-    const btn = document.getElementById('btn_lang');
-    let lang_jp;
-    const _JpToEn = () => { JpToEn(); lang_jp = false; window.lang="en"; };
-    const _EnToJp = () => { EnToJp(); lang_jp = true; window.lang="jp"; };
-    btn.addEventListener("click", () => {
-        (lang_jp ? _JpToEn : _EnToJp)();
-    });
-    // set default lang
-    const default_lang = document.getElementById('btn_lang').innerHTML;
-    (default_lang === "jp" ? _JpToEn : _EnToJp)(); // ボタン表示は設定値と逆
-};
-
-// toggle lang button
+const changeLangList = [];
 (() => {
-    const btn = document.getElementById('btn_lang');
-    const EnToJp = () => {
-        btn.innerHTML = "en"; // jp時はボタン表示は"en"
+    window.changeLang = (lang) => {
+        changeLangList.forEach((f)=>{
+            f[lang]();
+            window.lang = lang;
+        })
     };
-    const JpToEn = () => {
-        btn.innerHTML = "jp"; // en時はボタン表示は"jp"
-    };
-    toggleLang(EnToJp, JpToEn);
 })();
 
-// toggle profile
+// set button event to toggle language
+(() => {
+    const btn = document.getElementById('btn_lang');
+    btn.addEventListener("click", () => {
+        window.lang = (window.lang === "jp" ? "en" : "jp");
+        window.changeLang(window.lang);
+    });
+})();
+
+// language button
+(() => {
+    const btn = document.getElementById('btn_lang');
+    const ToJp = () => {
+        btn.innerHTML = "en"; // jp時はボタン表示は"en"
+    };
+    const ToEn = () => {
+        btn.innerHTML = "jp"; // en時はボタン表示は"jp"
+    };
+    changeLangList.push({ jp: ToJp, en: ToEn });
+})();
+
+// profile
 (() => {
     const prof = document.getElementById('prof');
-    const EnToJp = () => {
+    const ToJp = () => {
         prof.innerHTML = "{{ prof.jp.affiliation }}";
     };
-    const JpToEn = () => {
+    const ToEn = () => {
         prof.innerHTML = "{{ prof.en.affiliation }}";
     }
-    toggleLang(EnToJp, JpToEn);
+    changeLangList.push({ jp: ToJp, en: ToEn });
 })();
 
 // toggle biography
@@ -69,18 +74,18 @@ const toggleLang = (EnToJp, JpToEn) => {
         div_bio.appendChild(ul_bio);
     }
     const bio = {{ prof.biography | jsonify }};
-    const EnToJp = () => { bioToTable(bio.jp); };
-    const JpToEn = () => { bioToTable(bio.en); };
-    toggleLang(EnToJp, JpToEn);
+    const ToJp = () => { bioToTable(bio.jp); };
+    const ToEn = () => { bioToTable(bio.en); };
+    changeLangList.push({ jp: ToJp, en: ToEn });
 })();
 
 // toggle publish list
 (() => {
-    const EnToJp = () => {
+    const ToJp = () => {
         window.list_publish.jp();
     };
-    const JpToEn = () => {
+    const ToEn = () => {
         window.list_publish.en();
     }
-    toggleLang(EnToJp, JpToEn);
+    changeLangList.push({ jp: ToJp, en: ToEn });
 })();
