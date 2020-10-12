@@ -362,16 +362,28 @@ const list_publish = ((style, lang, order) => {
     }[style][lang];
 });
 
-const select_format = (() => {
-    const style = document.getElementById("list_format").style.value;
-    const order = {
+const set_list_publish = ((style, order) => {
+    const is_descending = {
         "descending": true,
         "ascending": false,
-    }[document.getElementById("list_format").order.value];
+    }[order];
     window.list_publish = {
-        "en": list_publish(style, "en", order),
-        "jp": list_publish(style, "jp", order),
+        "en": list_publish(style, "en", is_descending),
+        "jp": list_publish(style, "jp", is_descending),
     };
+});
+
+const select_format = (() => {
+    const style = document.getElementById("list_format").style.value;
+    const order = document.getElementById("list_format").order.value;
+    set_list_publish(style, order);
+});
+
+window.set_default_style = ((style, order) => {
+    document.getElementById("list_format").style.value = style;
+    document.getElementById("list_format").order.value = order;
+    set_list_publish(style, order);
+    window.list_publish[window.lang]();
 });
 
 (() => {

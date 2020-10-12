@@ -7,5 +7,12 @@
     if(page_name === "all.html"){
         default_lang = "jp";
     }
-    window.changeLang(default_lang);
+    if (page_name === "all.html") {
+        window.changeLang("jp");
+        window.set_default_style("full", "descending");
+    }
+    else {
+        window.changeLang("en");
+        window.set_default_style("short", "descending");
+    }
 })();

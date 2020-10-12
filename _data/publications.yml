@@ -10,13 +10,14 @@ journals:
     title: '{RW-QAnswer}: an assisting system for intelligent environments using semantic technology'
     journal:
       full: 'Journal of Reliable Intelligent Environments'
-      abbrv: 'Journal of Reliable Intelligent Environments'
+      abbrv: 'J Reliable Intell Environ'
     vol: '-'
     num: "-"
     pages: {"from": 1, "to": 17}
     month: 0
-    year: accepted
+    year: 'early access'
     lang: "en"
+    doi: 'https://doi.org/10.1007/s40860-020-00112-3'
 
   - authors:
       - {first: "Akihito", family: "Taya"}
@@ -105,6 +106,18 @@ journals:
 
 int-conferences:
   - authors:
+      - {first: Yui, family: Yamashita}
+      - {first: Akihito, family: Taya}
+      - {first: Yoshito, family: Tobe}
+    title: 'Cooperative Random Forest for Privacy-Preserving {IoT} Devices'
+    conference:
+      full: 'the third International Workshop on Mobile Ubiquiotous Systems, Infrastructures, Communications and AppLications'
+      abbrv: 'MUSICAL 2021 on ICDCN'
+    country: online event
+    month: 1
+    year: '2021 (accepted)'
+
+  - authors:
       - {first: Yuma, family: Tsurugasaki}
       - {first: Koichi, family: Shimoda}
       - {first: Michael, family: Hefenbrock}
@@ -113,8 +126,8 @@ int-conferences:
       - {first: Yoshito, family: Tobe}
     title: 'Scalable Selection of {EEG} Features for Compression'
     conference:
-      full: 'the third International Workshop on Computing for Well-Being - UbiComp/ISWC 2020'
-      abbrv: 'WellComp'
+      full: 'the third International Workshop on Computing for Well-Being'
+      abbrv: 'WellComp on UbiComp/ISWC 2020'
     country: online event
     month: 9
     year: 2020
