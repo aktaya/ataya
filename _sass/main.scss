@@ -1,7 +1,7 @@
 body {
   background-color: #fff;
   padding:50px;
-  font: 14px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   color:#333;
   font-weight:400;
 }
@@ -53,7 +53,7 @@ a:hover small {
 }
 
 .wrapper {
-  width:860px;
+  width:1280px;
   margin:0 auto;
 }
 
@@ -102,7 +102,7 @@ img {
 }
 
 header {
-  width:320px;
+  width:380px;
   float:left;
   -webkit-font-smoothing:subpixel-antialiased;
   overflow: auto;
@@ -149,11 +149,11 @@ ul.biography li ul {
 
 ul.biography li ul li.date {
   float: left;
-  width: 110px;
+  width: 130px;
 }
 ul.biography li ul li.affiliation {
-  padding-left: 110px;
-  width: 190px;
+  padding-left: 130px;
+  width: 230px;
 }
 
 #btn_lang {
@@ -245,7 +245,7 @@ ul.biography li ul li.affiliation {
       label.format {
         background: #ffffff;
         color: #888888;
-        font-size: 14px;
+        font-size: 16px;
         padding: 0px 6px 0px 6px;
         margin-left: 2px;
         margin-right: 2px;
@@ -276,8 +276,8 @@ strong {
 
 section {
   position: relative;
-  width:500px;
-  float:right;
+  width:800px;
+  float:left;
   padding-bottom:50px;
 }
 
