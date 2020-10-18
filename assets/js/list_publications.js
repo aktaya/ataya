@@ -260,7 +260,12 @@ const styles = {
 };
 
 const format = (doc, style) => {
-    return style.map((f) => doc[f.param] ? f.func(doc[f.param]) : "").join("");
+    const text = style.map((f) => doc[f.param] ? f.func(doc[f.param]) : "").join("");
+    const doi = doc["doi"] ? doc["doi"] : null;
+    return {
+        text: text,
+        doi: doi,
+    };
 };
 
 const create_list = (div_id, docs, settings) => {
@@ -271,9 +276,22 @@ const create_list = (div_id, docs, settings) => {
     const ol = document.createElement('ol');
     const doc_slice = settings.descending ? docs.slice() : docs.slice().reverse();
     doc_slice.forEach((doc) => {
-        const text = format(doc, settings.style(doc));
+        const item = format(doc, settings.style(doc));
+
         const li = document.createElement('li');
-        li.innerHTML = text;
+        li.innerHTML = item.text;
+
+        if (item.doi !== null) {
+            const link = document.createElement('a');
+            link.setAttribute("href", item.doi);
+            link.setAttribute("target", "_blank");
+            const icon = document.createElement('img');
+            icon.setAttribute("src", "assets/images/link.svg")
+            icon.setAttribute("id", "linkicon");
+            link.appendChild(icon);
+            li.appendChild(link);
+        }
+
         ol.appendChild(li);
     });
     while (div.firstChild) {

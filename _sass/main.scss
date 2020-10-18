@@ -279,6 +279,16 @@ section {
   width:800px;
   float:left;
   padding-bottom:50px;
+
+  #linkicon {
+    margin-left: 5px;
+    padding: 0;
+    border: none;
+    background: transparent;
+    width: 16px;
+    height: 16px;
+    animation: none;
+  }
 }
 
 small {
