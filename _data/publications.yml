@@ -295,6 +295,30 @@ int-conferences:
 dom-tech-reports:
   - authors:
       jp:
+        - {first: "智也", family: "鈴木"}
+        - {first: "昭仁", family: "田谷"}
+        - {first: "義人", family: "戸辺"}
+      en:
+        - {first: "Akihito", family: "Taya"}
+    title:
+      jp: "音声認識によるコミュニケーションツール用バーチャルモデルの表情反映"
+      en: ""
+    notes:
+      jp:
+        full: "情報処理学会 DPSWS2020"
+        abbrv: "情報処理学会 DPSWS2020"
+      en:
+        full: ""
+        abbrv: ""
+    city:
+      jp: "伊東"
+      en: ""
+    month: 11
+    year: "2020 (査読あり)"
+    lang: jp
+
+  - authors:
+      jp:
         - {first: "優衣", family: "山下"}
         - {first: "昭仁", family: "田谷"}
         - {first: "義人", family: "戸辺"}
