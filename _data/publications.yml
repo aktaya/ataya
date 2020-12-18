@@ -11,11 +11,11 @@ journals:
     journal:
       full: 'Journal of Reliable Intelligent Environments'
       abbrv: 'J Reliable Intell Environ'
-    vol: '-'
-    num: "-"
-    pages: {"from": 1, "to": 17}
-    month: 0
-    year: 'early access'
+    vol: '6'
+    num: "4"
+    pages: {"from": 215, "to": 231}
+    month: 10
+    year: 2020
     lang: "en"
     doi: 'https://doi.org/10.1007/s40860-020-00112-3'
 
