@@ -1,0 +1,745 @@
+- authors:
+    jp:
+      - {first: "智也", family: "鈴木"}
+      - {first: "昭仁", family: "田谷"}
+      - {first: "義人", family: "戸辺"}
+    en:
+      - {first: "Akihito", family: "Taya"}
+  title:
+    jp: "音声認識によるコミュニケーションツール用バーチャルモデルの表情反映"
+    en: ""
+  notes:
+    jp:
+      full: "情報処理学会 DPSWS2020"
+      abbrv: "情報処理学会 DPSWS2020"
+    en:
+      full: ""
+      abbrv: ""
+  city:
+    jp: "伊東"
+    en: ""
+  month: 11
+  year: "2020 (査読あり)"
+  lang: jp
+
+- authors:
+    jp:
+      - {first: "優衣", family: "山下"}
+      - {first: "昭仁", family: "田谷"}
+      - {first: "義人", family: "戸辺"}
+    en:
+      - {first: "Akihito", family: "Taya"}
+  title:
+    jp: "IoT機器におけるプライバシー保護のための決定木分散学習"
+    en: ""
+  notes:
+    jp:
+      full: "情報処理学会研究報告，Vol. 2020-DPS-184"
+      abbrv: "情処研報 DPS-184"
+    en:
+      full: ""
+      abbrv: ""
+  city:
+    jp: "松江"
+    en: ""
+  month: 9
+  year: 2020
+  lang: jp
+
+- authors:
+    jp:
+      - {first: "航樹", family: "田澤"}
+      - {first: "道樹", family: "原"}
+      - {first: "昭仁", family: "田谷"}
+      - {first: "義人", family: "戸辺"}
+    en:
+      - {first: "Akihito", family: "Taya"}
+  title:
+    jp: "アクセス遷移予測に基づくスマートフォンWebプリフェッチの検討"
+    en: ""
+  notes:
+    jp:
+      full: "情報処理学会研究報告，Vol. 2020-DPS-184"
+      abbrv: "情処研報 DPS-184"
+    en:
+      full: ""
+      abbrv: ""
+  city:
+    jp: "松江"
+    en: ""
+  month: 9
+  year: 2020
+  lang: jp
+
+- authors:
+    jp:
+      - {first: "道樹", family: "原"}
+      - {first: "大祐", family: "下徳"}
+      - {first: "博樹", family: "小林"}
+      - {first: "昭仁", family: "田谷"}
+      - {first: "義人", family: "戸辺"}
+    en:
+      - {first: "Michiki", family: "Hara"}
+      - {first: "Daisuke", family: "Shimotoku"}
+      - {first: "Hiroki", family: "Kobayashi"}
+      - {first: "Akihito", family: "Taya"}
+      - {first: "Yoshito", family: "Tobe"}
+  title:
+    jp: "3次元情報を考慮した野生動物の行動経路の推定"
+    en: "Estimation of Wild Animal's Traces Using {3D} Map Information"
+  notes:
+    jp:
+      full: "電子情報通信学会技術報告 HPB第23回研究会"
+      abbrv: "信学技報 HPB第23回研究会"
+    en:
+      full: ""
+      abbrv: ""
+  city:
+    jp: "オンライン"
+    en: "online event"
+  month: 8
+  year: 2020
+  lang: jp
+
+- authors:
+    jp:
+      - {first: "維", family: "陳"}
+      - {first: "裕真", family: "鶴ヶ崎"}
+      - {first: "昭仁", family: "田谷"}
+      - {first: "義人", family: "戸辺"}
+    en:
+      - {first: "Akihito", family: "Taya"}
+  title:
+    jp: "機械学習に向けた脳波状態判別の最適化雑音除去手法の検討"
+    en: ""
+  notes:
+    jp:
+      full: "電子情報通信学会技術報告 HPB第23回研究会"
+      abbrv: "信学技報 HPB第23回研究会"
+    en:
+      full: ""
+      abbrv: ""
+  city:
+    jp: "オンライン"
+    en: "online event"
+  month: 8
+  year: 2020
+  lang: jp
+
+- authors:
+    jp:
+      - {first: "Yasuhiro", family: "Horibe"}
+      - {first: "Yuki", family: "Wako"}
+      - {first: "Akihito", family: "Taya"}
+      - {first: "Yoshito ", family: "Tobe"}
+    en:
+      - {first: "Yasuhiro", family: "Horibe"}
+      - {first: "Yuki", family: "Wako"}
+      - {first: "Akihito", family: "Taya"}
+      - {first: "Yoshito ", family: "Tobe"}
+  title:
+    jp: "Analysis and Prediction of Malware with Evasion Technique"
+    en: "Analysis and Prediction of Malware with Evasion Technique"
+  notes:
+    jp:
+      full: "電子情報通信学会総合大会 BS-1-13"
+      abbrv: "IEICE総合大会 BS-1-13"
+    en:
+      full: "IEICE General Conference BS-1-13"
+      abbrv: "IEICE General Conf. BS-1-13"
+  city:
+    jp: "東広島"
+    en: "Higashihiroshima"
+  month: 3
+  year: 2020
+  lang: en
+
+- authors:
+    jp:
+      - {first: "昭仁", family: "田谷"}
+      - {first: "義人", family: "戸辺"}
+    en:
+      - {first: "Akihito", family: "Taya"}
+  title:
+    jp: "深層学習における関数空間上の勾配法の近似アルゴリズム"
+    en: "{Taylor} Approximation for Gradient Decent in Functional Space"
+  notes:
+    jp:
+      full: "電子情報通信学会総合大会 D-20-12"
+      abbrv: "IEICE総合大会 D-20-12"
+    en:
+      full: ""
+      abbrv: ""
+  city:
+    jp: "東広島"
+    en: "Higashihiroshima"
+  month: 3
+  year: 2020
+  lang: jp
+
+- authors:
+    jp:
+      - {first: "優衣", family: "山下"}
+      - {first: "俊", family: "小野寺"}
+      - {first: "昭仁", family: "田谷"}
+      - {first: "義人", family: "戸辺"}
+    en:
+      - {first: "Akihito", family: "Taya"}
+  title:
+    jp: "動的パラメータ調整を用いた感情極性システム"
+    en: ""
+  notes:
+    jp:
+      full: "情報処理学会全国大会 5W-02"
+      abbrv: "IPSJ全国大会 5W-02"
+    en:
+      full: ""
+      abbrv: ""
+  city:
+    jp: "金沢"
+    en: ""
+  month: 3
+  year: 2020
+  lang: jp
+
+- authors:
+    jp:
+      - {first: "祐真", family: "鶴ヶ崎"}
+      - {first: "俊", family: "田邊"}
+      - {first: "昭仁", family: "田谷"}
+      - {first: "義人", family: "戸辺"}
+    en:
+      - {first: "Akihito", family: "Taya"}
+  title:
+    jp: "脳波データの圧縮を考慮したステーラブルな電極チャネルと特徴量の組み合わせ"
+    en: ""
+  notes:
+    jp:
+      full: "情報処理学会全国大会 1ZB-08"
+      abbrv: "IPSJ全国大会 1ZB-08"
+    en:
+      full: ""
+      abbrv: ""
+  city:
+    jp: "金沢"
+    en: ""
+  month: 3
+  year: 2020
+  lang: jp
+
+- authors:
+    jp:
+      - {first: "颯貴", family: "森貞"}
+      - {first: "功一", family: "下田"}
+      - {first: "昭仁", family: "田谷"}
+      - {first: "義人", family: "戸辺"}
+    en:
+      - {first: "Akihito", family: "Taya"}
+  title:
+    jp: "脳波計を使用したVR映像が誘発する恐怖心の推定の試み"
+    en: ""
+  notes:
+    jp:
+      full: "情報処理学会全国大会 6ZF-07"
+      abbrv: "IPSJ全国大会 6ZF-07"
+    en:
+      full: ""
+      abbrv: ""
+  city:
+    jp: "金沢"
+    en: ""
+  month: 3
+  year: 2020
+  lang: jp
+
+- authors:
+    jp:
+      - {first: "航樹", family: "田澤"}
+      - {first: "道樹", family: "原"}
+      - {first: "昭仁", family: "田谷"}
+      - {first: "義人", family: "戸辺"}
+    en:
+      - {first: "Akihito", family: "Taya"}
+  title:
+    jp: "通信行動モデルベースの行動予測によるQoE向上の研究"
+    en: ""
+  notes:
+    jp:
+      full: "情報処理学会全国大会 4V-04"
+      abbrv: "IPSJ全国大会 4V-04"
+    en:
+      full: ""
+      abbrv: ""
+  city:
+    jp: "金沢"
+    en: ""
+  month: 3
+  year: 2020
+  lang: jp
+
+- authors:
+    jp:
+      - {first: "昭仁", family: "田谷"}
+      - {first: "義人", family: "戸辺"}
+      - {first: "理志", family: "西尾"}
+      - {first: "正博", family: "守倉"}
+      - {first: "高至", family: "山本"}
+    en:
+      - {first: "Akihito", family: "Taya"}
+  title:
+    jp: "サーバレスFederated Learningのための分散最適化"
+    en: ""
+  notes:
+    jp:
+      full: "情報処理学会全国大会 2E-05"
+      abbrv: "IPSJ全国大会 2E-05"
+    en:
+      full: ""
+      abbrv: ""
+  city:
+    jp: "金沢"
+    en: ""
+  month: 3
+  year: 2020
+  lang: jp
+
+- authors:
+    jp:
+      - {first: "華凜", family: "松岡"}
+      - {first: "俊", family: "田邊"}
+      - {first: "真平", family: "池上"}
+      - {first: "昭仁", family: "田谷"}
+      - {first: "義人", family: "戸辺"}
+    en:
+      - {first: "Akihito", family: "Taya"}
+  title:
+    jp: "視聴覚バランスを考慮した語学教材作成のための検討"
+    en: ""
+  notes:
+    jp:
+      full: "電子情報通信学会技術報告 HPB第22回研究会"
+      abbrv: "信学技報 HPB第22回研究会"
+    en:
+      full: ""
+      abbrv: ""
+  city:
+    jp: "相模原"
+    en: ""
+  month: 2
+  year: 2020
+  lang: jp
+
+- authors:
+    jp:
+      - {first: "南", family: "飯田"}
+      - {first: "功一", family: "下田"}
+      - {first: "昭仁", family: "田谷"}
+      - {first: "義人", family: "戸辺"}
+    en:
+      - {first: "Akihito", family: "Taya"}
+  title:
+    jp: "スマートフォンを用いたメイク提案アプリケーションの設計と実行"
+    en: ""
+  notes:
+    jp:
+      full: "電子情報通信学会技術報告 HPB第22回研究会"
+      abbrv: "信学技報 HPB第22回研究会"
+    en:
+      full: ""
+      abbrv: ""
+  city:
+    jp: "相模原"
+    en: ""
+  month: 2
+  year: 2020
+  lang: jp
+
+- authors:
+    jp:
+      - {first: "祐樹", family: "本田"}
+      - {first: "和太郎", family: "高橋"}
+      - {first: "昭仁", family: "田谷"}
+      - {first: "義人", family: "戸辺"}
+    en:
+      - {first: "Akihito", family: "Taya"}
+  title:
+    jp: "身体的反応を用いた動画自動編集システムの設計と実装"
+    en: ""
+  notes:
+    jp:
+      full: "電子情報通信学会技術報告 HPB第22回研究会"
+      abbrv: "信学技報 HPB第22回研究会"
+    en:
+      full: ""
+      abbrv: ""
+  city:
+    jp: "相模原"
+    en: ""
+  month: 2
+  year: 2020
+  lang: jp
+
+- authors:
+    jp:
+      - {first: "栞奈", family: "大門"}
+      - {first: "功一", family: "下田"}
+      - {first: "みどり", family: "菅谷"}
+      - {first: "昭仁", family: "田谷"}
+      - {first: "義人", family: "戸辺"}
+    en:
+      - {first: "Akihito", family: "Taya"}
+  title:
+    jp: "生体情報を用いた対ロボットパーソナルスペースの評価に関する研究"
+    en: ""
+  notes:
+    jp:
+      full: "電子情報通信学会技術報告 HPB第22回研究会"
+      abbrv: "信学技報 HPB第22回研究会"
+    en:
+      full: ""
+      abbrv: ""
+  city:
+    jp: "相模原"
+    en: ""
+  month: 2
+  year: 2020
+  lang: jp
+
+- authors:
+    jp:
+      - {first: "道樹", family: "原"}
+      - {first: "大祐", family: "下徳"}
+      - {first: "博樹", family: "小林"}
+      - {first: "昭仁", family: "田谷"}
+      - {first: "義人", family: "戸辺"}
+    en:
+      - {first: "Akihito", family: "Taya"}
+  title:
+    jp: "加速度信号を用いた野生動物の行動履歴の推定：人との違いに焦点を当てて"
+    en: ""
+  notes:
+    jp:
+      full: "電子情報通信学会技術報告 HPB第22回研究会"
+      abbrv: "信学技報 HPB第22回研究会"
+    en:
+      full: ""
+      abbrv: ""
+  city:
+    jp: "相模原"
+    en: ""
+  month: 2
+  year: 2020
+  lang: jp
+
+- authors:
+    jp:
+      - {first: "俊", family: "田邊"}
+      - {first: "昭仁", family: "田谷"}
+      - {first: "義人", family: "戸辺"}
+    en:
+      - {first: "Akihito", family: "Taya"}
+  title:
+    jp: "BCIにおける電極間相関性を考慮したEEG解析手法"
+    en: ""
+  notes:
+    jp:
+      full: "第34回人間情報学会"
+      abbrv: "第34回人間情報学会"
+    en:
+      full: ""
+      abbrv: ""
+  city:
+    jp: ""
+    en: ""
+  month: 12
+  year: 2019
+  lang: jp
+
+- authors:
+    jp:
+      - {first: "優衣", family: "山下"}
+      - {first: "俊", family: "小野寺"}
+      - {first: "昭仁", family: "田谷"}
+      - {first: "淳二", family: "高橋"}
+      - {first: "義人", family: "戸辺"}
+    en:
+      - {first: "Akihito", family: "Taya"}
+  title:
+    jp: "スマートフォン話しかけによる気分のロギング"
+    en: ""
+  notes:
+    jp:
+      full: "計測自動制御学会 計測部門スマートセンシングシステム部会 研究発表会"
+      abbrv: "計測自動制御学会 計測部門スマートセンシングシステム部会 研究発表会"
+    en:
+      full: ""
+      abbrv: ""
+  city:
+    jp: ""
+    en: ""
+  month: 11
+  year: 2019
+  lang: jp
+
+- authors:
+    jp:
+      - {first: "昭仁", family: "田谷"}
+      - {first: "理志", family: "西尾"}
+      - {first: "正博", family: "守倉"}
+      - {first: "高至", family: "山本"}
+    en:
+      - {first: "Akihito", family: "Taya"}
+  title:
+    jp: "交差点での車車間イメージセンサデータ共有のためのミリ波通信スケジューリング"
+    en: "Image sensor data sharing at intersections in mmWave vehicular networks"
+  notes:
+    jp:
+      full: "電子情報通信学会ソサイエティ大会 B-15-3"
+      abbrv: "IEICEソサイエティ大会 B-15-3"
+    en:
+      full: ""
+      abbrv: ""
+  city:
+    jp: "金沢"
+    en: ""
+  month: 9
+  year: 2018
+  lang: jp
+
+- authors:
+    jp:
+      - {first: "昭仁", family: "田谷"}
+      - {first: "理志", family: "西尾"}
+      - {first: "正博", family: "守倉"}
+      - {first: "高至", family: "山本"}
+    en:
+      - {first: "Akihito", family: "Taya"}
+  title:
+    jp: "深層強化学習を使った車両移動制御によるミリ波路車間通信のカバレッジ拡大"
+    en: "Coverage expansion in mmWave {V2I} communications by deep reinforcement learning based vehicle re-deployment"
+  notes:
+    jp:
+      full: "電子情報通信学会技術研究報告 RCS2018-15"
+      abbrv: "信学技報 RCS2018-15"
+    en:
+      full: ""
+      abbrv: ""
+  city:
+    jp: "山口"
+    en: ""
+  month: 4
+  year: 2018
+  lang: jp
+
+- authors:
+    jp:
+      - {first: "昭仁", family: "田谷"}
+      - {first: "理志", family: "西尾"}
+      - {first: "正博", family: "守倉"}
+      - {first: "高至", family: "山本"}
+    en:
+      - {first: "Akihito", family: "Taya"}
+  title:
+    jp: "深層強化学習を用いた車両移動によるミリ波路車間通信のカバレッジ拡大"
+    en: "Coverage expansion in mmWave {V2I} Communications with deep reinforcement learning based vehicle position control methods"
+  notes:
+    jp:
+      full: "電子情報通信学会総合大会 B-18-37"
+      abbrv: "IEICE総合大会 B-18-37"
+    en:
+      full: ""
+      abbrv: ""
+  city:
+    jp: "東京"
+    en: ""
+  month: 3
+  year: 2018
+  lang: jp
+
+- authors:
+    jp:
+      - {first: "昭仁", family: "田谷"}
+      - {first: "理志", family: "西尾"}
+      - {first: "正博", family: "守倉"}
+      - {first: "高至", family: "山本"}
+    en:
+      - {first: "Akihito", family: "Taya"}
+  title:
+    jp: "ミリ波路車間通信のカバレッジ拡大のための深層強化学習による車両移動制御"
+    en: "Coverage expansion in mmWave {V2I} communications by deep reinforcement learning based vehicle re-deployment"
+  notes:
+    jp:
+      full: "電子情報通信学会技術研究報告 IEICE-MoNA2017-69"
+      abbrv: "信学技報 IEICE-MoNA2017-69"
+    en:
+      full: ""
+      abbrv: ""
+  city:
+    jp: "東京"
+    en: ""
+  month: 2
+  year: 2018
+  lang: jp
+
+- authors:
+    jp:
+      - {first: "昭仁", family: "田谷"}
+      - {first: "理志", family: "西尾"}
+      - {first: "正博", family: "守倉"}
+      - {first: "高至", family: "山本"}
+    en:
+      - {first: "Akihito", family: "Taya"}
+  title:
+    jp: "コネクテッドカーのためのマルチホップミリ波通信によるカバレッジ拡大"
+    en: "Coverage expansion of vehicular millimeter wave communication with multi-hop relaying"
+  notes:
+    jp:
+      full: "電子情報通信学会技術研究報告 IEICE-MoNA2017-17"
+      abbrv: "信学技報 IEICE-MoNA2017-17"
+    en:
+      full: ""
+      abbrv: ""
+  city:
+    jp: "北九州"
+    en: "Kitakyushu"
+  month: 11
+  year: 2017
+  lang: en
+
+- authors:
+    jp:
+      - {first: "昭仁", family: "田谷"}
+      - {first: "理志", family: "西尾"}
+      - {first: "正博", family: "守倉"}
+      - {first: "高至", family: "山本"}
+    en:
+      - {first: "Akihito", family: "Taya"}
+  title:
+    jp: "車車間ミリ波通信における空間情報を用いた受信電力推定"
+    en: "Received signal strength prediction using image data for mmWave connected vehicles"
+  notes:
+    jp:
+      full: "電子情報通信学会ソサイエティ大会 B-15-4"
+      abbrv: "IEICEソサイエティ大会 B-15-4"
+    en:
+      full: ""
+      abbrv: ""
+  city:
+    jp: "東京"
+    en: ""
+  month: 9
+  year: 2017
+  lang: jp
+
+- authors:
+    jp:
+      - {first: "昭仁", family: "田谷"}
+      - {first: "哲", family: "田野"}
+      - {first: "大祐", family: "梅原"}
+      - {first: "高至", family: "山本"}
+      - {first: "正博", family: "守倉"}
+      - {first: "英一", family: "村田"}
+      - {first: "進", family: "吉田"}
+    en:
+      - {first: "Akihito", family: "Taya"}
+  title:
+    jp: "マルチバンド基地局協調型MU-MIMOのダイバーシチ効果"
+    en: "Diversity gain of multi-band cooperative {MU}-{MIMO} systems"
+  notes:
+    jp:
+      full: "電子情報通信学会総合大会 B-5-34"
+      abbrv: "IEICE総合大会 B-5-34"
+    en:
+      full: ""
+      abbrv: ""
+  city:
+    jp: "岡山"
+    en: ""
+  month: 3
+  year: 2012
+  lang: jp
+
+- authors:
+    jp:
+      - {first: "昭仁", family: "田谷"}
+      - {first: "哲", family: "田野"}
+      - {first: "大祐", family: "梅原"}
+      - {first: "高至", family: "山本"}
+      - {first: "正博", family: "守倉"}
+      - {first: "英一", family: "村田"}
+      - {first: "進", family: "吉田"}
+    en:
+      - {first: "Akihito", family: "Taya"}
+  title:
+    jp: "フィードバック情報量制御を行う基地局協調型MU-MIMO通信方式"
+    en: "Virtual channel detection for base station cooperative multiuser {MIMO} systems with limited channel state information"
+  notes:
+    jp:
+      full: "電子情報通信学会技術研究報告 RCS2011-78"
+      abbrv: "信学技報 RCS2011-78"
+    en:
+      full: ""
+      abbrv: ""
+  city:
+    jp: "旭川"
+    en: ""
+  month: 7
+  year: 2011
+  lang: jp
+
+- authors:
+    jp:
+      - {first: "昭仁", family: "田谷"}
+      - {first: "哲", family: "田野"}
+      - {first: "大祐", family: "梅原"}
+      - {first: "高至", family: "山本"}
+      - {first: "正博", family: "守倉"}
+      - {first: "英一", family: "村田"}
+      - {first: "進", family: "吉田"}
+    en:
+      - {first: "Akihito", family: "Taya"}
+  title:
+    jp: "仮想伝搬路を用いたMU-MIMO-OFDM受信機"
+    en: "Virtual layered space-frequency receivers for multiuser {MIMO}-{OFDM} systems"
+  notes:
+    jp:
+      full: "電子情報通信学会技術研究報告 RCS2010-302"
+      abbrv: "信学技報 RCS2010-302"
+    en:
+      full: ""
+      abbrv: ""
+  city:
+    jp: "横須賀"
+    en: ""
+  month: 3
+  year: 2011
+  lang: jp
+
+- authors:
+    jp:
+      - {first: "昭仁", family: "田谷"}
+      - {first: "哲", family: "田野"}
+      - {first: "大祐", family: "梅原"}
+      - {first: "高至", family: "山本"}
+      - {first: "正博", family: "守倉"}
+      - {first: "英一", family: "村田"}
+      - {first: "進", family: "吉田"}
+    en:
+      - {first: "Akihito", family: "Taya"}
+  title:
+    jp: "仮想伝搬路を用いたMU-MIMO-OFDM受信機"
+    en: "Virtual layered space-frequency receivers for multiuser {MIMO}-{OFDM} systems"
+  notes:
+    jp:
+      full: "電子情報通信学会総合大会 B-5-94"
+      abbrv: "IEICE総合大会 B-5-94"
+    en:
+      full: ""
+      abbrv: ""
+  city:
+    jp: "東京"
+    en: ""
+  month: 3
+  year: 2011
+  lang: jp
+

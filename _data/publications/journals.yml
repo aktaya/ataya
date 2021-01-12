@@ -1,0 +1,109 @@
+# IEICE 論文誌略記 https://www.ieice.org/eng/shiori/appc.html
+- authors:
+    - {first: "Koichi", family: "Shimoda"}
+    - {first: "Dennis", family: "Diefenbach"}
+    - {first: "Kamal", family: "Singh"}
+    - {first: "Akihito", family: "Taya"}
+    - {first: "Yoshito", family: "Tobe"}
+    - {first: "Pierre", family: "Maret"}
+  title: '{RW-QAnswer}: an assisting system for intelligent environments using semantic technology'
+  journal:
+    full: 'Journal of Reliable Intelligent Environments'
+    abbrv: 'J Reliable Intell Environ'
+  vol: '6'
+  num: "4"
+  pages: {"from": 215, "to": 231}
+  month: 10
+  year: 2020
+  lang: "en"
+  doi: 'https://doi.org/10.1007/s40860-020-00112-3'
+
+- authors:
+    - {first: "Akihito", family: "Taya"}
+    - {first: "Takayuki", family: "Nishio"}
+    - {first: "Masahiro", family: "Morikura"}
+    - {first: "Koji", family: "Yamamoto"}
+  title: 'Deep-reinforcement-learning-based Distributed Vehicle Position Controls for Coverage Expansion in {mmWave} {V2X}'
+  journal:
+    full: 'IEICE Transactions on Communications'
+    abbrv: 'IEICE Trans. Commun.'
+  vol: 'E102-B'
+  num: 10
+  pages: {"from": 2054, "to": 2065}
+  month: 10
+  year: 2019
+  lang: "en"
+  doi: "https://doi.org/10.1587/transcom.2018EBP3299"
+
+- authors:
+    - {first: "Akihito", family: "Taya"}
+    - {first: "Takayuki", family: "Nishio"}
+    - {first: "Masahiro", family: "Morikura"}
+    - {first: "Koji", family: "Yamamoto"}
+  title: 'Concurrent Transmission Scheduling for Perceptual Data Sharing in {mmWave} Vehicular Networks'
+  journal:
+    full: 'IEICE Transactions on Information and Systems'
+    abbrv: 'IEICE Trans. Inf. & Syst.'
+  vol: 'E102-D'
+  num: 5
+  pages: {"from": 952, "to": 962}
+  month: 5
+  year: 2019
+  lang: en
+  doi: 'https://doi.org/10.1587/transinf.2018NTP0008'
+
+- authors:
+    jp:
+      - {first: "哲", family: "田野"}
+      - {first: "昭仁", family: "田谷"}
+      - {first: "英一", family: "村田"}
+      - {first: "大祐", family: "梅原"}
+      - {first: "高至", family: "山本"}
+      - {first: "進", family: "吉田"}
+      - {first: "正博", family: "守倉"}
+    en:
+      - {first: "Satoshi", family: "Denno"}
+      - {first: "Akihito", family: "Taya"}
+      - {first: "Hidekazu", family: "Murata"}
+      - {first: "Daisuke", family: "Umehara"}
+      - {first: "Koji", family: "Yamamoto"}
+      - {first: "Susume", family: "Yoshida"}
+      - {first: "Masahiro", family: "Morikura"}
+  title:
+    jp: "フィードバック情報量低減を可能にする基地局協調システムのための線形プリコーディング"
+    en: "Linear Precoding with Reduced Channel State Information for Base Station Cooperation"
+  journal:
+    jp:
+      full: "電子情報通信学会論文誌 B"
+      abbrv: "信学論(B)"
+    en:
+      full: 'IEICE Transactions on Communications'
+      abbrv: "IEICE Trans. Commun."
+  vol: "J100-B"
+  num: 3
+  pages: {"from": 270, "to": 279}
+  month: 3
+  year: 2017
+  lang: jp
+  doi: 'http://doi.org/10.14923/transcomj.2016JBP3048'
+
+- authors:
+    - {first: "Akihito", family: "Taya"}
+    - {first: "Satoshi", family: "Denno"}
+    - {first: "Koji", family: "Yamamoto"}
+    - {first: "Masahiro", family: "Morikura"}
+    - {first: "Daisuke", family: "Umehara"}
+    - {first: "Hidekazu", family: "Murata"}
+    - {first: "Susume", family: "Yoshida"}
+  title: "An Iterative {MIMO} Receiver Employing Virtual Channels with a Turbo Decoder for {OFDM} Wireless Systems"
+  journal:
+    full: 'IEICE Transactions on Communications'
+    abbrv: 'IEICE Trans. Commun.'
+  vol: "E98.B"
+  num: 5
+  pages: {"from": 878, "to": 889}
+  month: 5
+  year: 2015
+  lang: en
+  doi: "https://doi.org/10.1587/transcom.E98.B.878"
+
