@@ -1,5 +1,29 @@
 - authors:
     jp:
+      - {first: "功一", family: "下田"}
+      - {first: "昭仁", family: "田谷"}
+      - {first: "義人", family: "戸辺"}
+    en:
+      - {first: "Akihito", family: "Taya"}
+  title:
+    jp: "機械学習モデルの動的組み合わせによる実世界問い合わせシステム"
+    en: ""
+  notes:
+    jp:
+      full: "情報処理学会研究報告，Vol. 2020-UBI-068, No. 27"
+      abbrv: "情処研報 UBI-068"
+    en:
+      full: ""
+      abbrv: ""
+  city:
+    jp: "淡路"
+    en: ""
+  month: 12
+  year: "2020"
+  lang: jp
+
+- authors:
+    jp:
       - {first: "智也", family: "鈴木"}
       - {first: "昭仁", family: "田谷"}
       - {first: "義人", family: "戸辺"}
@@ -10,7 +34,7 @@
     en: ""
   notes:
     jp:
-      full: "情報処理学会 DPSWS2020"
+      full: "第28回マルチメディア通信と分散処理ワークショップ論文集, pp. 235-237"
       abbrv: "情報処理学会 DPSWS2020"
     en:
       full: ""
@@ -20,30 +44,6 @@
     en: ""
   month: 11
   year: "2020 (査読あり)"
-  lang: jp
-
-- authors:
-    jp:
-      - {first: "優衣", family: "山下"}
-      - {first: "昭仁", family: "田谷"}
-      - {first: "義人", family: "戸辺"}
-    en:
-      - {first: "Akihito", family: "Taya"}
-  title:
-    jp: "IoT機器におけるプライバシー保護のための決定木分散学習"
-    en: ""
-  notes:
-    jp:
-      full: "情報処理学会研究報告，Vol. 2020-DPS-184"
-      abbrv: "情処研報 DPS-184"
-    en:
-      full: ""
-      abbrv: ""
-  city:
-    jp: "松江"
-    en: ""
-  month: 9
-  year: 2020
   lang: jp
 
 - authors:
@@ -59,7 +59,31 @@
     en: ""
   notes:
     jp:
-      full: "情報処理学会研究報告，Vol. 2020-DPS-184"
+      full: "情報処理学会研究報告，Vol. 2020-DPS-184, No. 16"
+      abbrv: "情処研報 DPS-184"
+    en:
+      full: ""
+      abbrv: ""
+  city:
+    jp: "松江"
+    en: ""
+  month: 9
+  year: 2020
+  lang: jp
+
+- authors:
+    jp:
+      - {first: "優衣", family: "山下"}
+      - {first: "昭仁", family: "田谷"}
+      - {first: "義人", family: "戸辺"}
+    en:
+      - {first: "Akihito", family: "Taya"}
+  title:
+    jp: "IoT機器におけるプライバシー保護のための決定木分散学習"
+    en: ""
+  notes:
+    jp:
+      full: "情報処理学会研究報告，Vol. 2020-DPS-184, No. 1"
       abbrv: "情処研報 DPS-184"
     en:
       full: ""

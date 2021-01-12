@@ -1,14 +1,66 @@
 - authors:
+    - {first: Tomoya, family: Suzuki}
+    - {first: Akihito, family: Taya}
+    - {first: Yoshito, family: Tobe}
+  title: '{VFep}: {3D} Graphic Face Representation Based on Voice-based Emotion Recognition'
+  conference:
+    full: 'the 5th Workshop on emotion awareness for pervasive computing beyond traditional approaches'
+    abbrv: 'EmotionAware in PerCom 2021'
+  country: online event
+  month: 3
+  year: '2021 (accepted)'
+
+- authors:
+    - {first: Koichi, family: Shimoda}
+    - {first: Akihito, family: Taya}
+    - {first: Yoshito, family: Tobe}
+  title: 'Combining Public Machine Learning Models by Using Word Embedding for Human Activity Recognition'
+  conference:
+    full: 'the 17th Workshop on Context and Activity Modeling and Recognition'
+    abbrv: 'CoMoRea 2021 in PerCom 2021'
+  country: online event
+  month: 3
+  year: '2021 (accepted)'
+
+- authors:
+    - {first: Koichi, family: Shimoda}
+    - {first: Takuya, family: Masuda}
+    - {first: Yoshito, family: Tobe}
+    - {first: Akihito, family: Taya}
+    - {first: Junji, family: Takahashi}
+  title: 'A Study on Sensing Behavior in {UMap}'
+  conference:
+    full: 'the 9th International Conference on Green and Human Information Technology'
+    abbrv: 'ICGHIT'
+  city: 'Jeju Island'
+  country: Korea 
+  month: 1
+  year: '2021'
+
+- authors:
+    - {first: Yiyang, family: Cheng}
+    - {first: Akihito, family: Taya}
+    - {first: Yoshito, family: Tobe}
+  title: 'An Image-Based Proprietary Blockchain Framework for Logistic Systems'
+  conference:
+    full: 'the 9th International Conference on Green and Human Information Technology'
+    abbrv: 'ICGHIT'
+  city: 'Jeju Island'
+  country: Korea 
+  month: 1
+  year: '2021'
+
+- authors:
     - {first: Yui, family: Yamashita}
     - {first: Akihito, family: Taya}
     - {first: Yoshito, family: Tobe}
   title: 'Cooperative Random Forest for Privacy-Preserving {IoT} Devices'
   conference:
     full: 'the third International Workshop on Mobile Ubiquiotous Systems, Infrastructures, Communications and AppLications'
-    abbrv: 'MUSICAL 2021 on ICDCN'
+    abbrv: 'MUSICAL in ICDCN 2021'
   country: online event
   month: 1
-  year: '2021 (accepted)'
+  year: '2021'
 
 - authors:
     - {first: Yuma, family: Tsurugasaki}
@@ -20,7 +72,7 @@
   title: 'Scalable Selection of {EEG} Features for Compression'
   conference:
     full: 'the third International Workshop on Computing for Well-Being'
-    abbrv: 'WellComp on UbiComp/ISWC 2020'
+    abbrv: 'WellComp in UbiComp/ISWC 2020'
   country: online event
   month: 9
   year: 2020
@@ -80,7 +132,7 @@
   title: 'Concurrent Data Dissemination at Intersections in {mmWave} for Cooperative Perceptions'
   conference: 
     full: 'the IEEE Connected and Automated Vehicles Symposium'
-    abbrv: CAVS
+    abbrv: 'CAVS in VTC Fall'
   city: Chicago
   country: USA
   month: 8
