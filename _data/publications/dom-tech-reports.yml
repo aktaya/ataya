@@ -1,5 +1,132 @@
 - authors:
     jp:
+      - {first: "智也", family: "鈴木"}
+      - {first: "昭仁", family: "田谷"}
+      - {first: "義人", family: "戸辺"}
+    en:
+      - {first: "Akihito", family: "Taya"}
+  title:
+    jp: "音声認識によるコミュニケーションツール用3Dモデルの表情反映"
+    en: ""
+  notes:
+    jp:
+      full: "情報処理学会全国大会 5W-08"
+      abbrv: "IPSJ全国大会 5W-08"
+    en:
+      full: ""
+      abbrv: ""
+  city:
+    jp: "豊中（オンライン）"
+    en: ""
+  month: 3
+  year: 2021
+  lang: jp
+
+- authors:
+    jp:
+      - {first: "Akihito", family: "Taya"}
+      - {first: "Tomohito", family: "Ito"}
+      - {first: "Yoshito", family: "Tobe"}
+    en:
+      - {first: "Akihito", family: "Taya"}
+      - {first: "Tomohito", family: "Ito"}
+      - {first: "Yoshito", family: "Tobe"}
+  title:
+    jp: "Real-Time Detection of Fileless Malware By Observing Instructions"
+    en: "Real-Time Detection of Fileless Malware By Observing Instructions"
+  notes:
+    jp:
+      full: "電子情報通信学会総合大会 BS-7-12"
+      abbrv: "IEICE総合大会 BS-7-12"
+    en:
+      full: "IEICE General Conference BS-7-12"
+      abbrv: "IEICE General Conf. BS-7-12"
+  city:
+    jp: "東京（オンライン）"
+    en: ""
+  month: 3
+  year: 2021
+  lang: jp
+
+- authors:
+    jp:
+      - {first: "信介", family: "富澤"}
+      - {first: "裕真", family: "鶴ケ崎"}
+      - {first: "昭仁", family: "田谷"}
+      - {first: "義人", family: "戸辺"}
+    en:
+      - {first: "Akihito", family: "Taya"}
+  title:
+    jp: "経験的モード分解を用いた脳波恐怖感情認識の検討"
+    en: ""
+  notes:
+    jp:
+      full: "電子情報通信学会東京支部学生会第２６回研究発表会"
+      abbrv: ""
+    en:
+      full: ""
+      abbrv: ""
+  city:
+    jp: "オンライン開催"
+    en: ""
+  month: 3
+  year: 2021
+  lang: jp
+
+- authors:
+    jp:
+      - {first: "莉奈", family: "松本"}
+      - {first: "功一", family: "下田"}
+      - {first: "優衣", family: "山下"}
+      - {first: "昭仁", family: "田谷"}
+      - {first: "義人", family: "戸辺"}
+    en:
+      - {first: "Akihito", family: "Taya"}
+  title:
+    jp: "オンライン配信用実時間フィードバックツールの試作"
+    en: ""
+  notes:
+    jp:
+      full: "電子情報通信学会技術報告 HPB第24回研究会"
+      abbrv: "信学技報 HPB第24回研究会"
+    en:
+      full: ""
+      abbrv: ""
+  city:
+    jp: "オンライン開催"
+    en: ""
+  month: 3
+  year: 2021
+  lang: jp
+
+- authors:
+    jp:
+      - {first: "道樹", family: "原"}
+      - {first: "大祐", family: "下徳"}
+      - {first: "博樹", family: "小林"}
+      - {first: "昭仁", family: "田谷"}
+      - {first: "義人", family: "戸辺"}
+    en:
+      - {first: "Akihito", family: "Taya"}
+  title:
+    jp: "野生動物の生態観察のためのマップマッチングによる経路推定"
+    en: ""
+  notes:
+    jp:
+      full: "電子情報通信学会技術報告 HPB第24回研究会"
+      abbrv: "信学技報 HPB第24回研究会"
+    en:
+      full: ""
+      abbrv: ""
+  city:
+    jp: "オンライン開催"
+    en: ""
+  month: 3
+  year: 2021
+  lang: jp
+
+- authors:
+    jp:
       - {first: "功一", family: "下田"}
       - {first: "昭仁", family: "田谷"}
       - {first: "義人", family: "戸辺"}
