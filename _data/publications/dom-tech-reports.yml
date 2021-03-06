@@ -43,10 +43,10 @@
       abbrv: "IEICE General Conf. BS-7-12"
   city:
     jp: "東京（オンライン）"
-    en: ""
+    en: "Tokyo (online)"
   month: 3
   year: 2021
-  lang: jp
+  lang: en
 
 - authors:
     jp:
@@ -740,6 +740,9 @@
       - {first: "高至", family: "山本"}
     en:
       - {first: "Akihito", family: "Taya"}
+      - {first: "Takayuki", family: "Nishio"}
+      - {first: "Masahiro", family: "Morikura"}
+      - {first: "Koji", family: "Ymamoto"}
   title:
     jp: "コネクテッドカーのためのマルチホップミリ波通信によるカバレッジ拡大"
     en: "Coverage expansion of vehicular millimeter wave communication with multi-hop relaying"
