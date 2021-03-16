@@ -24,12 +24,12 @@
 
 - authors:
     jp:
-      - {first: "Akihito", family: "Taya"}
       - {first: "Tomohito", family: "Ito"}
+      - {first: "Akihito", family: "Taya"}
       - {first: "Yoshito", family: "Tobe"}
     en:
-      - {first: "Akihito", family: "Taya"}
       - {first: "Tomohito", family: "Ito"}
+      - {first: "Akihito", family: "Taya"}
       - {first: "Yoshito", family: "Tobe"}
   title:
     jp: "Real-Time Detection of Fileless Malware By Observing Instructions"
