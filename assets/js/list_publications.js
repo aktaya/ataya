@@ -332,11 +332,21 @@ const format = (doc, style) => {
     };
 };
 
-const create_list = (div_id, docs, settings) => {
+const create_list = (div_id, docs, settings, visible) => {
     const div = document.getElementById(div_id);
     if (div === null) {
         return;
     }
+
+    // clear elements
+    while (div.firstChild) {
+        div.removeChild(div.firstChild);
+    }
+
+    if (!visible) {
+        return;
+    }
+
     const ol = document.createElement('ol');
     const doc_slice = settings.descending ? docs.slice() : docs.slice().reverse();
     doc_slice.forEach((doc) => {
@@ -358,9 +368,6 @@ const create_list = (div_id, docs, settings) => {
 
         ol.appendChild(li);
     });
-    while (div.firstChild) {
-        div.removeChild(div.firstChild);
-    }
     div.appendChild(ol);
 };
 
@@ -382,14 +389,31 @@ const publish_data = {
     "grants": {{ pub.grants | jsonify }},
 };
 
-const create_list_all = (style, order) => {
+const visible = {
+    "en": {
+        "journals": true,
+        "int_conf": true,
+        "dom_reports": false,
+        "awards": true,
+        "grants": true,
+    },
+    "jp": {
+        "journals": true,
+        "int_conf": true,
+        "dom_reports": true,
+        "awards": true,
+        "grants": true,
+    },
+};
+
+const create_list_all = (lang, style, order) => {
     categories.forEach(
         (cat) => {
             const settings = {
                 "style": style[cat],
                 "descending": order,
             }
-            create_list(div_ids[cat], publish_data[cat], settings);
+            create_list(div_ids[cat], publish_data[cat], settings, visible[lang][cat]);
         }
     );
 };
@@ -398,47 +422,51 @@ const list_publish = ((style, lang, order) => {
     return {
         "full": {
             "en": (() => {
-                create_list_all({
-                    "journals": (doc) => styles.journal_full[doc.lang === "en" ? "en" : "jp2en"],
-                    "int_conf": (doc) => styles.int_conf_full,
-                    "dom_reports": (doc) => styles.dom_reports_full[doc.lang === "en" ? "en" : "jp2en"],
-                    "awards": (doc) => styles.awards.en,
-                    "grants": (doc) => styles.grants.en,
-                },
-                order);
+                create_list_all("en",
+                    {
+                        "journals": (doc) => styles.journal_full[doc.lang === "en" ? "en" : "jp2en"],
+                        "int_conf": (doc) => styles.int_conf_full,
+                        "dom_reports": (doc) => styles.dom_reports_full[doc.lang === "en" ? "en" : "jp2en"],
+                        "awards": (doc) => styles.awards.en,
+                        "grants": (doc) => styles.grants.en,
+                    },
+                    order);
             }),
             "jp": (() => {
-                create_list_all({
-                    "journals": (doc) => styles.journal_full[doc.lang],
-                    "int_conf": (doc) => styles.int_conf_full,
-                    "dom_reports": (doc) => styles.dom_reports_full[doc.lang],
-                    "awards": (doc) => styles.awards[doc.lang],
-                    "grants": (doc) => styles.grants[doc.lang],
-                },
-                order);
+                create_list_all("jp",
+                    {
+                        "journals": (doc) => styles.journal_full[doc.lang],
+                        "int_conf": (doc) => styles.int_conf_full,
+                        "dom_reports": (doc) => styles.dom_reports_full[doc.lang],
+                        "awards": (doc) => styles.awards[doc.lang],
+                        "grants": (doc) => styles.grants[doc.lang],
+                    },
+                    order);
             }),
         },
 
         "short": {
             "en": (() => {
-                create_list_all({
-                    "journals": (doc) => styles.journal_short[doc.lang === "en" ? "en" : "jp2en"],
-                    "int_conf": (doc) => styles.int_conf_short,
-                    "dom_reports": (doc) => styles.dom_reports_short[doc.lang === "en" ? "en" : "jp2en"],
-                    "awards": (doc) => styles.awards.en,
-                    "grants": (doc) => styles.grants.en,
-                },
-                order);
+                create_list_all("en",
+                    {
+                        "journals": (doc) => styles.journal_short[doc.lang === "en" ? "en" : "jp2en"],
+                        "int_conf": (doc) => styles.int_conf_short,
+                        "dom_reports": (doc) => styles.dom_reports_short[doc.lang === "en" ? "en" : "jp2en"],
+                        "awards": (doc) => styles.awards.en,
+                        "grants": (doc) => styles.grants.en,
+                    },
+                    order);
             }),
             "jp": (() => {
-                create_list_all({
-                    "journals": (doc) => styles.journal_short[doc.lang],
-                    "int_conf": (doc) => styles.int_conf_short,
-                    "dom_reports": (doc) => styles.dom_reports_short[doc.lang],
-                    "awards": (doc) => styles.awards[doc.lang],
-                    "grants": (doc) => styles.grants[doc.lang],
-                },
-                order);
+                create_list_all("jp",
+                    {
+                        "journals": (doc) => styles.journal_short[doc.lang],
+                        "int_conf": (doc) => styles.int_conf_short,
+                        "dom_reports": (doc) => styles.dom_reports_short[doc.lang],
+                        "awards": (doc) => styles.awards[doc.lang],
+                        "grants": (doc) => styles.grants[doc.lang],
+                    },
+                    order);
             }),
         },
     }[style][lang];
