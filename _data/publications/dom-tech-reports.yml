@@ -600,7 +600,7 @@
       full: ""
       abbrv: ""
   city:
-    jp: ""
+    jp: "東京"
     en: ""
   month: 12
   year: 2019
@@ -626,7 +626,7 @@
       full: ""
       abbrv: ""
   city:
-    jp: ""
+    jp: "鹿児島"
     en: ""
   month: 11
   year: 2019
