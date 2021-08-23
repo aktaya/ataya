@@ -1,5 +1,29 @@
 - authors:
     jp:
+      - {first: "昭仁", family: "田谷"}
+      - {first: "功一", family: "下田"}
+      - {first: "義人", family: "戸辺"}
+    en:
+      - {first: "Akihito", family: "Taya"}
+  title:
+    jp: "推論モデルの動的組み合わせによる実世界認識システム"
+    en: "Real-World Dynamic Recognition by Combining Machine Learning Models"
+  notes:
+    jp:
+      full: "電子情報通信学会技術研究報告 SeMI2021-6"
+      abbrv: "信学技報 SeMI2021-6"
+    en:
+      full: ""
+      abbrv: ""
+  city:
+    jp: "石垣（オンライン）"
+    en: ""
+  month: 5
+  year: 2021
+  lang: jp
+
+- authors:
+    jp:
       - {first: "智也", family: "鈴木"}
       - {first: "昭仁", family: "田谷"}
       - {first: "義人", family: "戸辺"}
