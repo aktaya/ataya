@@ -274,11 +274,19 @@ strong {
   font-weight:700;
 }
 
-details summary.doc-category {
-  color:#222;
-  font-size: larger;
-  font-weight: 700;
-  margin:0 0 20px;
+details {
+  summary.doc-category {
+    color:#222;
+    font-size: larger;
+    font-weight: 700;
+    margin:0 0 20px;
+  }
+
+  ol {
+    overflow-y: auto;
+    resize: vertical;
+    max-height: 400px;
+  }
 }
 
 section {
