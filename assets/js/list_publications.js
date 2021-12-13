@@ -332,7 +332,7 @@ const format = (doc, style) => {
     };
 };
 
-const create_list = (div_id, docs, settings, visible) => {
+const create_list = (div_id, summary_text, docs, settings, visible, lang) => {
     const div = document.getElementById(div_id);
     if (div === null) {
         return;
@@ -343,13 +343,17 @@ const create_list = (div_id, docs, settings, visible) => {
         div.removeChild(div.firstChild);
     }
 
-    if (!visible) {
-        return;
-    }
+    const details = document.createElement('details');
+    details.open = visible;
+    const summary = document.createElement('summary');
+    summary.className = 'doc-category';
+    summary.innerHTML = summary_text;
+    details.appendChild(summary);
 
     const ol = document.createElement('ol');
     const doc_slice = settings.descending ? docs.slice() : docs.slice().reverse();
     doc_slice.forEach((doc) => {
+        if (doc.title !== undefined && doc.title[lang] === "") return;
         const item = format(doc, settings.style(doc));
 
         const li = document.createElement('li');
@@ -368,7 +372,8 @@ const create_list = (div_id, docs, settings, visible) => {
 
         ol.appendChild(li);
     });
-    div.appendChild(ol);
+    details.appendChild(ol);
+    div.appendChild(details);
 };
 
 const categories = ["journals", "int_conf", "dom_reports", "awards", "grants"];
@@ -380,6 +385,16 @@ const div_ids = {
     "awards": "div_awards",
     "grants": "div_grants",
 };
+
+const categories_text = {
+    "journals": "Journal papers",
+    "int_conf": "International conferences",
+    // "dom_reports": "Technical reports &amp; Symposiums",
+    "dom_reports": "Technical reports",
+    "awards": "Awards",
+    "grants": "Grants",
+};
+
 
 const publish_data = {
     "journals": {{ pub.journals | jsonify }},
@@ -413,7 +428,7 @@ const create_list_all = (lang, style, order) => {
                 "style": style[cat],
                 "descending": order,
             }
-            create_list(div_ids[cat], publish_data[cat], settings, visible[lang][cat]);
+            create_list(div_ids[cat], categories_text[cat], publish_data[cat], settings, visible[lang][cat], lang);
         }
     );
 };
