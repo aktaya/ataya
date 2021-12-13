@@ -67,7 +67,7 @@
       - {first: "Hidekazu", family: "Murata"}
       - {first: "Daisuke", family: "Umehara"}
       - {first: "Koji", family: "Yamamoto"}
-      - {first: "Susume", family: "Yoshida"}
+      - {first: "Susumu", family: "Yoshida"}
       - {first: "Masahiro", family: "Morikura"}
   title:
     jp: "フィードバック情報量低減を可能にする基地局協調システムのための線形プリコーディング"
@@ -94,7 +94,7 @@
     - {first: "Masahiro", family: "Morikura"}
     - {first: "Daisuke", family: "Umehara"}
     - {first: "Hidekazu", family: "Murata"}
-    - {first: "Susume", family: "Yoshida"}
+    - {first: "Susumu", family: "Yoshida"}
   title: "An Iterative {MIMO} Receiver Employing Virtual Channels with a Turbo Decoder for {OFDM} Wireless Systems"
   journal:
     full: 'IEICE Transactions on Communications'

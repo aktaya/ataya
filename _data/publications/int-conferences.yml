@@ -172,7 +172,7 @@
     - {first: Masahiro, family: Morikura}
     - {first: Daisuke, family: Umehara}
     - {first: Hidekazu, family: Murata}
-    - {first: Susume, family: Yoshida}
+    - {first: Susumu, family: Yoshida}
   title: 'Turbo Coded Successive Detector with Virtual Channels for {MIMO-OFDM}'
   conference:
     full: 'the 2012 IEEE International Conference on Wireless Information Technology and Systems'
@@ -189,7 +189,7 @@
     - {first: Masahiro, family: Morikura}
     - {first: Daisuke, family: Umehara}
     - {first: Hidekazu, family: Murata}
-    - {first: Susume, family: Yoshida}
+    - {first: Susumu, family: Yoshida}
   title: 'A Successive Detector with Virtual Channel Detection for Cooperative Multiuser {MIMO} Systems'
   conference:
     full: 'the 9th IEEE Vehicular Technology Society Asia Pacific Wireless Communications Symposium'
@@ -206,7 +206,7 @@
     - {first: Masahiro, family: Morikura}
     - {first: Daisuke, family: Umehara}
     - {first: Hidekazu, family: Murata}
-    - {first: Susume, family: Yoshida}
+    - {first: Susumu, family: Yoshida}
   title: 'A Virtual Successive Detection for Cooperative {MU-MIMO} Systems with Reduced {CSI}'
   conference:
     full: 'the 2012 IEEE 75th Vehicular Technology Conference'
@@ -223,7 +223,7 @@
     - {first: Masahiro, family: Morikura}
     - {first: Hidekazu, family: Murata}
     - {first: Koji, family: Yamamoto}
-    - {first: Susume, family: Yoshida}
+    - {first: Susumu, family: Yoshida}
   title: 'A Virtual Layered Space-frequency Receiver for Multiuser {MIMO-OFDM} Systems'
   conference:
     full: 'the 2011 IEEE 74th Vehicular Technology Conference'
