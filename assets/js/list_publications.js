@@ -353,6 +353,7 @@ const create_list = (div_id, summary_text, docs, settings, visible, lang) => {
     const ol = document.createElement('ol');
     const doc_slice = settings.descending ? docs.slice() : docs.slice().reverse();
     doc_slice.forEach((doc) => {
+        if (doc.title === undefined || doc.title === "") return;
         if (doc.title !== undefined && doc.title[lang] === "") return;
         const item = format(doc, settings.style(doc));
 

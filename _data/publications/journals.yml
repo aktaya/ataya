@@ -1,4 +1,59 @@
 # IEICE 論文誌略記 https://www.ieice.org/eng/shiori/appc.html
+# タイトルをコメントアウトもしくは空文字列にすると非表示
+
+- authors:
+    - {first: "", family: ""}
+    - {first: "", family: ""}
+    - {first: "", family: ""}
+  title: ''
+  journal:
+    full: ''
+    abbrv: ''
+  vol: ''
+  num: ""
+  pages: {"from": 1, "to": 1}
+  month: x
+  year: 2022
+  lang: "en"
+  doi: 'https://doi.org/'
+
+- authors:
+    - {first: "Koji", family: "Yamamoto"}
+    - {first: "Yusuke", family: "Koda"}
+    - {first: "Takayuki", family: "Nishio"}
+    - {first: "Akihito", family: "Taya"}
+  #title: '投稿中'
+  journal:
+    full: 'IEICE Communications Express'
+    abbrv: 'IEICE ComEx'
+  # vol: ''
+  # num: ""
+  # pages: {"from": 215, "to": 231}
+  month: x
+  year: 2022
+  lang: "en"
+  doi: 'https://doi.org/'
+
+- authors:
+    - {first: "Sota", family: "Kondo"}
+    - {first: "Sohei", family: "Itahara"}
+    - {first: "Kota", family: "Yamashita"}
+    - {first: "Koji", family: "Yamamoto"}
+    - {first: "Yusuke", family: "Koda"}
+    - {first: "Takayuki", family: "Nishio"}
+    - {first: "Akihito", family: "Taya"}
+  title: 'Bi-directional Beamforming Feedback-based Firmware-agnostic {WiFi} Sensing: An Empirical Study'
+  journal:
+    full: 'IEEE Access'
+    abbrv: 'IEEE Access'
+  # vol: ''
+  # num: ""
+  # pages: {"from": 215, "to": 231}
+  month: 4
+  year: 2021
+  lang: "en"
+  doi: 'https://doi.org/10.1109/ACCESS.2022.3165029'
+
 - authors:
     - {first: "Koichi", family: "Shimoda"}
     - {first: "Dennis", family: "Diefenbach"}

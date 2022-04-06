@@ -1,6 +1,700 @@
 - authors:
     jp:
       - {first: "昭仁", family: "田谷"}
+    en:
+      - {first: "Akihito", family: "Taya"}
+  title:
+    jp: "非バックトラック性を応用したセンサネットワークにおける合意制御"
+    en: "Non-Backtracking Consensus Algorithm for Sensor Networks"
+  notes:
+    jp:
+      full: "電子情報通信学会技術研究報告 IEICE-SeMI2021-86"
+      abbrv: "信学技報 IEICE-SeMI2021-86"
+    en:
+      full: "IEICE Technical Reports IEICE-SeMI2021-86"
+      abbrv: "IEICE Tech. Rep. IEICE-SeMI2021-86"
+  city:
+    jp: "オンライン開催"
+    en: "online event"
+  month: 3
+  year: 2022
+  lang: jp
+
+- authors:
+    jp:
+      - {first: "諒我", family: "窪田"}
+      - {first: "昭仁", family: "田谷"}
+      - {first: "義人", family: "戸辺"}
+    en:
+      - {first: "", family: ""}
+      - {first: "", family: ""}
+      - {first: "", family: ""}
+  title:
+    jp: "KLAR-A:コンテンツ毎フィードバックによるオンライン授業支援システム"
+    en: ""
+  notes:
+    jp:
+      full: "情報処理学会全国大会 1ZK-04"
+      abbrv: "IPSJ全国大会 1ZK-04"
+    en:
+      full: ""
+      abbrv: ""
+  city:
+    jp: "愛媛（オンライン）"
+    en: ""
+  month: 3
+  year: 2022
+  lang: jp
+
+- authors:
+    jp:
+      - {first: "優衣", family: "山下"}
+      - {first: "昭仁", family: "田谷"}
+      - {first: "大祐", family: "下徳"}
+      - {first: "博樹", family: "小林"}
+      - {first: "義人", family: "戸辺"}
+    en:
+      - {first: "", family: ""}
+      - {first: "", family: ""}
+      - {first: "", family: ""}
+  title:
+    jp: "野生動物の生態観察に向けた非同期分散型勾配ブースティング"
+    en: ""
+  notes:
+    jp:
+      full: "情報処理学会全国大会 6Y-03"
+      abbrv: "IPSJ全国大会 6Y-03"
+    en:
+      full: ""
+      abbrv: ""
+  city:
+    jp: "愛媛（オンライン）"
+    en: ""
+  month: 3
+  year: 2022
+  lang: jp
+
+- authors:
+    jp:
+      - {first: "智仁", family: "伊藤"}
+      - {first: "昭仁", family: "田谷"}
+      - {first: "義人", family: "戸辺"}
+    en:
+      - {first: "", family: ""}
+      - {first: "", family: ""}
+      - {first: "", family: ""}
+  title:
+    jp: "推論モデルの動的組み合わせにおける前処理関数の自動生成手法"
+    en: ""
+  notes:
+    jp:
+      full: "情報処理学会全国大会 1Y-03"
+      abbrv: "IPSJ全国大会 1Y-03"
+    en:
+      full: ""
+      abbrv: ""
+  city:
+    jp: "愛媛（オンライン）"
+    en: ""
+  month: 3
+  year: 2022
+  lang: jp
+
+- authors:
+    jp:
+      - {first: "修太", family: "井上"}
+      - {first: "昭仁", family: "田谷"}
+      - {first: "義人", family: "戸辺"}
+    en:
+      - {first: "", family: ""}
+      - {first: "", family: ""}
+      - {first: "", family: ""}
+  title:
+    jp: "活発度と話題の可視化によるマルチグループオンラインコミュニケーション活性化"
+    en: ""
+  notes:
+    jp:
+      full: "情報処理学会全国大会 1Y-01"
+      abbrv: "IPSJ全国大会 1Y-01"
+    en:
+      full: ""
+      abbrv: ""
+  city:
+    jp: "愛媛（オンライン）"
+    en: ""
+  month: 3
+  year: 2022
+  lang: jp
+
+- authors:
+    jp:
+      - {first: "海渡", family: "大條"}
+      - {first: "佑介", family: "川喜田"}
+      - {first: "昭仁", family: "田谷"}
+      - {first: "義人", family: "戸辺"}
+      - {first: "慎二", family: "横川"}
+      - {first: "晴久", family: "市川"}
+    en:
+      - {first: "", family: ""}
+      - {first: "", family: ""}
+      - {first: "", family: ""}
+      - {first: "", family: ""}
+      - {first: "", family: ""}
+      - {first: "", family: ""}
+  title:
+    jp: "VG Hubネットワークにおける電力供給経路の選択手法"
+    en: ""
+  notes:
+    jp:
+      full: "情報処理学会全国大会 5J-07"
+      abbrv: "IPSJ全国大会 5J-07"
+    en:
+      full: ""
+      abbrv: ""
+  city:
+    jp: "愛媛（オンライン）"
+    en: ""
+  month: 3
+  year: 2022
+  lang: jp
+
+- authors:
+    jp:
+      - {first: "賢", family: "佐藤"}
+      - {first: "昭仁", family: "田谷"}
+      - {first: "義人", family: "戸辺"}
+      - {first: "Martin J.", family: "Durst "}
+    en:
+      - {first: "", family: ""}
+      - {first: "", family: ""}
+      - {first: "", family: ""}
+  title:
+    jp: "E-SHOT：視線の精度に着目するゲームの提案"
+    en: ""
+  notes:
+    jp:
+      full: "電子情報通信学会東京支部学生会第２７回研究発表会"
+      abbrv: ""
+    en:
+      full: ""
+      abbrv: ""
+  city:
+    jp: "オンライン開催"
+    en: ""
+  month: 3
+  year: 2022
+  lang: jp
+
+- authors:
+    jp:
+      - {first: "諒 ", family: "二葉"}
+      - {first: "智也", family: "鈴木"}
+      - {first: "昭仁", family: "田谷"}
+      - {first: "義人", family: "戸辺"}
+    en:
+      - {first: "", family: ""}
+      - {first: "", family: ""}
+      - {first: "", family: ""}
+  title:
+    jp: "ビジュアルプログラミング言語を利用したプログラミング学習を目的とする迷路ゲームの開発"
+    en: ""
+  notes:
+    jp:
+      full: "電子情報通信学会東京支部学生会第２７回研究発表会"
+      abbrv: ""
+    en:
+      full: ""
+      abbrv: ""
+  city:
+    jp: "オンライン開催"
+    en: ""
+  month: 3
+  year: 2022
+  lang: jp
+
+- authors:
+    jp:
+      - {first: "健斗", family: "吉川"}
+      - {first: "昭仁", family: "田谷"}
+      - {first: "義人", family: "戸辺"}
+    en:
+      - {first: "", family: ""}
+      - {first: "", family: ""}
+      - {first: "", family: ""}
+  title:
+    jp: "ブロックチェーンを適用する抽選システムの拡張に関する検討"
+    en: ""
+  notes:
+    jp:
+      full: "電子情報通信学会東京支部学生会第２７回研究発表会"
+      abbrv: ""
+    en:
+      full: ""
+      abbrv: ""
+  city:
+    jp: "オンライン開催"
+    en: ""
+  month: 3
+  year: 2022
+  lang: jp
+
+- authors:
+    jp:
+      - {first: "颯太", family: "箕輪"}
+      - {first: "光汰", family: "田村"}
+      - {first: "昭仁", family: "田谷"}
+      - {first: "義人", family: "戸辺"}
+    en:
+      - {first: "", family: ""}
+      - {first: "", family: ""}
+      - {first: "", family: ""}
+  title:
+    jp: "スマートフォンの音波を用いた対人距離計測"
+    en: ""
+  notes:
+    jp:
+      full: "電子情報通信学会東京支部学生会第２７回研究発表会"
+      abbrv: ""
+    en:
+      full: ""
+      abbrv: ""
+  city:
+    jp: "オンライン開催"
+    en: ""
+  month: 3
+  year: 2022
+  lang: jp
+
+- authors:
+    jp:
+      - {first: "耕平", family: "津田"}
+      - {first: "優衣", family: "山下"}
+      - {first: "義人", family: "戸辺"}
+      - {first: "昭仁", family: "田谷"}
+    en:
+      - {first: "", family: ""}
+      - {first: "", family: ""}
+      - {first: "", family: ""}
+  title:
+    jp: "オンラインコミュニケーションにおける双方向性向上を促す研究"
+    en: ""
+  notes:
+    jp:
+      full: "電子情報通信学会東京支部学生会第２７回研究発表会"
+      abbrv: ""
+    en:
+      full: ""
+      abbrv: ""
+  city:
+    jp: "オンライン開催"
+    en: ""
+  month: 3
+  year: 2022
+  lang: jp
+
+- authors:
+    jp:
+      - {first: "大地", family: "山崎"}
+      - {first: "裕真", family: "鶴ヶ崎"}
+      - {first: "昭仁", family: "田谷"}
+      - {first: "義人", family: "戸辺"}
+      - {first: "英明", family: "唐山"}
+    en:
+      - {first: "", family: ""}
+      - {first: "", family: ""}
+      - {first: "", family: ""}
+  title:
+    jp: "CBWS:脳波を利用したゲームに適した脳波解析システムの設計"
+    en: "" #"CBWS: Design of a Brain Wave Analysis System Suitable for Brain-Wave-Based Games"
+  notes:
+    jp:
+      full: "電子情報通信学会技術研究報告 HPB第26回研究会"
+      abbrv: "信学技報 HPB第26回研究会"
+    en:
+      full: ""
+      abbrv: ""
+  city:
+    jp: "オンライン開催"
+    en: ""
+  month: 2
+  year: 2022
+  lang: jp
+
+- authors:
+    jp:
+      - {first: "綜太", family: "近藤"}
+      - {first: "壮平", family: "板原"}
+      - {first: "皐太", family: "山下"}
+      - {first: "高至", family: "山本"}
+      - {first: "優介", family: "香田"}
+      - {first: "理志", family: "西尾"}
+      - {first: "昭仁", family: "田谷"}
+    en:
+      - {first: "Sota", family: "Kondo"}
+      - {first: "Sohei", family: "Itahara"}
+      - {first: "Kota", family: "Yamashita"}
+      - {first: "Koji", family: "Yamamoto"}
+      - {first: "Yusuke", family: "Koda"}
+      - {first: "Takayuki", family: "Nishio"}
+      - {first: "Akihito", family: "Taya"}
+  title:
+    jp: "双方向ビームフォーミングフィードバック行列を用いたワイヤレスセンシングの精度向上手法"
+    en: "A Method for Improving Accuracy of Wireless Sensing with Bi-directional Beamforming Feedback Matrices"
+  notes:
+    jp:
+      full: "電子情報通信学会技術研究報告 IEICE-SeMI2021-69"
+      abbrv: "信学技報 IEICE-SeMI2021-69"
+    en:
+      full: "IEICE Technical Reports IEICE-SeMI2021-69"
+      abbrv: "IEICE Tech. Rep. IEICE-SeMI2021-69"
+  city:
+    jp: "野沢"
+    en: "Nozawa"
+  month: 1
+  year: 2022
+  lang: jp
+
+- authors:
+    jp:
+      - {first: "優衣", family: "山下"}
+      - {first: "昭仁", family: "田谷"}
+      - {first: "義人", family: "戸辺"}
+    en:
+      - {first: "Yui", family: "Yamashita"}
+      - {first: "Akihito", family: "Taya"}
+      - {first: "Yoshito", family: "Tobe"}
+  title:
+    jp: "小型センサ端末のための非同期分散勾配ブースティング"
+    en: "Asynchronous Gradient-Boosted Decision Trees for Distributed Sensing Devices"
+  notes:
+    jp:
+      full: "電子情報通信学会技術研究報告 IEICE-SeMI2021-64"
+      abbrv: "信学技報 IEICE-SeMI2021-64"
+    en:
+      full: "IEICE Technical Reports IEICE-SeMI2021-64"
+      abbrv: "IEICE Tech. Rep. IEICE-SeMI2021-64"
+  city:
+    jp: "野沢"
+    en: "Nozawa"
+  month: 1
+  year: 2022
+  lang: jp
+
+- authors:
+    jp:
+      - {first: "裕真", family: "鶴ヶ崎"}
+      - {first: "昭仁", family: "田谷"}
+      - {first: "義人", family: "戸辺"}
+    en:
+      - {first: "Yuma", family: "Tsurugasaki"}
+      - {first: "Akihito", family: "Taya"}
+      - {first: "Yoshito", family: "Tobe"}
+  title:
+    jp: "異なる電極数のEEG解析のための学習手法"
+    en: ""
+  notes:
+    jp:
+      full: "第40回人間情報学会講演会"
+      abbrv: "第40回人間情報学会"
+    en:
+      full: ""
+      abbrv: ""
+  city:
+    jp: "オンライン開催"
+    en: ""
+  month: 12
+  year: 2021
+  lang: jp
+
+- authors:
+    jp:
+      - {first: "裕真", family: "鶴ヶ崎"}
+      - {first: "昭仁", family: "田谷"}
+      - {first: "義人", family: "戸辺"}
+    en:
+      - {first: "Yuma", family: "Tsurugasaki"}
+      - {first: "Akihito", family: "Taya"}
+      - {first: "Yoshito", family: "Tobe"}
+  title:
+    jp: "電極数に低依存なEEG解析のための学習手法"
+    en: "Signal-Completion-Based Pre-Training Scheme for {EEG} with Various Number of Electrodes "
+  notes:
+    jp:
+      full: "電子情報通信学会技術研究報告 IEICE-SeMI2021-49"
+      abbrv: "信学技報 IEICE-SeMI2021-49"
+    en:
+      full: "IEICE Technical Reports IEICE-SeMI2021-49"
+      abbrv: "IEICE Tech. Rep. IEICE-SeMI2021-49"
+  city:
+    jp: "東京"
+    en: "Tokyo"
+  month: 11
+  year: 2021
+  lang: jp
+
+- authors:
+    jp:
+      - {first: "遼祐", family: "花原"}
+      - {first: "壮平", family: "板原"}
+      - {first: "皐太", family: "山下"}
+      - {first: "優介", family: "香田"}
+      - {first: "昭仁", family: "田谷"}
+      - {first: "理志", family: "西尾"}
+      - {first: "高至", family: "山本"}
+    en:
+      - {first: "Ryosuke", family: "Hanahara"}
+      - {first: "Sohei", family: "Itahara"}
+      - {first: "Kota", family: "Yamashita"}
+      - {first: "Yusuke", family: "Koda"}
+      - {first: "Akihito", family: "Taya"}
+      - {first: "Takayuki", family: "Nishio"}
+      - {first: "Koji", family: "Yamamoto"}
+  title:
+    jp: "フレームキャプチャからのCSI復元によるWiFiセンシング"
+    en: "Frame-Capture-Based {CSI} Recomposition Pertaining to Firmware-Agnostic {WiFi} Sensing"
+  notes:
+    jp:
+      full: "電子情報通信学会技術研究報告 IEICE-SeMI2021-47"
+      abbrv: "信学技報 IEICE-SeMI2021-47"
+    en:
+      full: "IEICE Technical Reports IEICE-SeMI2021-47"
+      abbrv: "IEICE Tech. Rep. IEICE-SeMI2021-47"
+  city:
+    jp: "東京"
+    en: "Tokyo"
+  month: 11
+  year: 2021
+  lang: jp
+
+- authors:
+    jp:
+      - {first: "綜太", family: "近藤"}
+      - {first: "高至", family: "山本"}
+      - {first: "優介", family: "香田"}
+      - {first: "皐太", family: "山下"}
+      - {first: "理志", family: "西尾"}
+      - {first: "昭仁", family: "田谷"}
+    en:
+      - {first: "Sota", family: "Kondo"}
+      - {first: "Koji", family: "Yamamoto"}
+      - {first: "Yusuke", family: "Koda"}
+      - {first: "Kota", family: "Yamashita"}
+      - {first: "Takayuki", family: "Nishio"}
+      - {first: "Akihito", family: "Taya"}
+  title:
+    jp: "ビームフォーミングフィードバックを用いたワイヤレスセンシングにおける端末配置の推定精度への影響"
+    en: "Impact of the Layout of Devices to Estimation Accuracy in Wireless Sensing Using Beamforming Feedbacks "
+  notes:
+    jp:
+      full: "電子情報通信学会技術研究報告 IEICE-SeMI2021-46"
+      abbrv: "信学技報 IEICE-SeMI2021-46"
+    en:
+      full: "IEICE Technical Reports IEICE-SeMI2021-46"
+      abbrv: "IEICE Tech. Rep. IEICE-SeMI2021-46"
+  city:
+    jp: "東京"
+    en: "Tokyo"
+  month: 11
+  year: 2021
+  lang: jp
+
+- authors:
+    jp:
+      - {first: "智也", family: "鈴木"}
+      - {first: "昭仁", family: "田谷"}
+      - {first: "義人", family: "戸辺"}
+    en:
+      - {first: "", family: ""}
+      - {first: "", family: ""}
+      - {first: "", family: ""}
+  title:
+    jp: "感情表現可能なコミュニケーションツール用3Dアバタにおける自動翻訳機能の検討"
+    en: ""
+  notes:
+    jp:
+      full: "情報処理学会研究報告，Vol. 2021-UBI-072, No. 26"
+      abbrv: "情処研報 UBI-072"
+    en:
+      full: ""
+      abbrv: ""
+  city:
+    jp: "淡路"
+    en: ""
+  month: 11
+  year: 2021
+  lang: jp
+
+- authors:
+    jp:
+      - {first: "高至", family: "山本"}
+      - {first: "茉由", family: "三枝"}
+      - {first: "綜太", family: "近藤"}
+      - {first: "理志", family: "西尾"}
+      - {first: "昭仁", family: "田谷"}
+      - {first: "一人", family: "矢野"}
+    en:
+      - {first: "Koji", family: "Yamamoto"}
+      - {first: "Mayu", family: "Mieda"}
+      - {first: "Sota", family: "Kondo"}
+      - {first: "Takayuki", family: "Nishio"}
+      - {first: "Akihito", family: "Taya"}
+      - {first: "Kazuto", family: "Yano"}
+  title:
+    jp: "送信区間履歴に基づく無線LAN干渉源判定"
+    en: "Interference Source Determination Based on History of Transmissions in {WLANs}"
+  notes:
+    jp:
+      full: "電子情報通信学会技術研究報告 RCS2021-141"
+      abbrv: "信学技報 RCS2021-141"
+    en:
+      full: "IEICE Technical Reports IEICE-RCS2021-141"
+      abbrv: "IEICE Tech. Rep. IEICE-RCS2021-141"
+  city:
+    jp: "オンライン開催"
+    en: "online event"
+  month: 10
+  year: 2021
+  lang: jp
+
+- authors:
+    jp:
+      - {first: "海渡", family: "大條"}
+      - {first: "佑介", family: "川喜田"}
+      - {first: "昭仁", family: "田谷"}
+      - {first: "義人", family: "戸辺"}
+      - {first: "慎二", family: "横川"}
+      - {first: "晴久", family: "市川"}
+    en:
+    en:
+      - {first: "", family: ""}
+      - {first: "", family: ""}
+      - {first: "", family: ""}
+  title:
+    jp: "VG-Hub制御・管理のクラウド化に関する検討"
+    en: ""
+  notes:
+    jp:
+      full: "第29回マルチメディア通信と分散処理ワークショップ論文集"
+      abbrv: "情報処理学会 DPSWS2021"
+    en:
+      full: ""
+      abbrv: ""
+  city:
+    jp: "霧島"
+    en: ""
+  month: 10
+  year: 2021
+  lang: jp
+
+- authors:
+    jp:
+      - {first: "優衣", family: "山下"}
+      - {first: "昭仁", family: "田谷"}
+      - {first: "義人", family: "戸辺"}
+    en:
+      - {first: "Yui", family: "Yamashita"}
+      - {first: "Akihito", family: "Taya"}
+      - {first: "Yoshito", family: "Tobe"}
+  title:
+    jp: "計算資源の限られた小型センサ端末のための勾配ブースティング連合学習"
+    en: ""
+  notes:
+    jp:
+      full: "第29回マルチメディア通信と分散処理ワークショップ論文集"
+      abbrv: "情報処理学会 DPSWS2021"
+    en:
+      full: ""
+      abbrv: ""
+  city:
+    jp: "霧島"
+    en: ""
+  month: 10
+  year: 2021
+  lang: jp
+
+- authors:
+    jp:
+      - {first: "修太", family: "井上"}
+      - {first: "昭仁", family: "田谷"}
+      - {first: "義人", family: "戸辺"}
+    en:
+      - {first: "", family: ""}
+      - {first: "Akihito", family: "Taya"}
+      - {first: "Yoshito", family: "Tobe"}
+  title:
+    jp: "オンラインコミュニケーション活性化システム EVEAの提案"
+    en: ""
+  notes:
+    jp:
+      full: "第29回マルチメディア通信と分散処理ワークショップ論文集"
+      abbrv: "情報処理学会 DPSWS2021"
+    en:
+      full: ""
+      abbrv: ""
+  city:
+    jp: "霧島"
+    en: ""
+  month: 10
+  year: 2021
+  lang: jp
+
+- authors:
+    jp:
+      - {first: "綜太", family: "近藤"}
+      - {first: "高至", family: "山本"}
+      - {first: "優介", family: "香田"}
+      - {first: "皐太", family: "山下"}
+      - {first: "理志", family: "西尾"}
+      - {first: "昭仁", family: "田谷"}
+    en:
+      - {first: "", family: ""}
+  title:
+    jp: "ビームフォーミングフィードバックを用いたワイヤレスセンシングにおける推定精度へのサブキャリア数の影響"
+    en: ""
+  notes:
+    jp:
+      full: "電子情報通信学会ソサイエティ大会 B-15-11"
+      abbrv: "IEICEソサイエティ大会 B-15-11"
+    en:
+      full: ""
+      abbrv: ""
+  city:
+    jp: "オンライン開催"
+    en: ""
+  month: 9
+  year: 2021
+  lang: jp
+
+- authors:
+    jp:
+      - {first: "航樹", family: "田澤"}
+      - {first: "淳二", family: "高橋"}
+      - {first: "昭仁", family: "田谷"}
+      - {first: "義人", family: "戸辺"}
+    en:
+      - {first: "", family: ""}
+      - {first: "", family: ""}
+      - {first: "", family: ""}
+  title:
+    jp: "室内の香りの匂いセンサを用いた自動制御"
+    en: "" #en: "Automatic control using indoor scent sensor"
+  notes:
+    jp:
+      full: "計測自動制御学会 計測部門スマートセンシングシステム部会 研究発表会"
+      abbrv: "計測自動制御学会 計測部門スマートセンシングシステム部会 研究発表会"
+    en:
+      full: ""
+      abbrv: ""
+  city:
+    jp: "オンライン開催"
+    en: "online event"
+  month: 9
+  year: 2021
+  lang: jp
+
+- authors:
+    jp:
+      - {first: "昭仁", family: "田谷"}
       - {first: "功一", family: "下田"}
       - {first: "義人", family: "戸辺"}
     en:
@@ -15,11 +709,11 @@
       full: "電子情報通信学会技術研究報告 SeMI2021-6"
       abbrv: "信学技報 SeMI2021-6"
     en:
-      full: ""
-      abbrv: ""
+      full: "IEICE Technical Reports IEICE-SeMI2021-6"
+      abbrv: "IEICE Tech. Rep. IEICE-SeMI2021-6"
   city:
     jp: "石垣（オンライン）"
-    en: ""
+    en: "Ishigaki (online)"
   month: 5
   year: 2021
   lang: jp
@@ -115,7 +809,7 @@
     en: ""
   notes:
     jp:
-      full: "電子情報通信学会技術報告 HPB第24回研究会"
+      full: "電子情報通信学会技術研究報告 HPB第24回研究会"
       abbrv: "信学技報 HPB第24回研究会"
     en:
       full: ""
@@ -141,7 +835,7 @@
     en: ""
   notes:
     jp:
-      full: "電子情報通信学会技術報告 HPB第24回研究会"
+      full: "電子情報通信学会技術研究報告 HPB第24回研究会"
       abbrv: "信学技報 HPB第24回研究会"
     en:
       full: ""
@@ -268,7 +962,7 @@
     en: "Estimation of Wild Animal's Traces Using {3D} Map Information"
   notes:
     jp:
-      full: "電子情報通信学会技術報告 HPB第23回研究会"
+      full: "電子情報通信学会技術研究報告 HPB第23回研究会"
       abbrv: "信学技報 HPB第23回研究会"
     en:
       full: ""
@@ -293,7 +987,7 @@
     en: ""
   notes:
     jp:
-      full: "電子情報通信学会技術報告 HPB第23回研究会"
+      full: "電子情報通信学会技術研究報告 HPB第23回研究会"
       abbrv: "信学技報 HPB第23回研究会"
     en:
       full: ""
@@ -497,7 +1191,7 @@
     en: ""
   notes:
     jp:
-      full: "電子情報通信学会技術報告 HPB第22回研究会"
+      full: "電子情報通信学会技術研究報告 HPB第22回研究会"
       abbrv: "信学技報 HPB第22回研究会"
     en:
       full: ""
@@ -522,7 +1216,7 @@
     en: ""
   notes:
     jp:
-      full: "電子情報通信学会技術報告 HPB第22回研究会"
+      full: "電子情報通信学会技術研究報告 HPB第22回研究会"
       abbrv: "信学技報 HPB第22回研究会"
     en:
       full: ""
@@ -547,7 +1241,7 @@
     en: ""
   notes:
     jp:
-      full: "電子情報通信学会技術報告 HPB第22回研究会"
+      full: "電子情報通信学会技術研究報告 HPB第22回研究会"
       abbrv: "信学技報 HPB第22回研究会"
     en:
       full: ""
@@ -573,7 +1267,7 @@
     en: ""
   notes:
     jp:
-      full: "電子情報通信学会技術報告 HPB第22回研究会"
+      full: "電子情報通信学会技術研究報告 HPB第22回研究会"
       abbrv: "信学技報 HPB第22回研究会"
     en:
       full: ""
@@ -599,7 +1293,7 @@
     en: ""
   notes:
     jp:
-      full: "電子情報通信学会技術報告 HPB第22回研究会"
+      full: "電子情報通信学会技術研究報告 HPB第22回研究会"
       abbrv: "信学技報 HPB第22回研究会"
     en:
       full: ""

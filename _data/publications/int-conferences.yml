@@ -1,4 +1,50 @@
 - authors:
+    - {first: "Ryosuke", family: "Hanahara"}
+    - {first: "Sohei", family: "Itahara"}
+    - {first: "Kota", family: "Yamashita"}
+    - {first: "Yusuke", family: "Koda"}
+    - {first: "Akihito", family: "Taya"}
+    - {first: "Takayuki", family: "Nishio"}
+    - {first: "Koji", family: "Yamamoto"}
+  title: 'Frame-capture-based {CSI} recomposition pertaining to firmware-agnostic {WiFi} sensing'
+  conference:
+    full: 'the 19th IEEE Annual Consumer Communications & Networking Conference'
+    abbrv: 'CCNC'
+  country: online event
+  month: 1
+  year: '2022'
+
+- authors:
+    - {first: "Michiki", family: "Hara"}
+    - {first: "Kaito", family: "Eda"}
+    - {first: "Akihito", family: "Taya"}
+    - {first: "Daisuke", family: "Shimotoku"}
+    - {first: "Yoshito", family: "Tobe"}
+    - {first: "Hiroki", family: "Kobayashi"}
+  title: 'Map-Matching-Based Trace Estimation for Ecological Surveys of Wild Animals'
+  conference:
+    full: 'the 10th International Conference on Green and Human Information Technology'
+    abbrv: 'ICGHIT'
+  city: 'Jeju Island'
+  country: Korea 
+  month: 1
+  year: '2022'
+
+- authors:
+    - {first: "Shuta", family: "Inoue"}
+    - {first: "Akihito", family: "Taya"}
+    - {first: "Yoshito", family: "Tobe"}
+  title: '{EVEA}: A System of Activating Multi-group Online Communication'
+  conference:
+    full: '2022 IEEE/SICE International Symposium on System Integration'
+    abbrv: 'SII'
+  country: online event
+  month: 1
+  year: '2022'
+  pages: {"from": 967, "to": 968}
+  doi: 'https://doi.org/10.1109/SII52469.2022.9708870'
+
+- authors:
     - {first: Tomoya, family: Suzuki}
     - {first: Akihito, family: Taya}
     - {first: Yoshito, family: Tobe}
