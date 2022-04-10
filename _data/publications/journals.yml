@@ -16,6 +16,7 @@
   year: 2022
   lang: "en"
   doi: 'https://doi.org/'
+  visible: false
 
 - authors:
     - {first: "Koji", family: "Yamamoto"}
@@ -33,6 +34,7 @@
   year: 2022
   lang: "en"
   doi: 'https://doi.org/'
+  visible: false
 
 - authors:
     - {first: "Sota", family: "Kondo"}
