@@ -19,22 +19,42 @@
   visible: false
 
 - authors:
-    - {first: "Koji", family: "Yamamoto"}
-    - {first: "Yusuke", family: "Koda"}
-    - {first: "Takayuki", family: "Nishio"}
     - {first: "Akihito", family: "Taya"}
-  #title: '投稿中'
+    - {first: "Takayuki", family: "Nishio"}
+    - {first: "Madsahiro", family: "Morikura"}
+    - {first: "Koji", family: "Yamamoto"}
+  title: 'Decentralized and Model-Free Federated Learning: Consensus-Based Distillation in Function Space'
+  journal:
+    full: 'IEEE Transactions on Signal and Information Processing over Networks'
+    abbrv: 'IEEE Trans. Signal Inf. Process. Netw.'
+  #vol: ''
+  #num: ""
+  pages: {"from": 1, "to": 16}
+  month: 9
+  year: 2022
+  lang: "en"
+  doi: 'https://doi.org/10.1109/TSIPN.2022.3205549'
+  visible: true
+
+- authors:
+    - {first: "Yuto", family: "Kihira"}
+    - {first: "Koji", family: "Yamamoto"}
+    - {first: "Akihito", family: "Taya"}
+    - {first: "Takayuki", family: "Nishio"}
+    - {first: "Yusuke", family: "Koda"}
+    - {first: "Kazuto", family: "Yano"}
+  title: 'Interference-free {AP} identification and shared information reduction for tabular {Q}-learning-based {WLAN} coordinated spatial reuse'
   journal:
     full: 'IEICE Communications Express'
     abbrv: 'IEICE ComEx'
-  # vol: ''
-  # num: ""
-  # pages: {"from": 215, "to": 231}
-  month: x
+  vol: '11'
+  num: "7"
+  pages: {"from": 392, "to": 397}
+  month: 7
   year: 2022
   lang: "en"
-  doi: 'https://doi.org/'
-  visible: false
+  doi: 'https://doi.org/10.1587/comex.2022XBL0051'
+  visible: true
 
 - authors:
     - {first: "Sota", family: "Kondo"}
@@ -48,11 +68,11 @@
   journal:
     full: 'IEEE Access'
     abbrv: 'IEEE Access'
-  # vol: ''
+  vol: '10'
   # num: ""
-  # pages: {"from": 215, "to": 231}
+  pages: {"from": 36924, "to": 36934}
   month: 4
-  year: 2021
+  year: 2022
   lang: "en"
   doi: 'https://doi.org/10.1109/ACCESS.2022.3165029'
 

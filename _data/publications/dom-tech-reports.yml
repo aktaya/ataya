@@ -1,3 +1,156 @@
+# - authors:
+#     jp:
+#       - {first: "昭仁", family: "田谷"}
+#     en:
+#       - {first: "Akihito", family: "Taya"}
+#   title:
+#     jp: ""
+#     en: ""
+#   notes:
+#     jp:
+#       full: "電子情報通信学会技術研究報告 IEICE-SeMI2021-86"
+#       abbrv: "信学技報 IEICE-SeMI2021-86"
+#     en:
+#       full: "IEICE Technical Reports IEICE-SeMI2021-86"
+#       abbrv: "IEICE Tech. Rep. IEICE-SeMI2021-86"
+#   city:
+#     jp: ""
+#     en: ""
+#   month: 
+#   year: ''
+#   lang: jp
+
+- authors:
+    jp:
+      - {first: "昭仁", family: "田谷"}
+    en:
+      - {first: "Akihito", family: "Taya"}
+  title:
+    jp: "Implementation-Agnostic Framework for Analysis of Environment-Dependent Relations"
+    en: "Implementation-Agnostic Framework for Analysis of Environment-Dependent Relations"
+  notes:
+    jp:
+      full: "電子情報通信学会ソサイエティ大会 B-15-28"
+      abbrv: "IEICEソサイエティ大会 B-15-28"
+    en:
+      full: "IEICE Society Conference B-15-28"
+      abbrv: "IEICE Society Conf. B-15-28"
+  city:
+    jp: "online event"
+    en: "online event"
+  month: 9
+  year: 2022
+  lang: en
+
+
+- authors:
+    jp:
+      - {first: "智仁", family: "伊藤"}
+      - {first: "功一", family: "下田"}
+      - {first: "昭仁", family: "田谷"}
+      - {first: "義人", family: "戸辺"}
+    en:
+      - {first: "Tomohito", family: "Ito"}
+      - {first: "Koichi", family: "Shimoda"}
+      - {first: "Akihito", family: "Taya"}
+      - {first: "Yoshito", family: "Tobe"}
+  title:
+    jp: "学習済み推論モデルの自動連携における前処理関数の動的生成"
+    en: "Dynamic Generation of Preprocessing Functions for Combining Pretrained Inference-Models "
+  notes:
+    jp:
+      full: "電子情報通信学会技術研究報告 IEICE-SC2022-22"
+      abbrv: "信学技報 IEICE-SC2022-22"
+    en:
+      full: "IEICE Technical Reports IEICE-SC2022-22"
+      abbrv: "IEICE Tech. Rep. IEICE-SC2022-22"
+  city:
+    jp: "オンライン開催"
+    en: "online event"
+  month: 8
+  year: '2022'
+  lang: jp
+
+- authors:
+    jp:
+      - {first: "大貴", family: "下村"}
+      - {first: "高望", family: "神田"}
+      - {first: "高至", family: "山本"}
+      - {first: "理志", family: "西尾"}
+      - {first: "昭仁", family: "田谷"}
+    en:
+      - {first: "Hiroki", family: "Shimomura"}
+      - {first: "Takamochi", family: "Kanda"}
+      - {first: "Koji", family: "Yamamoto"}
+      - {first: "Takayuki", family: "Nishio"}
+      - {first: "Akihito", family: "Taya"}
+  title:
+    jp: "WiFiセンシングのための画像・フレームキャプチャによるチャネル状態情報復元"
+    en: "Vision-Aided Frame-Capture-Based {CSI} Recomposition for {WiFi} Sensing: A Multimodal Approach "
+  notes:
+    jp:
+      full: "電子情報通信学会技術研究報告 IEICE-SeMI2022-42"
+      abbrv: "信学技報 IEICE-SeMI2022-42"
+    en:
+      full: "IEICE Technical Reports IEICE-SeMI2022-42"
+      abbrv: "IEICE Tech. Rep. IEICE-SeMI2022-42"
+  city:
+    jp: "金沢"
+    en: "Kanazawa"
+  month: 7
+  year: '2022'
+  lang: jp
+
+- authors:
+    jp:
+      - {first: "諒我", family: "窪田"}
+      - {first: "颯太", family: "箕輪"}
+      - {first: "勇陽", family: "紅林"}
+      - {first: "昭仁", family: "田谷"}
+      - {first: "義人", family: "戸辺"}
+    en:
+      - {first: "Akihito", family: "Taya"}
+  title:
+    jp: "MOSS:スマートフォンの音波を用いた距離計測"
+    en: ""
+  notes:
+    jp:
+      full: "マルチメディア，分散，協調とモバイルシンポジウム2022論文集"
+      abbrv: "DICOMO 2022"
+    en:
+      full: ""
+      abbrv: ""
+  city:
+    jp: "オンライン開催"
+    en: "online event"
+  month: 7
+  year: 2022
+  lang: jp
+
+- authors:
+    jp:
+      - {first: "修太", family: "井上"}
+      - {first: "昭仁", family: "田谷"}
+      - {first: "義人", family: "戸辺"}
+    en:
+      - {first: "Akihito", family: "Taya"}
+  title:
+    jp: "EVEA：マルチグループオンラインコミュニケーション活性化のための活発度と話題の可視化システム"
+    en: ""
+  notes:
+    jp:
+      full: "情報処理学会研究報告，Vol. 2022-DPS-191, No. 3"
+      abbrv: "情処研報 DPS-191"
+    en:
+      full: ""
+      abbrv: ""
+  city:
+    jp: "沖縄"
+    en: ""
+  month: 5
+  year: '2022'
+  lang: jp
+
 - authors:
     jp:
       - {first: "昭仁", family: "田谷"}

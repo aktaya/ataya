@@ -388,7 +388,7 @@ const div_ids = {
 };
 
 const categories_text = {
-    "journals": "Journal papers",
+    "journals": "Journal papers &amp letters",
     "int_conf": "International conferences",
     // "dom_reports": "Technical reports &amp; Symposiums",
     "dom_reports": "Technical reports",

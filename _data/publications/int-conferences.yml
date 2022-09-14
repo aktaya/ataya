@@ -1,3 +1,45 @@
+# - authors:
+#     - {first: "", family: ""}
+#     - {first: "", family: ""}
+#     - {first: "", family: ""}
+#   title: ''
+#   conference:
+#     full: ''
+#     abbrv: ''
+#   city: ''
+#   country: ''
+#   month: 
+#   year: ''
+
+- authors:
+    - {first: "Ryoga", family: "Kubota"}
+    - {first: "Akihito", family: "Taya"}
+    - {first: "Yoshito", family: "Tobe"}
+  title: 'Sound-Based Measurement of Distance between Two Smartphones'
+  conference:
+    full: 'Society of Instrument and Control Engineers Annual Conference 2022'
+    abbrv: 'SICE 2022'
+  city: 'Kumamoto'
+  country: 'Japan'
+  month: 9
+  year: '2022'
+
+- authors:
+    - {first: "Kaito", family: "Oeda"}
+    - {first: "Yuusuke", family: "Kawakita"}
+    - {first: "Akihito", family: "Taya"}
+    - {first: "Yoshito", family: "Tobe"}
+    - {first: "Shinji", family: "Yokogawa"}
+    - {first: "Haruhisa", family: "Ichikawa"}
+  title: 'Controlling Power Supply Paths in {VG} Hub Networks Using a Hybrid Type Control Algorithm'
+  conference:
+    full: '18th International Conference on Intelligent Environments, the 11th International Workshop on the Reliability of Intelligent Environments'
+    abbrv: 'IE 2022, WoRIE'
+  city: 'Biarritz'
+  country: 'France'
+  month: 7
+  year: '2022'
+
 - authors:
     - {first: "Ryosuke", family: "Hanahara"}
     - {first: "Sohei", family: "Itahara"}
@@ -51,7 +93,7 @@
   title: '{VFep}: {3D} Graphic Face Representation Based on Voice-based Emotion Recognition'
   conference:
     full: 'the 5th Workshop on emotion awareness for pervasive computing beyond traditional approaches'
-    abbrv: 'EmotionAware in PerCom 2021'
+    abbrv: 'PerCom 2021, EmotionAware'
   country: online event
   month: 3
   year: '2021'
@@ -63,7 +105,7 @@
   title: 'Combining Public Machine Learning Models by Using Word Embedding for Human Activity Recognition'
   conference:
     full: 'the 17th Workshop on Context and Activity Modeling and Recognition'
-    abbrv: 'CoMoRea 2021 in PerCom 2021'
+    abbrv: 'PerCom 2021, CoMoRea'
   country: online event
   month: 3
   year: '2021'
@@ -103,7 +145,7 @@
   title: 'Cooperative Random Forest for Privacy-Preserving {IoT} Devices'
   conference:
     full: 'the third International Workshop on Mobile Ubiquiotous Systems, Infrastructures, Communications and AppLications'
-    abbrv: 'MUSICAL in ICDCN 2021'
+    abbrv: 'ICDCN 2021, MUSICAL'
   country: online event
   month: 1
   year: '2021'
@@ -118,7 +160,7 @@
   title: 'Scalable Selection of {EEG} Features for Compression'
   conference:
     full: 'the third International Workshop on Computing for Well-Being'
-    abbrv: 'WellComp in UbiComp/ISWC 2020'
+    abbrv: 'UbiComp/ISWC 2020, WellComp'
   country: online event
   month: 9
   year: 2020
@@ -178,7 +220,7 @@
   title: 'Concurrent Data Dissemination at Intersections in {mmWave} for Cooperative Perceptions'
   conference: 
     full: 'the IEEE Connected and Automated Vehicles Symposium'
-    abbrv: 'CAVS in VTC Fall'
+    abbrv: 'VTC Fall, CAVS'
   city: Chicago
   country: USA
   month: 8
