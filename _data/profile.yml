@@ -1,15 +1,15 @@
 jp:
   name: 田谷昭仁
-  affiliation: 青山学院大学理工学部<br>情報テクノロジー学科<br>戸辺研究室 助教
+  affiliation: 東京大学生産技術研究所<br>情報エレクトロニクス部門<br>瀬崎研究室 助教
 en:
   name: Akihito Taya
-  affiliation: Assistant Professor,<br>College of Science and Engineering, Department of Integrated Information Technology, Aoyama Gakuin University
-email: [0x74, 0x61, 0x79, 0x61, 0x40, 0x69, 0x74, 0x2e, 0x61, 0x6f, 0x79, 0x61, 0x6d, 0x61, 0x2e, 0x61, 0x63, 0x2e, 0x6a, 0x70]
+  affiliation: Assistant Professor,<br>Institute of Industrial Science,<br>The University of Tokyo
+email: [0x74, 0x61, 0x79, 0x61, 0x2d, 0x61, 0x40, 0x69, 0x69, 0x73, 0x2e, 0x75, 0x2d, 0x74, 0x6f, 0x6b, 0x79, 0x6f, 0x2e, 0x61, 0x63, 0x2e, 0x6a, 0x70]
 links:
   - {display: Google Scholar, url: 'https://scholar.google.co.jp/citations?user=oGxZGCAAAAAJ'}
   - {display: ResearchGate, url: 'https://www.researchgate.net/profile/Akihito_Taya'}
   - {display: researchmap, url: 'https://researchmap.jp/a_taya/?lang=en'}
-  - {display: Tobe Lab., url: 'http://rcl.it.aoyama.ac.jp/'}
+  - {display: Sezaki Lab., url: 'https://www.mcl.iis.u-tokyo.ac.jp/'}
 keywords:
   - Wireless Communications
   - mmWave Communications
@@ -20,12 +20,14 @@ keywords:
   - Distributed Systems
 biography:
   jp:
-    - {date: 2013.3,          affiliation: 京都大学大学院情報学研究科　修士課程　修了}
-    - {date: 2013.4 - 2017.2, affiliation: 株式会社日立製作所}
-    - {date: 2017.4 - 2019.9, affiliation: 京都大学大学院情報学研究科　博士後期課程}
-    - {date: 2019.10 -,       affiliation: 青山学院大学理工学部情報テクノロジー学科　助教}
+    - {date: 2013.3,            affiliation: 京都大学大学院情報学研究科　修士課程　修了}
+    - {date: 2013.4 - 2017.2,   affiliation: 株式会社日立製作所}
+    - {date: 2017.4 - 2019.9,   affiliation: 京都大学大学院情報学研究科　博士後期課程}
+    - {date: 2019.10 - 2022.10, affiliation: 青山学院大学理工学部情報テクノロジー学科　助教}
+    - {date: 2022.11 -,         affiliation: 東京大学生産技術研究所　助教}
   en:
-    - {date: 2011.4 - 2013.3, affiliation: 'M.I., Graduate School of Informatics, Kyoto University'}
-    - {date: 2013.4 - 2017.2, affiliation: 'Development of high performance computing clusters, Hitachi, Ltd.'}
-    - {date: 2017.4 - 2019.9, affiliation: 'Ph.D., Graduate School of Informatics, Kyoto University'}
-    - {date: 2019.10 -,       affiliation: 'Assistant Professor, Department of Integrated Information Technology, Aoyama Gakuin University'}
+    - {date: 2011.4 - 2013.3,   affiliation: 'M.I., Graduate School of Informatics, Kyoto University'}
+    - {date: 2013.4 - 2017.2,   affiliation: 'Development of high performance computing clusters, Hitachi, Ltd.'}
+    - {date: 2017.4 - 2019.9,   affiliation: 'Ph.D., Graduate School of Informatics, Kyoto University'}
+    - {date: 2019.10 - 2022.10, affiliation: 'Assistant Professor, Department of Integrated Information Technology, Aoyama Gakuin University'}
+    - {date: 2022.11 -,         affiliation: 'Assistant Professor, Institute of Industrial Science, The University of Tokyo'}
