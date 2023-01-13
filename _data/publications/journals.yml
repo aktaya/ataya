@@ -27,9 +27,9 @@
   journal:
     full: 'IEEE Transactions on Signal and Information Processing over Networks'
     abbrv: 'IEEE Trans. Signal Inf. Process. Netw.'
-  #vol: ''
+  vol: '8'
   #num: ""
-  pages: {"from": 1, "to": 16}
+  pages: {"from": 799, "to": 814}
   month: 9
   year: 2022
   lang: "en"

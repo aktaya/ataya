@@ -11,6 +11,37 @@
 #   month: 
 #   year: ''
 
+
+- authors:
+    - {first: "Hiroki", family: "Shimomura"}
+    - {first: "Yusuke", family: "Koda"}
+    - {first: "Takamochi", family: "Kanda"}
+    - {first: "Koji", family: "Yamamoto"}
+    - {first: "Takayuki", family: "Nishio"}
+    - {first: "Akihito", family: "Taya"}
+  title: 'Vision-Aided Frame-Capture-Based {CSI} Recomposition for {WiFi} Sensing: A Multimodal Approach'
+  conference:
+    full: 'the 20th IEEE Consumer Communications & Networking Conference'
+    abbrv: 'CCNC'
+  city: 'Las Vegas'
+  country: 'USA'
+  month: 1
+  year: 2023
+
+- authors:
+    - {first: "Tomoya", family: "Suzuki"}
+    - {first: "Akihito", family: "Taya"}
+    - {first: "Yoshito", family: "Tobe"}
+    - {first: "Guillaume", family: "Lopez"}
+  title: 'Translation-Delay-Aware Emotional Avatar System for Online Communication Support'
+  conference:
+    full: 'The 4th International Conference on Activity and Behavior Computing'
+    abbrv: 'ABC 2022'
+  city: 'London'
+  country: 'United Kingdom'
+  month: 10
+  year: '2022'
+
 - authors:
     - {first: "Ryoga", family: "Kubota"}
     - {first: "Akihito", family: "Taya"}
