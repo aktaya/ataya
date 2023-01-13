@@ -114,6 +114,7 @@ const format_title = {
 const style_dicts = {
     "en": {
         "prefix_injp": { "param": "", "func": (_) => "[<strong>In Japanese</strong>] " },
+        "prefix": {"param": "prefix", "func": (p) => `[<strong>${p}</strong>] `},
         "authors": { "param": "authors", "func": (a) => format_name_list(a, sep.en, name_style.full_en) },
         "authors_jp2en": { "param": "authors", "func": (a) => format_name_list(a.en, sep.en, name_style.full_en) },
         "authors_short": { "param": "authors", "func": (a) => format_name_list(a, sep.en, name_style.initial_en) },
@@ -139,6 +140,7 @@ const style_dicts = {
         "other": { "param": "en", "func": (d) => d },
     },
     "jp": {
+        "prefix": {"param": "prefix", "func": (p) => `[<strong>${p}</strong>] `},
         "authors": { "param": "authors", "func": (a) => format_name_list(a.jp, sep.jp, name_style.jp) },
         "title": { "param": "title", "func": (t) => `${sep.jp.lquo}${t.jp}${sep.jp.comma}${sep.jp.rquo} ` },
         "journal": { "param": "journal", "func": (j) => `${j.jp.full}${sep.jp.comma}` },
@@ -159,6 +161,7 @@ const style_dicts = {
 const styles = {
     "journal_full": {
         "en": [
+            style_dicts.en.prefix,
             style_dicts.en.authors,
             style_dicts.en.title,
             style_dicts.en.journal,
@@ -169,6 +172,7 @@ const styles = {
             style_dicts.en.year,
         ],
         "jp": [
+            style_dicts.jp.prefix,
             style_dicts.jp.authors,
             style_dicts.jp.title,
             style_dicts.jp.journal,
@@ -180,6 +184,7 @@ const styles = {
         ],
         "jp2en": [
             style_dicts.en.prefix_injp,
+            style_dicts.en.prefix,
             style_dicts.en.authors_jp2en,
             style_dicts.en.title_jp2en,
             style_dicts.en.journal_jp2en,
@@ -192,6 +197,7 @@ const styles = {
     },
     "journal_short": {
         "en": [
+            style_dicts.en.prefix,
             style_dicts.en.authors_short,
             style_dicts.en.title,
             style_dicts.en.journal_short,
@@ -202,6 +208,7 @@ const styles = {
             style_dicts.en.year,
         ],
         "jp": [
+            style_dicts.jp.prefix,
             style_dicts.jp.authors,
             style_dicts.jp.title,
             style_dicts.jp.journal_short,
@@ -213,6 +220,7 @@ const styles = {
         ],
         "jp2en": [
             style_dicts.en.prefix_injp,
+            style_dicts.en.prefix,
             style_dicts.en.authors_jp2en_short,
             style_dicts.en.title_jp2en,
             style_dicts.en.journal_jp2en_short,
@@ -224,6 +232,7 @@ const styles = {
         ],
     },
     "int_conf_full": [
+        style_dicts.en.prefix,
         style_dicts.en.authors,
         style_dicts.en.title,
         style_dicts.en.conference,
@@ -233,6 +242,7 @@ const styles = {
         style_dicts.en.year,
     ],
     "int_conf_short": [
+        style_dicts.en.prefix,
         style_dicts.en.authors_short,
         style_dicts.en.title,
         style_dicts.en.conference_short,
@@ -243,6 +253,7 @@ const styles = {
     ],
     "dom_reports_full": {
         "en": [
+            style_dicts.en.prefix,
             style_dicts.en.authors_jp2en,
             style_dicts.en.title_jp2en,
             style_dicts.en.notes,
@@ -251,6 +262,7 @@ const styles = {
             style_dicts.en.year,
         ],
         "jp": [
+            style_dicts.jp.prefix,
             style_dicts.jp.authors,
             style_dicts.jp.title,
             style_dicts.jp.notes,
@@ -259,6 +271,7 @@ const styles = {
             style_dicts.jp.year,
         ],
         "jp2en": [
+            style_dicts.en.prefix,
             style_dicts.en.prefix_injp,
             style_dicts.en.authors_jp2en,
             style_dicts.en.title_jp2en,
@@ -270,6 +283,7 @@ const styles = {
     },
     "dom_reports_short": {
         "en": [
+            style_dicts.en.prefix,
             style_dicts.en.authors_jp2en_short,
             style_dicts.en.title_jp2en,
             style_dicts.en.notes_short,
@@ -278,6 +292,7 @@ const styles = {
             style_dicts.en.year,
         ],
         "jp": [
+            style_dicts.jp.prefix,
             style_dicts.jp.authors,
             style_dicts.jp.title,
             style_dicts.jp.notes_short,
@@ -286,6 +301,7 @@ const styles = {
             style_dicts.jp.year,
         ],
         "jp2en": [
+            style_dicts.en.prefix,
             style_dicts.en.prefix_injp,
             style_dicts.en.authors_jp2en_short,
             style_dicts.en.title_jp2en,

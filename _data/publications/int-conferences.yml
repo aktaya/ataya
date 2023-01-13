@@ -9,6 +9,7 @@
 #   city: ''
 #   country: ''
 #   month: 
+#   prefix: ''
 #   year: ''
 
 
@@ -26,7 +27,51 @@
   city: 'Las Vegas'
   country: 'USA'
   month: 1
+  prefix: 'Poster'
   year: 2023
+
+- authors:
+    - {first: "Koji", family: "Yamamoto"}
+    - {first: "Takayuki", family: "Nishio"}
+    - {first: "Akihito", family: "Taya"}
+    - {first: "Mai", family: "Ohta"}
+    - {first: "Makoto", family: "Taromaru"}
+    - {first: "Kazuto", family: "Yano"}
+    - {first: "Babatunde", family: "Ojetunde"}
+    - {first: "Keiichiro", family: "Mori"}
+  title: 'Wireless Access Technology Based on Factor Analysis of Communication Quality Using Redundant Information'
+  conference:
+    full: '2022 International Conference on Emerging Technologies for Communications'
+    abbrv: 'ICETC'
+  city: 'Tokyo'
+  country: 'Japan'
+  month: 11
+  prefix: 'Invited Special Session'
+  year: '2022'
+
+- authors:
+    - {first: "Akihito", family: "Taya"}
+  title: 'Distillation-based Serverless Federated Learning over Sensor Networks'
+  conference:
+    full: '2022 International Conference on Emerging Technologies for Communications'
+    abbrv: 'ICETC'
+  city: 'Tokyo'
+  country: 'Japan'
+  month: 11
+  prefix: 'Invited'
+  year: '2022'
+
+- authors:
+    - {first: "Akihito", family: "Taya"}
+  title: 'Federated Learning: Privacy-preserving distributed machine learning in {IoT}'
+  conference:
+    full: 'Asia Pacific Conference on Robot IoT System Development and Platform'
+    abbrv: 'APRIS'
+  city: 'Tokyo'
+  country: 'Japan'
+  month: 11
+  prefix: 'Invited'
+  year: '2022'
 
 - authors:
     - {first: "Tomoya", family: "Suzuki"}
