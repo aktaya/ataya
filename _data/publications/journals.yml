@@ -53,6 +53,7 @@
   month: 7
   year: 2022
   lang: "en"
+  prefix: 'Letter'
   doi: 'https://doi.org/10.1587/comex.2022XBL0051'
   visible: true
 

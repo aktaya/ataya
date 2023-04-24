@@ -21,6 +21,502 @@
 #   prefix: ''
 #   lang: jp
 
+# - authors:
+#     jp:
+#       - {first: "翔多", family: "小野"}
+#       - {first: "託", family: "山崎"}
+#       - {first: "匠", family: "三好"}
+#       - {first: "昭仁", family: "田谷"}
+#       - {first: "勇毅", family: "西山"}
+#       - {first: "薫", family: "瀬崎"}
+#     en:
+#       - {first: "Shota", family: "Ono"}
+#       - {first: "Taku", family: "Yamazaki"}
+#       - {first: "Takumi", family: "Miyoshi"}
+#       - {first: "Akihito", family: "Taya"}
+#       - {first: "Yuuki", family: "Nishiyama"}
+#       - {first: "Kaoru", family: "Sezaki"}
+#   title:
+#     jp: "エッジ連合学習における端末の移動を考慮したパラメータ集約のタイミング制御 "
+#     en: "Mobility-Aware Timing Control of Parameter Aggregation in Edge Federated Learning "
+#   notes:
+#     jp:
+#       full: "電子情報通信学会技術研究報告 IEICE-SeMI2023-xx"
+#       abbrv: "信学技報 IEICE-SeMI2023-xx"
+#     en:
+#       full: "IEICE Technical Reports IEICE-SeMI2023-xx"
+#       abbrv: "IEICE Tech. Rep. IEICE-SeMI2023-xx"
+#   city:
+#     jp: "沖縄"
+#     en: "Okinawa"
+#   month: 5
+#   year: '2023'
+#   lang: jp
+
+- authors:
+    jp:
+      - {first: "恵里", family: "細沼"}
+      - {first: "託", family: "山崎"}
+      - {first: "匠", family: "三好"}
+      - {first: "昭仁", family: "田谷"}
+      - {first: "勇毅", family: "西山"}
+      - {first: "薫", family: "瀬崎"}
+    en:
+      - {first: "Eri", family: "Hosonuma"}
+      - {first: "Taku", family: "Yamazaki"}
+      - {first: "Takumi", family: "Miyoshi"}
+      - {first: "Akihito", family: "Taya"}
+      - {first: "Yuuki", family: "Nishiyama"}
+      - {first: "Kaoru", family: "Sezaki"}
+  title:
+    jp: "広域屋内空間における人の滞在が受信信号強度に与える影響の解析"
+    en: "Analyzing Impact of People's Existence on RSSI in Large Indoor Environment"
+  notes:
+    jp:
+      full: "電子情報通信学会技術研究報告 IEICE-ICM2022-57"
+      abbrv: "信学技報 IEICE-ICM2022-57"
+    en:
+      full: "IEICE Technical Reports IEICE-ICM2022-57"
+      abbrv: "IEICE Tech. Rep. IEICE-ICM2022-57"
+  city:
+    jp: "沖縄"
+    en: "Okinawa"
+  month: 3
+  year: '2023'
+  prefix: ''
+  lang: jp
+
+- authors:
+    jp:
+      - {first: "翔多", family: "小野"}
+      - {first: "託", family: "山崎"}
+      - {first: "匠", family: "三好"}
+      - {first: "昭仁", family: "田谷"}
+      - {first: "勇毅", family: "西山"}
+      - {first: "薫", family: "瀬崎"}
+    en:
+      - {first: "Shota", family: "Ono"}
+      - {first: "Taku", family: "Yamazaki"}
+      - {first: "Takumi", family: "Miyoshi"}
+      - {first: "Akihito", family: "Taya"}
+      - {first: "Yuuki", family: "Nishiyama"}
+      - {first: "Kaoru", family: "Sezaki"}
+  title:
+    jp: "スポット型連合学習におけるユーザ滞在時間が学習性能に与える影響の評価"
+    en: "Evaluating Impact of Users' sojourn time on Learning Performance in Spot-Based Federated Learning"
+  notes:
+    jp:
+      full: "電子情報通信学会技術研究報告 IEICE-ICM2022-56"
+      abbrv: "信学技報 IEICE-ICM2022-56"
+    en:
+      full: "IEICE Technical Reports IEICE-ICM2022-56"
+      abbrv: "IEICE Tech. Rep. IEICE-ICM2022-56"
+  city:
+    jp: "沖縄"
+    en: "Okinawa"
+  month: 3
+  year: '2023'
+  lang: jp
+
+- authors:
+    jp:
+      - {first: "恵里", family: "細沼"}
+      - {first: "託", family: "山崎"}
+      - {first: "匠", family: "三好"}
+      - {first: "昭仁", family: "田谷"}
+      - {first: "勇毅", family: "西山"}
+      - {first: "薫", family: "瀬崎"}
+    en:
+      - {first: "Akihito", family: "Taya"}
+  title:
+    jp: "LPWAによる屋内空間の混雑領域推定に向けた検討"
+    en: ""
+  notes:
+    jp:
+      full: "電子情報通信学会総合大会 B-6-30"
+      abbrv: "IEICE総合大会 B-6-30"
+    en:
+      full: "IEICE General Conference B-6-30"
+      abbrv: "IEICE General Conf. B-6-30"
+  city:
+    jp: "大宮"
+    en: "Omiya"
+  month: 3
+  year: '2023'
+  lang: jp
+
+- authors:
+    jp:
+      - {first: "翔多", family: "小野"}
+      - {first: "託", family: "山崎"}
+      - {first: "匠", family: "三好"}
+      - {first: "昭仁", family: "田谷"}
+      - {first: "勇毅", family: "西山"}
+      - {first: "薫", family: "瀬崎"}
+    en:
+      - {first: "Akihito", family: "Taya"}
+  title:
+    jp: "無線アドホックネットワークにおけるユーザ参加型連合学習の実装実験"
+    en: ""
+  notes:
+    jp:
+      full: "電子情報通信学会総合大会 B-6-44"
+      abbrv: "IEICE総合大会 B-6-44"
+    en:
+      full: "IEICE General Conference B-6-44"
+      abbrv: "IEICE General Conf. B-6-44"
+  city:
+    jp: "大宮"
+    en: "Omiya"
+  month: 3
+  year: '2023'
+  lang: jp
+
+- authors:
+    jp:
+      - {first: "秀暢", family: "牛島"}
+      - {first: "陸", family: "石岡"}
+      - {first: "昭仁", family: "田谷"}
+      - {first: "勇毅", family: "西山"}
+      - {first: "薫", family: "瀬崎"}
+    en:
+      - {first: "Akihito", family: "Taya"}
+  title:
+    jp: "自動運転車と歩行者間の合意形成手法の基礎的検討"
+    en: ""
+  notes:
+    jp:
+      full: "電子情報通信学会総合大会 A-13-6"
+      abbrv: "IEICE総合大会 A-13-6"
+    en:
+      full: "IEICE General Conference A-13-6"
+      abbrv: "IEICE General Conf. A-13-6"
+  city:
+    jp: "大宮"
+    en: "Omiya"
+  month: 3
+  year: '2023'
+  lang: jp
+
+- authors:
+    jp:
+      - {first: "裕太", family: "國丸"}
+      - {first: "昭仁", family: "田谷"}
+      - {first: "みどり", family: "菅谷"}
+      - {first: "圭", family: "鈴木"}
+    en:
+      - {first: "Akihito", family: "Taya"}
+  title:
+    jp: "ドメインシフトを用いた生理指標の個人差評価手法の検討"
+    en: ""
+  notes:
+    jp:
+      full: "情報処理学会全国大会 2K-06"
+      abbrv: "IPSJ全国大会 2K-06"
+    en:
+      full: "The 85th National Convention of IPSJ"
+      abbrv: "The 85th National Convention of IPSJ"
+  city:
+    jp: "東京"
+    en: ""
+  month: 3
+  year: '2023'
+  lang: jp
+
+- authors:
+    jp:
+      - {first: "海渡", family: "大條"}
+      - {first: "亮太", family: "國分"}
+      - {first: "佑介", family: "川喜田"}
+      - {first: "昭仁", family: "田谷"}
+      - {first: "義人", family: "戸辺"}
+      - {first: "慎二", family: "横川"}
+      - {first: "晴久", family: "市川"}
+    en:
+      - {first: "Akihito", family: "Taya"}
+  title:
+    jp: "ハイブリッド型制御アルゴリズムを用いたVG Hubネットワークの最適化"
+    en: ""
+  notes:
+    jp:
+      full: "情報処理学会全国大会 1Y-03"
+      abbrv: "IPSJ全国大会 1Y-03"
+    en:
+      full: "The 85th National Convention of IPSJ"
+      abbrv: "The 85th National Convention of IPSJ"
+  city:
+    jp: "東京"
+    en: ""
+  month: 3
+  year: '2023'
+  lang: jp
+
+- authors:
+    jp:
+      - {first: "勇陽", family: "紅林"}
+      - {first: "昭仁", family: "田谷"}
+      - {first: "義人", family: "戸辺"}
+    en:
+      - {first: "Akihito", family: "Taya"}
+  title:
+    jp: "エッジコンピューティングによる環境依存するミリ波帯V2V通信品質の予測手法"
+    en: ""
+  notes:
+    jp:
+      full: "情報処理学会全国大会 5Y-06"
+      abbrv: "IPSJ全国大会 5Y-06"
+    en:
+      full: "The 85th National Convention of IPSJ"
+      abbrv: "The 85th National Convention of IPSJ"
+  city:
+    jp: "東京"
+    en: ""
+  month: 3
+  year: '2023'
+  lang: jp
+
+- authors:
+    jp:
+      - {first: "諒我", family: "窪田"}
+      - {first: "勇陽", family: "紅林"}
+      - {first: "昭仁", family: "田谷"}
+      - {first: "義人", family: "戸辺"}
+    en:
+      - {first: "Akihito", family: "Taya"}
+  title:
+    jp: "2次元固定LiDARの点群データの線分近似表現による移動物体軌跡の視覚化"
+    en: ""
+  notes:
+    jp:
+      full: "情報処理学会全国大会 1ZB-01"
+      abbrv: "IPSJ全国大会 1ZB-01"
+    en:
+      full: "The 85th National Convention of IPSJ"
+      abbrv: "The 85th National Convention of IPSJ"
+  city:
+    jp: "東京"
+    en: ""
+  month: 3
+  year: '2023'
+  lang: jp
+
+- authors:
+    jp:
+      - {first: "柾樹", family: "石坂"}
+      - {first: "昭仁", family: "田谷"}
+      - {first: "義人", family: "戸辺"}
+    en:
+      - {first: "Akihito", family: "Taya"}
+  title:
+    jp: "マインドマップによるアイデア創出支援エージェントシステムSPARK"
+    en: ""
+  notes:
+    jp:
+      full: "情報処理学会全国大会 2ZB-01"
+      abbrv: "IPSJ全国大会 2ZB-01"
+    en:
+      full: "The 85th National Convention of IPSJ"
+      abbrv: "The 85th National Convention of IPSJ"
+  city:
+    jp: "東京"
+    en: ""
+  month: 3
+  year: '2023'
+  lang: jp
+
+- authors:
+    jp:
+      - {first: "修太", family: "井上"}
+      - {first: "昭仁", family: "田谷"}
+      - {first: "義人", family: "戸辺"}
+    en:
+      - {first: "Akihito", family: "Taya"}
+  title:
+    jp: "発話音声の変換が聞き手に及ぼす感情変化に現感情が与える影響の調査"
+    en: ""
+  notes:
+    jp:
+      full: "情報処理学会全国大会 2ZB-02"
+      abbrv: "IPSJ全国大会 2ZB-02"
+    en:
+      full: "The 85th National Convention of IPSJ"
+      abbrv: "The 85th National Convention of IPSJ"
+  city:
+    jp: "東京"
+    en: ""
+  month: 3
+  year: '2023'
+  lang: jp
+
+- authors:
+    jp:
+      - {first: "高至", family: "山本"}
+      - {first: "真衣", family: "太田"}
+      - {first: "一人", family: "矢野"}
+      - {first: "理志", family: "西尾"}
+      - {first: "昭仁", family: "田谷"}
+      - {first: "真", family: "太郎丸"}
+      - {first: "ババツンデ", family: "オジェツンデ"}
+      - {first: "敬一朗", family: "森"}
+    en:
+      - {first: "Koji", family: "Yamamoto"}
+      - {first: "Mai", family: "Ohta"}
+      - {first: "Kazuto", family: "Yano"}
+      - {first: "Takayuki", family: "Nishio"}
+      - {first: "Akihito", family: "Taya"}
+      - {first: "Makoto", family: "Taromaru"}
+      - {first: "Babatunde", family: "Ojetunde"}
+      - {first: "Keiichiro", family: "Mori"}
+  title:
+    jp: "冗長検査情報を用いる通信品質要因解析に基づく無線アクセス技術の研究開発 "
+    en: "Research and Development on Wireless Access Technology Based on Factor Analysis of Communication Quality Using Redundant Information"
+  notes:
+    jp:
+      full: "電子情報通信学会技術研究報告 IEICE-SRW2022-66"
+      abbrv: "信学技報 IEICE-SRW2022-66"
+    en:
+      full: "IEICE Technical Reports IEICE-SRW2022-66"
+      abbrv: "IEICE Tech. Rep. IEICE-SRW2022-66"
+  city:
+    jp: "東京"
+    en: "Tokyo"
+  month: 3
+  year: '2023'
+  lang: jp
+
+- authors:
+    jp:
+      - {first: "大貴", family: "下村"}
+      - {first: "高望", family: "神田"}
+      - {first: "高至", family: "山本"}
+      - {first: "理志", family: "西尾"}
+      - {first: "昭仁", family: "田谷"}
+    en:
+      - {first: "Hiroki", family: "Shimomura"}
+      - {first: "Takamochi", family: "Kanda"}
+      - {first: "Koji", family: "Yamamoto"}
+      - {first: "Takayuki", family: "Nishio"}
+      - {first: "Akihito", family: "Taya"}
+  title:
+    jp: "ビームフォーミングフィードバックを用いた見通し判定の検討"
+    en: "A Study of Beamforming Feedback-based LOS Detection"
+  notes:
+    jp:
+      full: "電子情報通信学会技術研究報告 IEICE-SeMI2022-101"
+      abbrv: "信学技報 IEICE-SeMI2022-101"
+    en:
+      full: "IEICE Technical Reports IEICE-SeMI2022-101"
+      abbrv: "IEICE Tech. Rep. IEICE-SeMI2022-101"
+  city:
+    jp: "鳴門"
+    en: "Naruto"
+  month: 1
+  year: '2023'
+  lang: jp
+
+- authors:
+    jp:
+      - {first: "綜太", family: "近藤"}
+      - {first: "高至", family: "山本"}
+      - {first: "理志", family: "西尾"}
+      - {first: "昭仁", family: "田谷"}
+    en:
+      - {first: "Sota", family: "Kondo"}
+      - {first: "Koji", family: "Yamamoto"}
+      - {first: "Takayuki", family: "Nishio"}
+      - {first: "Akihito", family: "Taya"}
+  title:
+    jp: "ビームフォーミングフィードバックを用いたリアルタイム侵入者検知"
+    en: "Real-time Human Intrusion Detection with Beamforming Feedback"
+  notes:
+    jp:
+      full: "電子情報通信学会技術研究報告 IEICE-SeMI2022-100"
+      abbrv: "信学技報 IEICE-SeMI2022-100"
+    en:
+      full: "IEICE Technical Reports IEICE-SeMI2022-100"
+      abbrv: "IEICE Tech. Rep. IEICE-SeMI2022-100"
+  city:
+    jp: "鳴門"
+    en: "Naruto"
+  month: 1
+  year: '2023'
+  lang: jp
+
+- authors:
+    jp:
+      - {first: "智也", family: "鈴木"}
+      - {first: "昭仁", family: "田谷"}
+      - {first: "義人", family: "戸辺"}
+    en:
+      - {first: "Akihito", family: "Taya"}
+  title:
+    jp: "翻訳読み上げにおいて発話者の感情を調整して反映するコミュニケーションアバタ"
+    en: ""
+  notes:
+    jp:
+      full: "第43回人間情報学会講演会"
+      abbrv: "第43回人間情報学会講演会"
+    en:
+      full: ""
+      abbrv: ""
+  city:
+    jp: "オンライン開催"
+    en: ""
+  month: 12
+  year: '2022'
+  lang: jp
+
+- authors:
+    jp:
+      - {first: "諒我", family: "窪田"}
+      - {first: "昭仁", family: "田谷"}
+      - {first: "義人", family: "戸辺"}
+    en:
+      - {first: "Ryoga", family: "Kubota"}
+      - {first: "Akihito", family: "Taya"}
+      - {first: "Yoshito", family: "Tobe"}
+  title:
+    jp: "回転式LiDARの2次元点群のためのノンパラメトリック線分近似"
+    en: "Line-extraction-based non-parametric regression of 2D LiDAR point cloud "
+  notes:
+    jp:
+      full: "電子情報通信学会技術研究報告 IEICE-SeMI2022-49"
+      abbrv: "信学技報 IEICE-SeMI2022-49"
+    en:
+      full: "IEICE Technical Reports IEICE-SeMI2022-49"
+      abbrv: "IEICE Tech. Rep. IEICE-SeMI2022-49"
+  city:
+    jp: "那須"
+    en: "Nasu"
+  month: 11
+  year: '2022'
+  lang: jp
+
+- authors:
+    jp:
+      - {first: "柾樹", family: "石坂"}
+      - {first: "昭仁", family: "田谷"}
+      - {first: "義人", family: "戸辺"}
+    en:
+      - {first: "Akihito", family: "Taya"}
+  title:
+    jp: "SPARK: マルチエージェントによるマインドマップに基づいたアイデア創出支援ツール"
+    en: ""
+  notes:
+    jp:
+      full: "第30回 マルチメディア通信と分散処理ワークショップ論文集"
+      abbrv: "情報処理学会 DPSWS2022"
+    en:
+      full: ""
+      abbrv: "DPSWS"
+  city:
+    jp: "米子"
+    en: "Yonago"
+  month: 10
+  year: '2022'
+  prefix: 'Poster'
+  lang: jp
+
 - authors:
     jp:
       - {first: "昭仁", family: "田谷"}
@@ -43,6 +539,29 @@
   year: 2022
   lang: en
 
+- authors:
+    jp:
+      - {first: "裕太", family: "國丸"}
+      - {first: "昭仁", family: "田谷"}
+      - {first: "みどり", family: "菅谷"}
+    en:
+      - {first: "Akihito", family: "Taya"}
+  title:
+    jp: "生理指標による機械学習に向けた個人差の評価手法の検討"
+    en: ""
+  notes:
+    jp:
+      full: "第24回日本感性工学会大会"
+      abbrv: "第24回日本感性工学会大会"
+    en:
+      full: "The 24th Annual Meeting of Japan Society of Kansei Engineering"
+      abbrv: "The 24th Annual Meeting of Japan Society of Kansei Engineering"
+  city:
+    jp: "オンライン"
+    en: ""
+  month: 9
+  year: '2022'
+  lang: jp
 
 - authors:
     jp:
@@ -1584,8 +2103,8 @@
       full: "電子情報通信学会総合大会 B-18-37"
       abbrv: "IEICE総合大会 B-18-37"
     en:
-      full: ""
-      abbrv: ""
+      full: "IEICE General Conference B-18-37"
+      abbrv: "IEICE General Conf. B-18-37"
   city:
     jp: "東京"
     en: ""
@@ -1702,8 +2221,8 @@
       full: "電子情報通信学会総合大会 B-5-34"
       abbrv: "IEICE総合大会 B-5-34"
     en:
-      full: ""
-      abbrv: ""
+      full: "IEICE General Conference B-5-34"
+      abbrv: "IEICE General Conf. B-5-34"
   city:
     jp: "岡山"
     en: ""
@@ -1804,8 +2323,8 @@
       full: "電子情報通信学会総合大会 B-5-94"
       abbrv: "IEICE総合大会 B-5-94"
     en:
-      full: ""
-      abbrv: ""
+      full: "IEICE General Conference B-5-94"
+      abbrv: "IEICE General Conf. B-5-94"
   city:
     jp: "東京"
     en: ""

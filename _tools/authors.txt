@@ -1,9 +1,15 @@
 # 氏 名
-窪田 諒我
-箕輪 颯太
-紅林 勇陽
+小野 翔多
+山崎 託
+三好 匠
 田谷 昭仁
-戸辺 義人
+西山 勇毅
+瀬崎 薫
 
 # first family
-
+Shota Ono
+Taku Yamazaki
+Takumi Miyoshi
+Akihito Taya
+Yuuki Nishiyama
+Kaoru Sezaki

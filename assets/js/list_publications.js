@@ -114,7 +114,7 @@ const format_title = {
 const style_dicts = {
     "en": {
         "prefix_injp": { "param": "", "func": (_) => "[<strong>In Japanese</strong>] " },
-        "prefix": {"param": "prefix", "func": (p) => `[<strong>${p}</strong>] `},
+        "prefix": {"param": "prefix", "func": (p) => p===""? "" : `[<strong>${p}</strong>] `},
         "authors": { "param": "authors", "func": (a) => format_name_list(a, sep.en, name_style.full_en) },
         "authors_jp2en": { "param": "authors", "func": (a) => format_name_list(a.en, sep.en, name_style.full_en) },
         "authors_short": { "param": "authors", "func": (a) => format_name_list(a, sep.en, name_style.initial_en) },
@@ -140,7 +140,7 @@ const style_dicts = {
         "other": { "param": "en", "func": (d) => d },
     },
     "jp": {
-        "prefix": {"param": "prefix", "func": (p) => `[<strong>${p}</strong>] `},
+        "prefix": {"param": "prefix", "func": (p) => p===""? "" : `[<strong>${p}</strong>] `},
         "authors": { "param": "authors", "func": (a) => format_name_list(a.jp, sep.jp, name_style.jp) },
         "title": { "param": "title", "func": (t) => `${sep.jp.lquo}${t.jp}${sep.jp.comma}${sep.jp.rquo} ` },
         "journal": { "param": "journal", "func": (j) => `${j.jp.full}${sep.jp.comma}` },

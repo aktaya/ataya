@@ -12,6 +12,35 @@
 #   prefix: ''
 #   year: ''
 
+- authors:
+    - {first: "Hideki", family: "Sato"}
+    - {first: "Kanon", family: "Shindo"}
+    - {first: "Shuta", family: "Inoue"}
+    - {first: "Akihito", family: "Taya"}
+    - {first: "Guillaume", family: "Lopez"}
+    - {first: "Yoshito", family: "Tobe"}
+  title: 'Investigation of Fear Feeling Based on Multimodal Bioinformatic Signals'
+  conference:
+    full: 'the 11th International Conference on Green and Human Information Technology'
+    abbrv: 'ICGHIT'
+  city: 'Bangkok'
+  country: 'Thailand' 
+  month: 1
+  year: '2023'
+
+- authors:
+    - {first: "Taichi", family: "Yamazaki"}
+    - {first: "Yuusuke", family: "Kawakita"}
+    - {first: "Akihito", family: "Taya"}
+    - {first: "Yoshito", family: "Tobe"}
+  title: 'A Study on Efficient Access Point Positioning for Wi-Fi Sensing Using Channel State Information'
+  conference:
+    full: 'the 11th International Conference on Green and Human Information Technology'
+    abbrv: 'ICGHIT'
+  city: 'Bangkok'
+  country: 'Thailand' 
+  month: 1
+  year: '2023'
 
 - authors:
     - {first: "Hiroki", family: "Shimomura"}
@@ -161,6 +190,18 @@
   year: '2022'
   pages: {"from": 967, "to": 968}
   doi: 'https://doi.org/10.1109/SII52469.2022.9708870'
+
+- authors:
+    - {first: Takayuki, family: Nishio}
+    - {first: Akihito, family: Taya}
+  title: 'Distributed Machine Learning over Networks: Basics, Applications, and Beyond of Federated Learning'
+  conference:
+    full: '13th Asia Pacific Signal and Information Processing Association Annual Summit and Conference'
+    abbrv: 'APSIPA ASC'
+  country: online event
+  month: 12
+  year: '2021'
+  prefix: 'Tutorial'
 
 - authors:
     - {first: Tomoya, family: Suzuki}
