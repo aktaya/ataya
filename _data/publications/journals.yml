@@ -21,7 +21,7 @@
 - authors:
     - {first: "Akihito", family: "Taya"}
     - {first: "Takayuki", family: "Nishio"}
-    - {first: "Madsahiro", family: "Morikura"}
+    - {first: "Masahiro", family: "Morikura"}
     - {first: "Koji", family: "Yamamoto"}
   title: 'Decentralized and Model-Free Federated Learning: Consensus-Based Distillation in Function Space'
   journal:
