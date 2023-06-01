@@ -21,37 +21,37 @@
 #   prefix: ''
 #   lang: jp
 
-# - authors:
-#     jp:
-#       - {first: "翔多", family: "小野"}
-#       - {first: "託", family: "山崎"}
-#       - {first: "匠", family: "三好"}
-#       - {first: "昭仁", family: "田谷"}
-#       - {first: "勇毅", family: "西山"}
-#       - {first: "薫", family: "瀬崎"}
-#     en:
-#       - {first: "Shota", family: "Ono"}
-#       - {first: "Taku", family: "Yamazaki"}
-#       - {first: "Takumi", family: "Miyoshi"}
-#       - {first: "Akihito", family: "Taya"}
-#       - {first: "Yuuki", family: "Nishiyama"}
-#       - {first: "Kaoru", family: "Sezaki"}
-#   title:
-#     jp: "エッジ連合学習における端末の移動を考慮したパラメータ集約のタイミング制御 "
-#     en: "Mobility-Aware Timing Control of Parameter Aggregation in Edge Federated Learning "
-#   notes:
-#     jp:
-#       full: "電子情報通信学会技術研究報告 IEICE-SeMI2023-xx"
-#       abbrv: "信学技報 IEICE-SeMI2023-xx"
-#     en:
-#       full: "IEICE Technical Reports IEICE-SeMI2023-xx"
-#       abbrv: "IEICE Tech. Rep. IEICE-SeMI2023-xx"
-#   city:
-#     jp: "沖縄"
-#     en: "Okinawa"
-#   month: 5
-#   year: '2023'
-#   lang: jp
+- authors:
+    jp:
+      - {first: "翔多", family: "小野"}
+      - {first: "託", family: "山崎"}
+      - {first: "匠", family: "三好"}
+      - {first: "昭仁", family: "田谷"}
+      - {first: "勇毅", family: "西山"}
+      - {first: "薫", family: "瀬崎"}
+    en:
+      - {first: "Shota", family: "Ono"}
+      - {first: "Taku", family: "Yamazaki"}
+      - {first: "Takumi", family: "Miyoshi"}
+      - {first: "Akihito", family: "Taya"}
+      - {first: "Yuuki", family: "Nishiyama"}
+      - {first: "Kaoru", family: "Sezaki"}
+  title:
+    jp: "エッジ連合学習における端末の移動を考慮したパラメータ集約のタイミング制御 "
+    en: "Mobility-Aware Timing Control of Parameter Aggregation in Edge Federated Learning "
+  notes:
+    jp:
+      full: "電子情報通信学会技術研究報告, vol.123, no.31, SeMI2023-7"
+      abbrv: "信学技報, vol.123, no.31, SeMI2023-7"
+    en:
+      full: "IEICE Technical Reports, vol.123, no.31, SeMI2023-7"
+      abbrv: "IEICE Tech. Rep., vol.123, no.31, SeMI2023-7"
+  city:
+    jp: "沖縄"
+    en: "Okinawa"
+  month: 5
+  year: '2023'
+  lang: jp
 
 - authors:
     jp:
