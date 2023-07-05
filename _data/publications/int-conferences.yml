@@ -262,10 +262,12 @@
   title: 'Cooperative Random Forest for Privacy-Preserving {IoT} Devices'
   conference:
     full: 'the third International Workshop on Mobile Ubiquiotous Systems, Infrastructures, Communications and AppLications'
-    abbrv: 'ICDCN 2021, MUSICAL'
+    abbrv: 'MUSICAL adjunct ICDCN2021'
   country: online event
   month: 1
   year: '2021'
+  pages: {"from": 86, "to": 91}
+  doi: 'https://doi.org/10.1145/3427477.3428188'
 
 - authors:
     - {first: Yuma, family: Tsurugasaki}
