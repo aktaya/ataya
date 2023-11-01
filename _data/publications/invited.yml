@@ -1,0 +1,149 @@
+# - authors:
+#     jp:
+#       - {first: "昭仁", family: "田谷"}
+#     en:
+#       - {first: "Akihito", family: "Taya"}
+#   title:
+#     jp: ""
+#     en: ""
+#   notes:
+#     jp:
+#       full: "電子情報通信学会技術研究報告 IEICE-SeMI2021-86"
+#       abbrv: "信学技報 IEICE-SeMI2021-86"
+#     en:
+#       full: "IEICE Technical Reports IEICE-SeMI2021-86"
+#       abbrv: "IEICE Tech. Rep. IEICE-SeMI2021-86"
+#   city:
+#     jp: ""
+#     en: ""
+#   country: ''
+#   month: 
+#   year: ''
+#   prefix: ''
+#   lang: en|jp
+
+- authors:
+    jp:
+      - {first: "昭仁", family: "田谷"}
+  title:
+    jp: 'Federated Learningの基礎と応用'
+    en: ''
+  notes:
+    jp:
+      full: '計測自動制御学会　計測部門スマートセンシングシステム部会 研究発表会'
+      abbrv: '計測自動学会研究発表会'
+  city:
+    jp: '相模原'
+  month: 8
+  prefix: '招待講演'
+  year: '2023'
+  lang: 'jp'
+
+- authors:
+    jp:
+      - {first: "Koji", family: "Yamamoto"}
+      - {first: "Takayuki", family: "Nishio"}
+      - {first: "Akihito", family: "Taya"}
+      - {first: "Mai", family: "Ohta"}
+      - {first: "Makoto", family: "Taromaru"}
+      - {first: "Kazuto", family: "Yano"}
+      - {first: "Babatunde", family: "Ojetunde"}
+      - {first: "Keiichiro", family: "Mori"}
+    en:
+      - {first: "Koji", family: "Yamamoto"}
+      - {first: "Takayuki", family: "Nishio"}
+      - {first: "Akihito", family: "Taya"}
+      - {first: "Mai", family: "Ohta"}
+      - {first: "Makoto", family: "Taromaru"}
+      - {first: "Kazuto", family: "Yano"}
+      - {first: "Babatunde", family: "Ojetunde"}
+      - {first: "Keiichiro", family: "Mori"}
+  title:
+    jp: 'Wireless Access Technology Based on Factor Analysis of Communication Quality Using Redundant Information'
+    en: 'Wireless Access Technology Based on Factor Analysis of Communication Quality Using Redundant Information'
+  notes:
+    jp:
+      full: '2022 International Conference on Emerging Technologies for Communications'
+      abbrv: 'ICETC'
+    en:
+      full: '2022 International Conference on Emerging Technologies for Communications'
+      abbrv: 'ICETC'
+  city:
+    jp: 'Tokyo'
+    en: 'Tokyo'
+  country: 'Japan'
+  month: 11
+  prefix: 'Invited Special Session'
+  year: '2022'
+  lang: 'en'
+
+- authors:
+    jp:
+      - {first: "Akihito", family: "Taya"}
+    en:
+      - {first: "Akihito", family: "Taya"}
+  title:
+    jp: 'Distillation-based Serverless Federated Learning over Sensor Networks'
+    en: 'Distillation-based Serverless Federated Learning over Sensor Networks'
+  notes:
+    jp:
+      full: '2022 International Conference on Emerging Technologies for Communications'
+      abbrv: 'ICETC'
+    en:
+      full: '2022 International Conference on Emerging Technologies for Communications'
+      abbrv: 'ICETC'
+  city:
+    jp: 'Tokyo'
+    en: 'Tokyo'
+  country: 'Japan'
+  month: 11
+  prefix: 'Invited'
+  year: '2022'
+  lang: 'en'
+
+- authors:
+    jp:
+      - {first: "Akihito", family: "Taya"}
+    en:
+      - {first: "Akihito", family: "Taya"}
+  title:
+    jp: 'Federated Learning: Privacy-preserving distributed machine learning in {IoT}'
+    en: 'Federated Learning: Privacy-preserving distributed machine learning in {IoT}'
+  notes:
+    jp:
+      full: 'Asia Pacific Conference on Robot IoT System Development and Platform'
+      abbrv: 'APRIS'
+    en:
+      full: 'Asia Pacific Conference on Robot IoT System Development and Platform'
+      abbrv: 'APRIS'
+  city:
+    jp: 'Tokyo'
+    en: 'Tokyo'
+  country: 'Japan'
+  month: 11
+  prefix: 'Invited'
+  year: '2022'
+  lang: 'en'
+
+- authors:
+    jp:
+      - {first: Takayuki, family: Nishio}
+      - {first: Akihito, family: Taya}
+    en:
+      - {first: Takayuki, family: Nishio}
+      - {first: Akihito, family: Taya}
+  title:
+    jp: 'Distributed Machine Learning over Networks: Basics, Applications, and Beyond of Federated Learning'
+    en: 'Distributed Machine Learning over Networks: Basics, Applications, and Beyond of Federated Learning'
+  notes:
+    jp:
+      full: '13th Asia Pacific Signal and Information Processing Association Annual Summit and Conference'
+      abbrv: 'APSIPA ASC'
+    en:
+      full: '13th Asia Pacific Signal and Information Processing Association Annual Summit and Conference'
+      abbrv: 'APSIPA ASC'
+  country: online event
+  month: 12
+  year: '2021'
+  prefix: 'Tutorial'
+  lang: 'en'

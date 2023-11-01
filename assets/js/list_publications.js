@@ -231,6 +231,70 @@ const styles = {
             style_dicts.en.year,
         ],
     },
+    "invited_full": {
+        "en": [
+            style_dicts.en.prefix,
+            style_dicts.en.authors_jp2en,
+            style_dicts.en.title_jp2en,
+            style_dicts.en.notes,
+            style_dicts.en.city_en,
+            style_dicts.en.country,
+            style_dicts.en.month,
+            style_dicts.en.year,
+        ],
+        "jp": [
+            style_dicts.jp.prefix,
+            style_dicts.jp.authors,
+            style_dicts.jp.title,
+            style_dicts.jp.notes,
+            style_dicts.jp.city_jp,
+            style_dicts.jp.month,
+            style_dicts.jp.year,
+        ],
+        "jp2en": [
+            style_dicts.en.prefix,
+            style_dicts.en.prefix_injp,
+            style_dicts.en.authors_jp2en,
+            style_dicts.en.title_jp2en,
+            style_dicts.en.notes,
+            style_dicts.en.city_en,
+            style_dicts.en.country,
+            style_dicts.en.month,
+            style_dicts.en.year,
+        ],
+    },
+    "invited_short": {
+        "en": [
+            style_dicts.en.prefix,
+            style_dicts.en.authors_jp2en_short,
+            style_dicts.en.title_jp2en,
+            style_dicts.en.notes_short,
+            style_dicts.en.city_en,
+            style_dicts.en.country,
+            style_dicts.en.month,
+            style_dicts.en.year,
+        ],
+        "jp": [
+            style_dicts.jp.prefix,
+            style_dicts.jp.authors,
+            style_dicts.jp.title,
+            style_dicts.jp.notes_short,
+            style_dicts.jp.city_jp,
+            style_dicts.jp.month,
+            style_dicts.jp.year,
+        ],
+        "jp2en": [
+            style_dicts.en.prefix,
+            style_dicts.en.prefix_injp,
+            style_dicts.en.authors_jp2en_short,
+            style_dicts.en.title_jp2en,
+            style_dicts.en.notes_short,
+            style_dicts.en.city_en,
+            style_dicts.en.country,
+            style_dicts.en.month,
+            style_dicts.en.year,
+        ],
+    },
     "int_conf_full": [
         style_dicts.en.prefix,
         style_dicts.en.authors,
@@ -393,10 +457,11 @@ const create_list = (div_id, summary_text, docs, settings, visible, lang) => {
     div.appendChild(details);
 };
 
-const categories = ["journals", "int_conf", "dom_reports", "awards", "grants"];
+const categories = ["journals", "invited", "int_conf", "dom_reports", "awards", "grants"];
 
 const div_ids = {
     "journals": "div_journals",
+    "invited": "div_invited",
     "int_conf": "div_int_conferences",
     "dom_reports": "div_dom_tech_reports",
     "awards": "div_awards",
@@ -405,6 +470,7 @@ const div_ids = {
 
 const categories_text = {
     "journals": "Journal papers &amp letters",
+    "invited": "Invited talks &amp; Tutorials",
     "int_conf": "International conferences",
     // "dom_reports": "Technical reports &amp; Symposiums",
     "dom_reports": "Technical reports",
@@ -415,6 +481,7 @@ const categories_text = {
 
 const publish_data = {
     "journals": {{ pub.journals | jsonify }},
+    "invited": {{ pub.invited | jsonify }},
     "int_conf": {{ pub.int-conferences | jsonify }},
     "dom_reports": {{ pub.dom-tech-reports | jsonify }},
     "awards": {{ pub.awards | jsonify }},
@@ -424,6 +491,7 @@ const publish_data = {
 const visible = {
     "en": {
         "journals": true,
+        "invited": true,
         "int_conf": true,
         "dom_reports": false,
         "awards": true,
@@ -431,6 +499,7 @@ const visible = {
     },
     "jp": {
         "journals": true,
+        "invited": true,
         "int_conf": true,
         "dom_reports": true,
         "awards": true,
@@ -457,6 +526,7 @@ const list_publish = ((style, lang, order) => {
                 create_list_all("en",
                     {
                         "journals": (doc) => styles.journal_full[doc.lang === "en" ? "en" : "jp2en"],
+                        "invited": (doc) => styles.invited_full[doc.lang],
                         "int_conf": (doc) => styles.int_conf_full,
                         "dom_reports": (doc) => styles.dom_reports_full[doc.lang === "en" ? "en" : "jp2en"],
                         "awards": (doc) => styles.awards.en,
@@ -468,6 +538,7 @@ const list_publish = ((style, lang, order) => {
                 create_list_all("jp",
                     {
                         "journals": (doc) => styles.journal_full[doc.lang],
+                        "invited": (doc) => styles.invited_full[doc.lang],
                         "int_conf": (doc) => styles.int_conf_full,
                         "dom_reports": (doc) => styles.dom_reports_full[doc.lang],
                         "awards": (doc) => styles.awards[doc.lang],
@@ -482,6 +553,7 @@ const list_publish = ((style, lang, order) => {
                 create_list_all("en",
                     {
                         "journals": (doc) => styles.journal_short[doc.lang === "en" ? "en" : "jp2en"],
+                        "invited": (doc) => styles.invited_short[doc.lang],
                         "int_conf": (doc) => styles.int_conf_short,
                         "dom_reports": (doc) => styles.dom_reports_short[doc.lang === "en" ? "en" : "jp2en"],
                         "awards": (doc) => styles.awards.en,
@@ -493,6 +565,7 @@ const list_publish = ((style, lang, order) => {
                 create_list_all("jp",
                     {
                         "journals": (doc) => styles.journal_short[doc.lang],
+                        "invited": (doc) => styles.invited_short[doc.lang],
                         "int_conf": (doc) => styles.int_conf_short,
                         "dom_reports": (doc) => styles.dom_reports_short[doc.lang],
                         "awards": (doc) => styles.awards[doc.lang],
