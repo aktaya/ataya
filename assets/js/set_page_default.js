@@ -3,16 +3,15 @@
 
 // set default language
 (() => {
-    let default_lang = "en";
-    if(page_name === "all.html"){
-        default_lang = "jp";
-    }
+    const browser_lang = window.navigator.language;
+    let default_lang = browser_lang === 'ja' ? 'jp' : 'en';
+
     if (page_name === "all.html") {
-        window.changeLang("jp");
+        window.changeLang(default_lang);
         window.set_default_style("full", "descending");
     }
     else {
-        window.changeLang("en");
+        window.changeLang(default_lang);
         window.set_default_style("short", "descending");
     }
 })();
