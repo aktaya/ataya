@@ -11,6 +11,55 @@
 #   month: 
 #   prefix: ''
 #   year: ''
+#   doi: 'https://doi.org/'
+
+- authors:
+    - {first: "Akihito", family: "Taya"}
+    - {first: "Yuuki", family: "Nishiyama"}
+    - {first: "Kaoru", family: "Sezaki"}
+  title: 'Convergence Visualizer of Decentralized Federated Distillation with Reduced Communication Costs'
+  conference:
+    full: 'IEEE Global Communications 2023'
+    abbrv: 'GLOBECOM'
+  city: 'Kuala Lumpur'
+  country: 'Malaysia'
+  month: 12
+  year: '2023'
+  prefix: accepted
+  # doi: 'https://doi.org/'
+
+- authors:
+    - {first: "Eri", family: "Hosonuma"}
+    - {first: "Nobuyuki", family: "Tanaka"}
+    - {first: "Takuma", family: "Yamazaki"}
+    - {first: "Akihito", family: "Taya"}
+    - {first: "Yuuki", family: "Nishiyama"}
+    - {first: "Kaoru", family: "Sezaki"}
+    - {first: "Takumi", family: "Miyoshi"}
+    - {first: "Taku", family: "Yamazaki"}
+  title: 'Opportunistic Division and Allocation of Machine Learning Task for {WSN}'
+  conference:
+    full: 'The 3rd International Workshop on Smart Radio for IoT Era in conjunction with 2023 Fourteenth International Conference on Ubiquitous and Future Networks'
+    abbrv: 'SRIoT adjunct ICUFN'
+  city: 'Paris'
+  country: 'France'
+  month: 7
+  year: '2023'
+  doi: 'https://doi.org/10.1109/ICUFN57995.2023.10200773'
+
+- authors:
+    - {first: "Yuhi", family: "Kurebayashi"}
+    - {first: "Akihito", family: "Taya"}
+    - {first: "Yoshito", family: "Tobe"}
+  title: 'Environment-Dependent Throughput Distribution Estimation Based on {Bayesian} Approach for {mmWave} Vehicular Communications'
+  conference:
+    full: '2023 IEEE 97th Vehicular Technology Conference'
+    abbrv: 'VTC2023-Spring'
+  city: 'Florence'
+  country: 'Italy'
+  month: 6
+  year: '2023'
+  doi: 'https://doi.org/10.1109/VTC2023-Spring57618.2023.10200424'
 
 - authors:
     - {first: "Hideki", family: "Sato"}

@@ -1,22 +1,61 @@
 # IEICE 論文誌略記 https://www.ieice.org/eng/shiori/appc.html
 # タイトルをコメントアウトもしくは空文字列にすると非表示
 
+# - authors:
+#     - {first: "", family: ""}
+#     - {first: "", family: ""}
+#     - {first: "", family: ""}
+#   title: ''
+#   journal:
+#     full: ''
+#     abbrv: ''
+#   vol: ''
+#   num: ""
+#   pages: {"from": 1, "to": 1}
+#   month: x
+#   year: 2022
+#   lang: "en"
+#   doi: 'https://doi.org/'
+#   visible: false
+
 - authors:
-    - {first: "", family: ""}
-    - {first: "", family: ""}
-    - {first: "", family: ""}
-  title: ''
+    - {first: "Yutong", family: "Feng"}
+    - {first: "Akihito", family: "Taya"}
+    - {first: "Yuuki", family: "Nishiyama"}
+    - {first: "Kaoru", family: "Sezaki"}
+    - {first: "Jun", family: "Liu"}
+  title: 'Compressive Detection of Stochastic Sparse Signals With Unknown Sparsity Degree'
   journal:
-    full: ''
-    abbrv: ''
-  vol: ''
-  num: ""
-  pages: {"from": 1, "to": 1}
-  month: x
-  year: 2022
+    full: 'IEEE Signal Processing Letters'
+    abbrv: 'IEEE Signal Process. Lett.'
+  vol: '30'
+  #num: ""
+  pages: {"from": 1482, "to": 1486}
+  month: 10
+  year: 2023
   lang: "en"
-  doi: 'https://doi.org/'
-  visible: false
+  doi: 'https://doi.org/10.1109/LSP.2023.3324573'
+  prefix: 'Letter'
+
+- authors:
+    - {first: "Shota", family: "Ono"}
+    - {first: "Taku", family: "Yamazaki"}
+    - {first: "Takumi", family: "Miyoshi"}
+    - {first: "Akihito", family: "Taya"}
+    - {first: "Yuuki", family: "Nishiyama"}
+    - {first: "Kaoru", family: "Sezaki"}
+  title: '{AMoND}: Area-Controlled Mobile Ad-Hoc Networking With Digital Twin'
+  journal:
+    full: 'IEEE Access'
+    abbrv: 'IEEE Access'
+  vol: '11'
+  #num: ""
+  pages: {"from": 85224, "to": 85236}
+  month: 8
+  year: 2023
+  lang: "en"
+  doi: 'https://doi.org/10.1109/ACCESS.2023.3304374'
+  visible: true
 
 - authors:
     - {first: "Akihito", family: "Taya"}
