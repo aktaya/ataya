@@ -14,6 +14,42 @@
 #   doi: 'https://doi.org/'
 
 - authors:
+    - {first: "Shota", family: "Ono"}
+    - {first: "Taku", family: "Yamazaki"}
+    - {first: "Takumi", family: "Miyoshi"}
+    - {first: "Akihito", family: "Taya"}
+    - {first: "Yuuki", family: "Nishiyama"}
+    - {first: "Kaoru", family: "Sezaki"}
+  title: 'Experimental Evaluation Toward Mobility-Driven Model Integration Between Edges'
+  conference:
+    full: 'the 21st Consumer Communications and Networking Conference'
+    abbrv: 'CCNC'
+  city: 'Las Vegas, NV'
+  country: 'USA'
+  month: 1
+  prefix: 'poster'
+  year: '2024'
+  #doi: 'https://doi.org/'
+
+- authors:
+    - {first: "Eri", family: "Hosonuma"}
+    - {first: "Taku", family: "Yamazaki"}
+    - {first: "Takumi", family: "Miyoshi"}
+    - {first: "Akihito", family: "Taya"}
+    - {first: "Yuuki", family: "Nishiyama"}
+    - {first: "Kaoru", family: "Sezaki"}
+  title: 'Exploiting Spatial and Descriptive Information for Generative Compression'
+  conference:
+    full: 'the 21st Consumer Communications and Networking Conference'
+    abbrv: 'CCNC'
+  city: 'Las Vegas, NV'
+  country: 'USA'
+  month: 1
+  prefix: 'poster'
+  year: '2024'
+  #doi: 'https://doi.org/'
+
+- authors:
     - {first: "Akihito", family: "Taya"}
     - {first: "Yuuki", family: "Nishiyama"}
     - {first: "Kaoru", family: "Sezaki"}
@@ -25,8 +61,24 @@
   country: 'Malaysia'
   month: 12
   year: '2023'
-  prefix: accepted
   # doi: 'https://doi.org/'
+
+- authors:
+    - {first: "Eri", family: "Hosonuma"}
+    - {first: "Taku", family: "Yamazaki"}
+    - {first: "Takumi", family: "Miyoshi"}
+    - {first: "Akihito", family: "Taya"}
+    - {first: "Yuuki", family: "Nishiyama"}
+    - {first: "Kaoru", family: "Sezaki"}
+  title: 'Investigating Indicators for LPWA-based Congestion Estimation in Large-scale Indoor Environments'
+  conference:
+    full: 'International Conference on Emerging Technologies for Communications'
+    abbrv: 'ICETC'
+  city: 'Sapporo'
+  country: 'Japan'
+  month: 11
+  year: '2023'
+  doi: 'https://doi.org/10.34385/proc.79.O3-4'
 
 - authors:
     - {first: "Eri", family: "Hosonuma"}
@@ -39,7 +91,7 @@
     - {first: "Taku", family: "Yamazaki"}
   title: 'Opportunistic Division and Allocation of Machine Learning Task for {WSN}'
   conference:
-    full: 'The 3rd International Workshop on Smart Radio for IoT Era in conjunction with 2023 Fourteenth International Conference on Ubiquitous and Future Networks'
+    full: 'the 3rd International Workshop on Smart Radio for IoT Era in conjunction with 2023 Fourteenth International Conference on Ubiquitous and Future Networks'
     abbrv: 'SRIoT adjunct ICUFN'
   city: 'Paris'
   country: 'France'
@@ -115,7 +167,7 @@
     - {first: "Guillaume", family: "Lopez"}
   title: 'Translation-Delay-Aware Emotional Avatar System for Online Communication Support'
   conference:
-    full: 'The 4th International Conference on Activity and Behavior Computing'
+    full: 'the 4th International Conference on Activity and Behavior Computing'
     abbrv: 'ABC 2022'
   city: 'London'
   country: 'United Kingdom'
