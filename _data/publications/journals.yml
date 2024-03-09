@@ -19,6 +19,25 @@
 #   visible: false
 
 - authors:
+    - {first: "Hiroki", family: "Shimomura"}
+    - {first: "Sota ", family: "Kondo"}
+    - {first: "Koji ", family: "Yamamoto"}
+    - {first: "Takayuki ", family: "Nishio"}
+    - {first: "Akihito", family: "Taya"}
+  title: 'Sensing {SNR}-Based Feature Selection of Beamforming Feedback Toward Firmware-Agnostic {WiFi} Sensing'
+  journal:
+    full: 'IEEE Wireless Communications Letters'
+    abbrv: 'IEEE Wireless Commun. Lett.'
+  vol: ''
+  num: ""
+  pages: {"from": 1, "to": 4}
+  month: 3
+  year: 2024
+  lang: "en"
+  doi: 'https://doi.org/10.1109/LWC.2024.3373757'
+  prefix: 'Letter, earyl access'
+
+- authors:
     - {first: "Yutong", family: "Feng"}
     - {first: "Akihito", family: "Taya"}
     - {first: "Yuuki", family: "Nishiyama"}
