@@ -61,7 +61,7 @@
   country: 'Malaysia'
   month: 12
   year: '2023'
-  # doi: 'https://doi.org/'
+  doi: 'https://doi.org/10.1109/GLOBECOM54140.2023.10437801'
 
 - authors:
     - {first: "Eri", family: "Hosonuma"}
