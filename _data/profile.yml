@@ -49,8 +49,11 @@ committee:
         - ICMU2023 Regitration Chair
     - role: 論文編集委員
       details:
-        - 情報処理学会 DPS特集号 2022, 2023
+        - 情報処理学会 DPS特集号 2022, 2023, 2024
         - 情報処理学会 UBI特集号 2024
+    - role: その他
+      details:
+        - NISTEP専門調査委員 2021-2023
   en:
     - role: TPC Member
       details:
