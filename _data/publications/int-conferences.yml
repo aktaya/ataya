@@ -14,6 +14,22 @@
 #   doi: 'https://doi.org/'
 
 - authors:
+    - {first: "Helinyi", family: "Peng"}
+    - {first: "Akihito", family: "Taya"}
+    - {first: "Yuuki", family: "Nishiyama"}
+    - {first: "Kaoru", family: "Sezaki"}
+  title: 'Location Awareness in {AED} Retrieval: An Simulation-Based Investigation'
+  conference:
+    full: 'the 22nd Annual International Conference on Mobile Systems, Applications and Services'
+    abbrv: 'MobiSys'
+  city: 'Tokyo'
+  country: 'Japan'
+  month: 3
+  prefix: 'Poster'
+  year: '2024'
+  doi: 'https://doi.org/'
+
+- authors:
     - {first: "Shota", family: "Ono"}
     - {first: "Taku", family: "Yamazaki"}
     - {first: "Takumi", family: "Miyoshi"}

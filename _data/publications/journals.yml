@@ -28,14 +28,14 @@
   journal:
     full: 'IEEE Wireless Communications Letters'
     abbrv: 'IEEE Wireless Commun. Lett.'
-  vol: ''
-  num: ""
-  pages: {"from": 1, "to": 4}
+  vol: '13'
+  num: '5'
+  pages: {"from": 1439, "to": 1442}
   month: 3
   year: 2024
   lang: "en"
   doi: 'https://doi.org/10.1109/LWC.2024.3373757'
-  prefix: 'Letter, earyl access'
+  prefix: 'Letter'
 
 - authors:
     - {first: "Yutong", family: "Feng"}
