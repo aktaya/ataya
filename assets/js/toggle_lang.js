@@ -79,6 +79,36 @@ const changeLangList = [];
     changeLangList.push({ jp: ToJp, en: ToEn });
 })();
 
+// committee
+(() => {
+    const div_committee = document.getElementById('committee');
+    const committeeToList = (data) => {
+        const ul = document.createElement('ul');
+        ul.className = 'committee';
+        data.forEach(obj => {
+            const role = document.createElement('li');
+            const details = document.createElement('ul');
+            details.className = 'committee_detail';
+            obj.details.forEach(detail => {
+                const li = document.createElement('li');
+                li.innerHTML = detail;
+                details.appendChild(li);
+            });
+            role.innerHTML = obj.role;
+            role.appendChild(details);
+            ul.appendChild(role);
+        });
+        while (div_committee.firstChild) {
+            div_committee.removeChild(div_committee.firstChild);
+        }
+        div_committee.appendChild(ul);
+    }
+    const committee = {{ prof.committee | jsonify }};
+    const ToJp = () => { committeeToList(committee.jp); };
+    const ToEn = () => { committeeToList(committee.en); };
+    changeLangList.push({ jp: ToJp, en: ToEn });
+})();
+
 // toggle publish list
 (() => {
     const ToJp = () => {

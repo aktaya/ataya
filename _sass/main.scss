@@ -156,6 +156,17 @@ ul.biography li ul li.affiliation {
   width: 220px;
 }
 
+ul.committee {
+  list-style-type: none;
+  margin-left: 20px;
+  padding: 0px;
+}
+ul.committee li ul.committee_detail {
+  list-style-type: disc;
+  margin-left: 40px;
+  padding: 0px;
+}
+
 #btn_lang {
   font-size: 18px;
   color: #267CB9;
