@@ -1,7 +1,8 @@
 # - authors:
-#     - {first: "", family: ""}
-#     - {first: "", family: ""}
-#     - {first: "", family: ""}
+#     - {first: '', family: ''}
+#     - {first: '', family: ''}
+#     - {first: '', family: ''}
+#     - {first: '', family: ''}
 #   title: ''
 #   conference:
 #     full: ''
@@ -14,20 +15,71 @@
 #   doi: 'https://doi.org/'
 
 - authors:
-    - {first: "Helinyi", family: "Peng"}
-    - {first: "Akihito", family: "Taya"}
-    - {first: "Yuuki", family: "Nishiyama"}
-    - {first: "Kaoru", family: "Sezaki"}
-  title: 'Location Awareness in {AED} Retrieval: An Simulation-Based Investigation'
+    - {first: 'Zhenbo', family: 'Wang'}
+    - {first: 'Akihito', family: 'Taya'}
+    - {first: 'Kato', family: 'Takaaki'}
+    - {first: 'Kaoru', family: 'Sezaki'}
+    - {first: 'Yuuki', family: 'Nishiyama'}
+  title: "Toward Detecting Student-Athletes' Condition Using Passive Mobile and Wearable Sensing"
+  conference:
+    full: 'The ACM international joint conference on Pervasive and Ubiquitous Computing / The ACM International Symposium on Wearable Computing Posters and Demos'
+    abbrv: 'UbiComp/ISWC 2024 Posters and Demos'
+  city: 'Melbourne'
+  country: 'Australia'
+  month: 10
+  prefix: 'poster, accepted'
+  year: '2024'
+  # doi: 'https://doi.org/'
+
+- authors:
+    - {first: 'Manaka', family: 'Ito'}
+    - {first: 'Kota', family: 'Tsubouchi'}
+    - {first: 'Nobuhiko', family: 'Nishio'}
+    - {first: 'Masamichi', family: 'Shimosaka'}
+    - {first: 'Akihito', family: 'Taya'}
+    - {first: 'Kaoru', family: 'Sezaki'}
+    - {first: 'Yuuki', family: 'Nishiyama'}
+  title: 'Investigating Acceptable Voice-based Notification Timings through Earable Devices: {A} Preliminary Field Study'
+  conference:
+    full: 'The ACM international joint conference on Pervasive and Ubiquitous Computing / The ACM International Symposium on Wearable Computing Posters and Demos'
+    abbrv: 'UbiComp/ISWC 2024 Posters and Demos'
+  city: 'Melbourne'
+  country: 'Australia'
+  month: 10
+  prefix: 'poster, accepted'
+  year: '2024'
+  # doi: 'https://doi.org/'
+
+- authors:
+    - {first: 'Helinyi', family: 'Peng'}
+    - {first: 'Akihito', family: 'Taya'}
+    - {first: 'Yuuki', family: 'Nishiyama'}
+    - {first: 'Kaoru', family: 'Sezaki'}
+  title: 'Location Awareness in {AED} Retrieval: {An} Simulation-Based Investigation'
   conference:
     full: 'the 22nd Annual International Conference on Mobile Systems, Applications and Services'
     abbrv: 'MobiSys'
   city: 'Tokyo'
   country: 'Japan'
-  month: 3
-  prefix: 'Poster'
+  month: 6
+  prefix: 'poster'
   year: '2024'
-  doi: 'https://doi.org/'
+  doi: 'https://doi.org/10.1145/3643832.3661401'
+
+- authors:
+    - {first: 'Masaki', family: 'Ishizaka'}
+    - {first: 'Akihito', family: 'Taya'}
+    - {first: 'Yoshito', family: 'Tobe'}
+  title: '{SPARKIT}: {A} Mind Map-Based {MAS} for Idea Generation Support'
+  conference:
+    full: '12th International Workshop on Engineering Multi-Agent Systems co-located with the 23rd International Conference on Autonomous Agents and Multi-Agent Systems'
+    abbrv: 'EMAS co-located with AAMAS'
+  city: 'Auckland'
+  country: 'New Zealand'
+  month: 5
+  prefix: ''
+  year: '2024'
+  #doi: 'https://doi.org/'
 
 - authors:
     - {first: "Shota", family: "Ono"}

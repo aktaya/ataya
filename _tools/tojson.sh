@@ -21,9 +21,9 @@ cat authors.txt | while read line; do
   str2=$(echo $line | cut -d" " -f2)
 
   if [ $jp -eq 1 ]; then
-    echo '      - {first: "'$str2'", family: "'$str1'"}'
+    echo "      - {first: '"$str2"', family: '"$str1"'}"
   else
-    echo '      - {first: "'$str1'", family: "'$str2'"}'
+    echo "      - {first: '"$str1"', family: '"$str2"'}"
   fi
 done
 
