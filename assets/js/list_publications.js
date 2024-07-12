@@ -9,6 +9,12 @@ const month = {
         5: "May", 6: "June", 7: "July", 8: "August",
         9: "September", 10: "October", 11: "November", 12: "December",
     },
+    "jp": {
+        0: "",
+        1: "1月", 2: "2月", 3: "3月", 4: "4月",
+        5: "5月", 6: "6月", 7: "7月", 8: "8月",
+        9: "9月", 10: "10月", 11: "11月", 12: "12月",
+    },
     "abbrv3": {
         0: "",
         1: "Jan.", 2: "Feb.", 3: "Mar.", 4: "Apr.",
@@ -152,8 +158,8 @@ const style_dicts = {
         "notes_short": { "param": "notes", "func": (n) => `${n.jp.abbrv}${sep.jp.comma}` },
         "city": { "param": "city", "func": (c) => `${c}${sep.jp.comma}` },
         "city_jp": { "param": "city", "func": (c) => `${c.jp}${sep.jp.comma}` },
-        "month": { "param": "month", "func": (m) => month.abbrv3[m] + " " },
-        "year": { "param": "year", "func": (y) => String(y) + sep.jp.period },
+        "year": { "param": "year", "func": (y) => String(y) + '年' },
+        "month": { "param": "month", "func": (m) => `${month.jp[m]}${sep.jp.period}` },
         "other": { "param": "jp", "func": (d) => d },
     }
 };
@@ -179,8 +185,8 @@ const styles = {
             style_dicts.jp.vol,
             style_dicts.jp.num,
             style_dicts.jp.pages,
-            style_dicts.jp.month,
             style_dicts.jp.year,
+            style_dicts.jp.month,
         ],
         "jp2en": [
             style_dicts.en.prefix_injp,
@@ -215,8 +221,8 @@ const styles = {
             style_dicts.jp.vol,
             style_dicts.jp.num,
             style_dicts.jp.pages,
-            style_dicts.jp.month,
             style_dicts.jp.year,
+            style_dicts.jp.month,
         ],
         "jp2en": [
             style_dicts.en.prefix_injp,
@@ -248,8 +254,8 @@ const styles = {
             style_dicts.jp.title,
             style_dicts.jp.notes,
             style_dicts.jp.city_jp,
-            style_dicts.jp.month,
             style_dicts.jp.year,
+            style_dicts.jp.month,
         ],
         "jp2en": [
             style_dicts.en.prefix,
@@ -280,8 +286,8 @@ const styles = {
             style_dicts.jp.title,
             style_dicts.jp.notes_short,
             style_dicts.jp.city_jp,
-            style_dicts.jp.month,
             style_dicts.jp.year,
+            style_dicts.jp.month,
         ],
         "jp2en": [
             style_dicts.en.prefix,
@@ -331,8 +337,8 @@ const styles = {
             style_dicts.jp.title,
             style_dicts.jp.notes,
             style_dicts.jp.city_jp,
-            style_dicts.jp.month,
             style_dicts.jp.year,
+            style_dicts.jp.month,
         ],
         "jp2en": [
             style_dicts.en.prefix,
@@ -361,8 +367,8 @@ const styles = {
             style_dicts.jp.title,
             style_dicts.jp.notes_short,
             style_dicts.jp.city_jp,
-            style_dicts.jp.month,
             style_dicts.jp.year,
+            style_dicts.jp.month,
         ],
         "jp2en": [
             style_dicts.en.prefix,
