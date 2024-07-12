@@ -1,25 +1,451 @@
 # - authors:
 #     jp:
-#       - {first: "昭仁", family: "田谷"}
+#       - {first: '昭仁', family: '田谷'}
 #     en:
-#       - {first: "Akihito", family: "Taya"}
+#       - {first: 'Akihito', family: 'Taya'}
 #   title:
-#     jp: ""
-#     en: ""
+#     jp: ''
+#     en: ''
 #   notes:
 #     jp:
-#       full: "電子情報通信学会技術研究報告 IEICE-SeMI2021-86"
-#       abbrv: "信学技報 IEICE-SeMI2021-86"
+#       full: '電子情報通信学会技術研究報告 IEICE-SeMI2021-86'
+#       abbrv: '信学技報 IEICE-SeMI2021-86'
 #     en:
-#       full: "IEICE Technical Reports IEICE-SeMI2021-86"
-#       abbrv: "IEICE Tech. Rep. IEICE-SeMI2021-86"
+#       full: 'IEICE Technical Reports IEICE-SeMI2021-86'
+#       abbrv: 'IEICE Tech. Rep. IEICE-SeMI2021-86'
 #   city:
-#     jp: ""
-#     en: ""
+#     jp: ''
+#     en: ''
 #   month: 
 #   year: ''
 #   prefix: ''
 #   lang: jp
+
+- authors:
+    jp:
+      - {first: '大地', family: '山崎'}
+      - {first: '佑介', family: '川喜田'}
+      - {first: '昭仁', family: '田谷'}
+      - {first: '義人', family: '戸辺'}
+    en:
+      - {first: 'Taichi', family: 'Yamazaki'}
+      - {first: 'Yuusuke', family: 'Kawakita'}
+      - {first: 'Akihito', family: 'Taya'}
+      - {first: 'Yoshito', family: 'Tobe'}
+  title:
+    jp: 'WiFiセンシングにおけるAP配置およびアンテナ角度最適化のための簡易学習データ取得'
+    en: 'Reducing Cost of Access Point Calibration for {WiFi} Sensing Using Subset of Classification Task'
+  notes:
+    jp:
+      full: '電子情報通信学会技術研究報告 IEICE-SeMI2024-6'
+      abbrv: '信学技報 IEICE-SeMI2024-6'
+    en:
+      full: 'IEICE Technical Reports IEICE-SeMI2024-6'
+      abbrv: 'IEICE Tech. Rep. IEICE-SeMI2024-6'
+  city:
+    jp: '那覇'
+    en: 'Naha'
+  month: 5
+  year: '2024'
+  prefix: ''
+  lang: jp
+
+- authors:
+    jp:
+      - {first: '愛香', family: '伊藤'}
+      - {first: '孝太', family: '坪内'}
+      - {first: '信彦', family: '西尾'}
+      - {first: '正倫', family: '下坂'}
+      - {first: '昭仁', family: '田谷'}
+      - {first: '薫', family: '瀬崎'}
+      - {first: '勇毅', family: '西山'}
+    en:
+      - {first: 'Akihito', family: 'Taya'}
+  title:
+    jp: ''
+    en: ''
+  notes:
+    jp:
+      full: '情報処理学会UBI研究会 2024-UBI-82, No. 3'
+      abbrv: '情処研報 2024-UBI-82, No. 3'
+    en:
+      full: ''
+      abbrv: ''
+  city:
+    jp: '屋久島'
+    en: ''
+  month: 5
+  year: '2024'
+  prefix: ''
+  lang: jp
+
+- authors:
+    jp:
+      - {first: '修聞', family: '顧'}
+      - {first: '昭仁', family: '田谷'}
+      - {first: '勇毅', family: '西山'}
+      - {first: '薫', family: '瀬崎'}
+    en:
+      - {first: 'Akihito', family: 'Taya'}
+  title:
+    jp: 'パッシブモバイルセンシングを用いた育児ノイローゼの検知に向けた基礎的調査'
+    en: ''
+  notes:
+    jp:
+      full: '情報処理学会UBI研究会 2024-UBI-82, No. 2'
+      abbrv: '情処研報 2024-UBI-82, No. 2'
+    en:
+      full: ''
+      abbrv: ''
+  city:
+    jp: '屋久島'
+    en: ''
+  month: 5
+  year: '2024'
+  prefix: ''
+  lang: jp
+
+- authors:
+    jp:
+      - {first: 'Helinyi', family: 'Peng'}
+      - {first: 'Akihito', family: 'Taya'}
+      - {first: 'Yuuki', family: 'Nishiyama'}
+      - {first: 'Kaoru', family: 'Sezaki'}
+    en:
+      - {first: 'Helinyi', family: 'Peng'}
+      - {first: 'Akihito', family: 'Taya'}
+      - {first: 'Yuuki', family: 'Nishiyama'}
+      - {first: 'Kaoru', family: 'Sezaki'}
+  title:
+    jp: 'Initial Investigation on Improving AED Delivery Efficiency by Encouraging Location Awareness'
+    en: 'Initial Investigation on Improving {AED} Delivery Efficiency by Encouraging Location Awareness'
+  notes:
+    jp:
+      full: '電子情報通信学会総合大会 A-12-05'
+      abbrv: 'IEICE総合大会 A-12-05'
+    en:
+      full: 'IEICE General Conference A-12-05'
+      abbrv: 'IEICE General Conf. A-12-05'
+  city:
+    jp: '東広島'
+    en: 'Higashi-hiroshima'
+  month: 3
+  year: '2024'
+  prefix: ''
+  lang: en
+
+- authors:
+    jp:
+      - {first: '修聞', family: '顧'}
+      - {first: '勇毅', family: '西山'}
+      - {first: '薫', family: '瀬崎'}
+      - {first: '昭仁', family: '田谷'}
+    en:
+      - {first: 'Akihito', family: 'Taya'}
+  title:
+    jp: 'パッシブモバイルセンシングを用いた産後うつ症状の検知に関する一検討'
+    en: ''
+  notes:
+    jp:
+      full: '情報処理学会第86回全国大会講演論文集 Z86-6ZB-05'
+      abbrv: 'IPSJ全国大会 Z86-6ZB-05'
+    en:
+      full: ''
+      abbrv: ''
+  city:
+    jp: '横浜'
+    en: ''
+  month: 3
+  year: '2024'
+  prefix: ''
+  lang: jp
+
+- authors:
+    jp:
+      - {first: '振博', family: '王'}
+      - {first: '勇毅', family: '西山'}
+      - {first: '貴昭', family: '加藤'}
+      - {first: '薫', family: '瀬崎'}
+      - {first: '昭仁', family: '田谷'}
+    en:
+      - {first: 'Akihito', family: 'Taya'}
+  title:
+    jp: '学生アスリートの行動データを用いた心身のストレス・回復状態の検知に向けて:異なる時期の比較分析'
+    en: ''
+  notes:
+    jp:
+      full: '情報処理学会第86回全国大会講演論文集 Z86-6ZB-04'
+      abbrv: 'IPSJ全国大会 Z86-6ZB-04'
+    en:
+      full: ''
+      abbrv: ''
+  city:
+    jp: '横浜'
+    en: ''
+  month: 3
+  year: '2024'
+  prefix: ''
+  lang: jp
+
+- authors:
+    jp:
+      - {first: '大地', family: '山崎'}
+      - {first: '佑介', family: '川喜田'}
+      - {first: '昭仁', family: '田谷'}
+      - {first: '義人', family: '戸辺'}
+    en:
+      - {first: 'Akihito', family: 'Taya'}
+  title:
+    jp: 'Wi-Fiセンシングにおけるパラメータ校正コストの削減手法の提案'
+    en: ''
+  notes:
+    jp:
+      full: '情報処理学会第86回全国大会講演論文集 Z86-5ZB-05'
+      abbrv: 'IPSJ全国大会 Z86-5ZB-05'
+    en:
+      full: ''
+      abbrv: ''
+  city:
+    jp: '横浜'
+    en: ''
+  month: 3
+  year: '2024'
+  prefix: ''
+  lang: jp
+
+- authors:
+    jp:
+      - {first: '柾樹', family: '石坂'}
+      - {first: '昭仁', family: '田谷'}
+      - {first: '義人', family: '戸辺'}
+    en:
+      - {first: 'Akihito', family: 'Taya'}
+  title:
+    jp: 'ロールに基づくエージェントの相互作用とアイデア創出活性化のためのマインドマップの活用'
+    en: ''
+  notes:
+    jp:
+      full: '情報処理学会第86回全国大会講演論文集 Z86-5X-01'
+      abbrv: 'IPSJ全国大会 Z86-5X-01'
+    en:
+      full: ''
+      abbrv: ''
+  city:
+    jp: '横浜'
+    en: ''
+  month: 3
+  year: '2024'
+  prefix: ''
+  lang: jp
+
+- authors:
+    jp:
+      - {first: '振博', family: '王'}
+      - {first: '昭仁', family: '田谷'}
+      - {first: '貴昭', family: '加藤'}
+      - {first: '勇毅', family: '西山'}
+      - {first: '薫', family: '瀬崎'}
+    en: []
+  title:
+    jp: '学生アスリートの行動データを用いた心身のストレス・回復状態の検知に向けて：行動データと心理尺度との関係分析'
+    en: ''
+  notes:
+    jp:
+      full: '情報処理学会UBI研究会, 2023-UBI-80, No. 24'
+      abbrv: '情処研報 2023-UBI-80, No. 24'
+    en:
+      full: ''
+      abbrv: ''
+  city:
+    jp: '淡路'
+    en: ''
+  month: 11
+  year: '2023'
+  prefix: ''
+  lang: jp
+
+- authors:
+    jp:
+      - {first: '大貴', family: '下村'}
+      - {first: '高至', family: '山本'}
+      - {first: '理志', family: '西尾'}
+      - {first: '昭仁', family: '田谷'}
+    en:
+      - {first: 'Hiroki', family: 'Shimomura'}
+      - {first: 'Koji', family: 'Yamamoto'}
+      - {first: 'Takayuki', family: 'Nishio'}
+      - {first: 'Akihito', family: 'Taya'}
+  title:
+    jp: '無線LANにおけるビームフォーミングフィードバックと特異値分解の考察 '
+    en: 'Study on Beamforming Feedback in Wireless {LANs} and Singular Value Decomposition'
+  notes:
+    jp:
+      full: '電子情報通信学会超知性ネットワークに関する分野横断型研究会(RISING)'
+      abbrv: '信学会 RISING研究会'
+    en:
+      full: 'IEICE RISING'
+      abbrv: 'IEICE RISING'
+  city:
+    jp: '札幌'
+    en: 'Sapporo'
+  month: 10
+  year: '2023'
+  prefix: 'poster'
+  lang: jp
+
+- authors:
+    jp:
+      - {first: '愛香', family: '伊藤'}
+      - {first: '昴', family: '厚見'}
+      - {first: 'Zhenbo', family: 'Wang '}
+      - {first: 'Xiuwen', family: 'Gu '}
+      - {first: '昭仁', family: '田谷'}
+      - {first: '勇毅', family: '西山'}
+      - {first: '薫', family: '瀬崎'}
+    en: []
+  title:
+    jp: '対話中の非言語行動と大規模言語モデルを活用したシームレスな質疑応答補助システムの提案'
+    en: ''
+  notes:
+    jp:
+      full: '第31回マルチメディア通信と分散処理ワークショップ論文集'
+      abbrv: 'DPSWS'
+    en:
+      full: ''
+      abbrv: ''
+  city:
+    jp: '高岡'
+    en: 'Takaoka'
+  month: 10
+  year: '2023'
+  prefix: 'poster'
+  lang: jp
+
+- authors:
+    jp:
+      - {first: '翔多', family: '小野'}
+      - {first: '託', family: '山崎'}
+      - {first: '匠', family: '三好'}
+      - {first: '昭仁', family: '田谷'}
+      - {first: '勇毅', family: '西山'}
+      - {first: '薫', family: '瀬崎'}
+    en:
+      - {first: 'Shota', family: 'Ono'}
+      - {first: 'Taku', family: 'Yamazaki'}
+      - {first: 'Takumi', family: 'Miyoshi'}
+      - {first: 'Akihito', family: 'Taya'}
+      - {first: 'Yuuki', family: 'Nishiyama'}
+      - {first: 'Kaoru', family: 'Sezaki'}
+  title:
+    jp: 'ユーザの移動性を活用した地域連携型連合学習における学習モデル統合手法の評価'
+    en: ''
+  notes:
+    jp:
+      full: '第31回マルチメディア通信と分散処理ワークショップ論文集'
+      abbrv: 'DPSWS'
+    en:
+      full: ''
+      abbrv: ''
+  city:
+    jp: '高岡'
+    en: 'Takaoka'
+  month: 10
+  year: '2023'
+  prefix: 'poster'
+  lang: jp
+
+- authors:
+    jp:
+      - {first: '翔多', family: '小野'}
+      - {first: '託', family: '山崎'}
+      - {first: '匠', family: '三好'}
+      - {first: '昭仁', family: '田谷'}
+      - {first: '勇毅', family: '西山'}
+      - {first: '薫', family: '瀬崎'}
+    en:
+      - {first: 'Shota', family: 'Ono'}
+      - {first: 'Taku', family: 'Yamazaki'}
+      - {first: 'Takumi', family: 'Miyoshi'}
+      - {first: 'Akihito', family: 'Taya'}
+      - {first: 'Yuuki', family: 'Nishiyama'}
+      - {first: 'Kaoru', family: 'Sezaki'}
+  title:
+    jp: '連合学習におけるスマートフォンの電力消費量の調査'
+    en: 'Evaluation of Battery Power Consumption of Smartphones in Federated Learning'
+  notes:
+    jp:
+      full: '電子情報通信学会ソサイエティ大会 BS-4-2'
+      abbrv: 'IEICEソサイエティ大会 BS-4-2'
+    en:
+      full: 'IEICE Society Conference BS-4-2'
+      abbrv: 'IEICE Society Conf. BS-4-2'
+  city:
+    jp: '名古屋'
+    en: 'Nagoya'
+  month: 9
+  year: '2023'
+  prefix: 'poster'
+  lang: jp
+
+- authors:
+    jp:
+      - {first: '恵里', family: '細沼'}
+      - {first: '託', family: '山崎'}
+      - {first: '匠', family: '三好'}
+      - {first: '昭仁', family: '田谷'}
+      - {first: '勇毅', family: '西山'}
+      - {first: '薫', family: '瀬崎'}
+    en:
+      - {first: 'Eri', family: 'Hosonuma'}
+      - {first: 'Taku', family: 'Yamazaki'}
+      - {first: 'Takumi', family: 'Miyoshi'}
+      - {first: 'Akihito', family: 'Taya'}
+      - {first: 'Yuuki', family: 'Nishiyama'}
+      - {first: 'Kaoru', family: 'Sezaki'}
+  title:
+    jp: '領域的情報と説明的情報を用いた生成型画像圧縮伝送に関する初期検討'
+    en: 'A Preliminary Study on Generative Image Compression and Transmission Method Using Spatial and Descriptive Information'
+  notes:
+    jp:
+      full: '電子情報通信学会ソサイエティ大会 BS-4-1'
+      abbrv: 'IEICEソサイエティ大会 BS-4-1'
+    en:
+      full: 'IEICE Society Conference BS-4-1'
+      abbrv: 'IEICE Society Conf. BS-4-1'
+  city:
+    jp: '名古屋'
+    en: 'Nagoya'
+  month: 9
+  year: '2023'
+  prefix: 'poster'
+  lang: jp
+
+- authors:
+    jp:
+      - {first: '柾樹', family: '石坂'}
+      - {first: '昭仁', family: '田谷'}
+      - {first: '義人', family: '戸辺'}
+    en:
+      - {first: 'Masaki', family: 'Ishizaka'}
+      - {first: 'Akihito', family: 'Taya'}
+      - {first: 'Yoshito', family: 'Tobe'}
+  title:
+    jp: 'SPARKIT: アイデア創出支援のためのマルチエージェントによるマインドマップ生成システム'
+    en: '{SPARKIT}: {A} Multi-Agent Mind-Map Generation System for Idea Generation'
+  notes:
+    jp:
+      full: '電子情報通信学会技術研究報告 IEICE-HCS2023-54'
+      abbrv: '信学技報 IEICE-HCS2023-54'
+    en:
+      full: 'IEICE Technical Reports IEICE-HCS2023-54'
+      abbrv: 'IEICE Tech. Rep. IEICE-HCS2023-54'
+  city:
+    jp: '西宮'
+    en: 'Nishinomiya'
+  month: 8
+  year: '2023'
+  prefix: ''
+  lang: jp
 
 - authors:
     jp:
@@ -211,8 +637,8 @@
     en: ""
   notes:
     jp:
-      full: "情報処理学会全国大会 2K-06"
-      abbrv: "IPSJ全国大会 2K-06"
+      full: "情報処理学会第85回全国大会講演論文集 Z85-2K-06"
+      abbrv: "IPSJ全国大会 Z85-2K-06"
     en:
       full: "The 85th National Convention of IPSJ"
       abbrv: "The 85th National Convention of IPSJ"
@@ -239,8 +665,8 @@
     en: ""
   notes:
     jp:
-      full: "情報処理学会全国大会 1Y-03"
-      abbrv: "IPSJ全国大会 1Y-03"
+      full: "情報処理学会第85回全国大会講演論文集 Z85-1Y-03"
+      abbrv: "IPSJ全国大会 Z85-1Y-03"
     en:
       full: "The 85th National Convention of IPSJ"
       abbrv: "The 85th National Convention of IPSJ"
@@ -263,8 +689,8 @@
     en: ""
   notes:
     jp:
-      full: "情報処理学会全国大会 5Y-06"
-      abbrv: "IPSJ全国大会 5Y-06"
+      full: "情報処理学会第85回全国大会講演論文集 Z85-5Y-06"
+      abbrv: "IPSJ全国大会 Z85-5Y-06"
     en:
       full: "The 85th National Convention of IPSJ"
       abbrv: "The 85th National Convention of IPSJ"
@@ -288,8 +714,8 @@
     en: ""
   notes:
     jp:
-      full: "情報処理学会全国大会 1ZB-01"
-      abbrv: "IPSJ全国大会 1ZB-01"
+      full: "情報処理学会第85回全国大会講演論文集 Z85-1ZB-01"
+      abbrv: "IPSJ全国大会 Z85-1ZB-01"
     en:
       full: "The 85th National Convention of IPSJ"
       abbrv: "The 85th National Convention of IPSJ"
@@ -312,8 +738,8 @@
     en: ""
   notes:
     jp:
-      full: "情報処理学会全国大会 2ZB-01"
-      abbrv: "IPSJ全国大会 2ZB-01"
+      full: "情報処理学会第85回全国大会講演論文集 Z85-2ZB-01"
+      abbrv: "IPSJ全国大会 Z85-2ZB-01"
     en:
       full: "The 85th National Convention of IPSJ"
       abbrv: "The 85th National Convention of IPSJ"
@@ -336,8 +762,8 @@
     en: ""
   notes:
     jp:
-      full: "情報処理学会全国大会 2ZB-02"
-      abbrv: "IPSJ全国大会 2ZB-02"
+      full: "情報処理学会第85回全国大会講演論文集 Z85-2ZB-02"
+      abbrv: "IPSJ全国大会 Z85-2ZB-02"
     en:
       full: "The 85th National Convention of IPSJ"
       abbrv: "The 85th National Convention of IPSJ"
@@ -660,7 +1086,7 @@
   notes:
     jp:
       full: "情報処理学会研究報告，Vol. 2022-DPS-191, No. 3"
-      abbrv: "情処研報 DPS-191"
+      abbrv: "情処研報 DPS-191, No. 3"
     en:
       full: ""
       abbrv: ""
@@ -707,8 +1133,8 @@
     en: ""
   notes:
     jp:
-      full: "情報処理学会全国大会 1ZK-04"
-      abbrv: "IPSJ全国大会 1ZK-04"
+      full: "情報処理学会第84回全国大会講演論文集 Z84-1ZK-04"
+      abbrv: "IPSJ全国大会 Z84-1ZK-04"
     en:
       full: ""
       abbrv: ""
@@ -735,8 +1161,8 @@
     en: ""
   notes:
     jp:
-      full: "情報処理学会全国大会 6Y-03"
-      abbrv: "IPSJ全国大会 6Y-03"
+      full: "情報処理学会第84回全国大会講演論文集 Z84-6Y-03"
+      abbrv: "IPSJ全国大会 Z84-6Y-03"
     en:
       full: ""
       abbrv: ""
@@ -761,8 +1187,8 @@
     en: ""
   notes:
     jp:
-      full: "情報処理学会全国大会 1Y-03"
-      abbrv: "IPSJ全国大会 1Y-03"
+      full: "情報処理学会第84回全国大会講演論文集 Z84-1Y-03"
+      abbrv: "IPSJ全国大会 Z84-1Y-03"
     en:
       full: ""
       abbrv: ""
@@ -787,8 +1213,8 @@
     en: ""
   notes:
     jp:
-      full: "情報処理学会全国大会 1Y-01"
-      abbrv: "IPSJ全国大会 1Y-01"
+      full: "情報処理学会第84回全国大会講演論文集 Z84-1Y-01"
+      abbrv: "IPSJ全国大会 Z84-1Y-01"
     en:
       full: ""
       abbrv: ""
@@ -819,8 +1245,8 @@
     en: ""
   notes:
     jp:
-      full: "情報処理学会全国大会 5J-07"
-      abbrv: "IPSJ全国大会 5J-07"
+      full: "情報処理学会第84回全国大会講演論文集 Z84-5J-07"
+      abbrv: "IPSJ全国大会 Z84-5J-07"
     en:
       full: ""
       abbrv: ""
@@ -1186,7 +1612,7 @@
   notes:
     jp:
       full: "情報処理学会研究報告，Vol. 2021-UBI-072, No. 26"
-      abbrv: "情処研報 UBI-072"
+      abbrv: "情処研報 UBI-072, No. 26"
     en:
       full: ""
       abbrv: ""
@@ -1405,8 +1831,8 @@
     en: ""
   notes:
     jp:
-      full: "情報処理学会全国大会 5W-08"
-      abbrv: "IPSJ全国大会 5W-08"
+      full: "情報処理学会第83回全国大会講演論文集 Z83-5W-08"
+      abbrv: "IPSJ全国大会 Z83-5W-08"
     en:
       full: ""
       abbrv: ""
@@ -1533,7 +1959,7 @@
   notes:
     jp:
       full: "情報処理学会研究報告，Vol. 2020-UBI-068, No. 27"
-      abbrv: "情処研報 UBI-068"
+      abbrv: "情処研報 UBI-068, No.27"
     en:
       full: ""
       abbrv: ""
@@ -1582,7 +2008,7 @@
   notes:
     jp:
       full: "情報処理学会研究報告，Vol. 2020-DPS-184, No. 16"
-      abbrv: "情処研報 DPS-184"
+      abbrv: "情処研報 DPS-184, No. 16"
     en:
       full: ""
       abbrv: ""
@@ -1606,7 +2032,7 @@
   notes:
     jp:
       full: "情報処理学会研究報告，Vol. 2020-DPS-184, No. 1"
-      abbrv: "情処研報 DPS-184"
+      abbrv: "情処研報 DPS-184, No. 1"
     en:
       full: ""
       abbrv: ""
@@ -1737,8 +2163,8 @@
     en: ""
   notes:
     jp:
-      full: "情報処理学会全国大会 5W-02"
-      abbrv: "IPSJ全国大会 5W-02"
+      full: "情報処理学会第82回全国大会講演論文集 Z82-5W-02"
+      abbrv: "IPSJ全国大会 Z82-5W-02"
     en:
       full: ""
       abbrv: ""
@@ -1762,8 +2188,8 @@
     en: ""
   notes:
     jp:
-      full: "情報処理学会全国大会 1ZB-08"
-      abbrv: "IPSJ全国大会 1ZB-08"
+      full: "情報処理学会第82回全国大会講演論文集 Z82-1ZB-08"
+      abbrv: "IPSJ全国大会 Z82-1ZB-08"
     en:
       full: ""
       abbrv: ""
@@ -1787,8 +2213,8 @@
     en: ""
   notes:
     jp:
-      full: "情報処理学会全国大会 6ZF-07"
-      abbrv: "IPSJ全国大会 6ZF-07"
+      full: "情報処理学会第82回全国大会講演論文集 Z82-6ZF-07"
+      abbrv: "IPSJ全国大会 Z82-6ZF-07"
     en:
       full: ""
       abbrv: ""
@@ -1812,8 +2238,8 @@
     en: ""
   notes:
     jp:
-      full: "情報処理学会全国大会 4V-04"
-      abbrv: "IPSJ全国大会 4V-04"
+      full: "情報処理学会第82回全国大会講演論文集 Z82-4V-04"
+      abbrv: "IPSJ全国大会 Z82-4V-04"
     en:
       full: ""
       abbrv: ""
@@ -1838,8 +2264,8 @@
     en: ""
   notes:
     jp:
-      full: "情報処理学会全国大会 2E-05"
-      abbrv: "IPSJ全国大会 2E-05"
+      full: "情報処理学会第82回全国大会講演論文集 Z82-2E-05"
+      abbrv: "IPSJ全国大会 Z82-2E-05"
     en:
       full: ""
       abbrv: ""
