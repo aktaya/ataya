@@ -442,6 +442,7 @@ const create_list = (div_id, summary_text, docs, settings, visible, lang) => {
         if (doc.visible !== undefined && !doc.visible) return;
         if (doc.title !== undefined && doc.title[lang] === "") return;
         const item = format(doc, settings.style(doc));
+        if (item.text === "") return;
 
         const li = document.createElement('li');
         li.innerHTML = item.text;
