@@ -17,6 +17,23 @@
 #   lang: "en"
 #   doi: 'https://doi.org/'
 #   visible: false
+#
+- authors:
+    - {first: "Hiroki", family: "Shimomura"}
+    - {first: "Koji ", family: "Yamamoto"}
+    - {first: "Takayuki ", family: "Nishio"}
+    - {first: "Akihito", family: "Taya"}
+  title: 'Beamforming Feedback-Based Line-of-Sight Identification Toward Firmware-Agnostic {WiFi} Sensing'
+  journal:
+    full: 'IEEE Open Journal of Vehicular Technology'
+    abbrv: 'IEEE OJVT'
+  vol: '5'
+  #num: ''
+  pages: {"from": 1024, "to": 1035}
+  month: 8
+  year: 2024
+  lang: "en"
+  doi: 'https://doi.org/10.1109/OJVT.2024.3440400'
 
 - authors:
     - {first: "Hiroki", family: "Shimomura"}
