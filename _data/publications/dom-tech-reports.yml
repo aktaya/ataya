@@ -477,6 +477,31 @@
 
 - authors:
     jp:
+      - {first: "裕太", family: "國丸"}
+      - {first: "昭仁", family: "田谷"}
+      - {first: "圭", family: "鈴木"}
+      - {first: "みどり", family: "菅谷"}
+    en:
+      - {first: "Akihito", family: "Taya"}
+  title:
+    jp: "ドメインシフト評価指標を用いた個人差評価に基づくうつ病の判別手法"
+    en: ""
+  notes:
+    jp:
+      full: "人工知能学会全国大会論文集 1L5-OS-18b-05"
+      abbrv: "人工知能学会全国大会論文集"
+    en:
+      full: ""
+      abbrv: ""
+  city:
+    jp: "東京"
+    en: ""
+  month: 6
+  year: '2023'
+  lang: jp
+
+- authors:
+    jp:
       - {first: "翔多", family: "小野"}
       - {first: "託", family: "山崎"}
       - {first: "匠", family: "三好"}

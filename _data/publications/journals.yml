@@ -30,11 +30,11 @@
   journal:
     full: 'IEICE Transactions on Communications'
     abbrv: 'IEICE Trans. Commun.'
-  vol: ''
-  num: ''
+  vol: 'E108-B'
+  num: '3'
   pages: {'from': 1, 'to': 1}
-  month: ''
-  year: 2024
+  month: 3
+  year: 2025
   lang: 'en'
   # doi: 'https://doi.org/'
   visible: true
