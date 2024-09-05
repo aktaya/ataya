@@ -2,22 +2,44 @@
 # タイトルをコメントアウトもしくは空文字列にすると非表示
 
 # - authors:
-#     - {first: "", family: ""}
-#     - {first: "", family: ""}
-#     - {first: "", family: ""}
+#     - {first: '', family: ''}
+#     - {first: '', family: ''}
+#     - {first: '', family: ''}
 #   title: ''
 #   journal:
 #     full: ''
 #     abbrv: ''
 #   vol: ''
-#   num: ""
-#   pages: {"from": 1, "to": 1}
+#   num: ''
+#   pages: {'from': 1, 'to': 1}
 #   month: x
 #   year: 2022
-#   lang: "en"
+#   lang: 'en'
 #   doi: 'https://doi.org/'
 #   visible: false
-#
+
+
+- authors:
+  - {first: 'Eri', family: 'Hosonuma'}
+  - {first: 'Taku', family: 'Yamazaki'}
+  - {first: 'Takumi', family: 'Miyoshi'}
+  - {first: 'Akihito', family: 'Taya'}
+  - {first: 'Yuuki', family: 'Nishiyama'}
+  - {first: 'Kaoru', family: 'Sezaki'}
+  title: 'Image Generative Semantic Communication with Multi-Modal Similarity Estimation for Resource-Limited Networks'
+  journal:
+    full: 'IEICE Transactions on Communications'
+    abbrv: 'IEICE Trans. Commun.'
+  vol: ''
+  num: ''
+  pages: {'from': 1, 'to': 1}
+  month: ''
+  year: 2024
+  lang: 'en'
+  # doi: 'https://doi.org/'
+  visible: true
+  prefix: 'Accepted'
+
 - authors:
     - {first: "Hiroki", family: "Shimomura"}
     - {first: "Koji ", family: "Yamamoto"}

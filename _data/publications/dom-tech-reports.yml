@@ -23,6 +23,34 @@
 
 - authors:
     jp:
+      - {first: '直秀', family: '和久田'}
+      - {first: '高至', family: '山本'}
+      - {first: '理志', family: '西尾'}
+      - {first: '昭仁', family: '田谷'}
+    en:
+      - {first: 'Naohide', family: 'Wakuda'}
+      - {first: 'Koji', family: 'Yamamoto'}
+      - {first: 'Takayuki', family: 'Nishio'}
+      - {first: 'Akihito', family: 'Taya'}
+  title:
+    jp: '無線LAN呼吸数推定へのフレネルゾーン境界・サブキャリア選択・アンテナ対選択の影響'
+    en: 'Impact of {Fresnel} Zone Boundary, Subcarrier Selection, and Antenna Pair Selection on {WLAN}-based Respiration Rate Estimation'
+  notes:
+    jp:
+      full: '電子情報通信学会技術研究報告 IEICE-RCS2024-132'
+      abbrv: '信学技報 IEICE-RCS2024-132'
+    en:
+      full: 'IEICE Technical Reports IEICE-RCS2024-132'
+      abbrv: 'IEICE Tech. Rep. IEICE-RCS2024-132'
+  city:
+    jp: '高知'
+    en: 'Kochi'
+  month: 8
+  year: '2024'
+  lang: jp
+
+- authors:
+    jp:
       - {first: '大地', family: '山崎'}
       - {first: '佑介', family: '川喜田'}
       - {first: '昭仁', family: '田谷'}

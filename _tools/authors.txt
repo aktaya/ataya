@@ -1,15 +1,11 @@
 # 氏 名
-伊藤 愛香
-坪内 孝太
-西尾 信彦
-下坂 正倫
+和久田 直秀
+山本 高至
+西尾 理志
 田谷 昭仁
-瀬崎 薫
-西山 勇毅
 
 # first family
-Zhenbo Wang
+Naohide Wakuda
+Koji Yamamoto
+Takayuki Nishio
 Akihito Taya
-Kato Takaaki
-Kaoru Sezaki
-Yuuki Nishiyama
