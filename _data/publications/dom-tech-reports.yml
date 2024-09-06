@@ -2629,7 +2629,7 @@
       - {first: "Akihito", family: "Taya"}
       - {first: "Takayuki", family: "Nishio"}
       - {first: "Masahiro", family: "Morikura"}
-      - {first: "Koji", family: "Ymamoto"}
+      - {first: "Koji", family: "Yamamoto"}
   title:
     jp: "コネクテッドカーのためのマルチホップミリ波通信によるカバレッジ拡大"
     en: "Coverage expansion of vehicular millimeter wave communication with multi-hop relaying"
