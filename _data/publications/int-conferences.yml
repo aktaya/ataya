@@ -15,6 +15,22 @@
 #   doi: 'https://doi.org/'
 
 - authors:
+    - {first: 'Xiuwen', family: 'Gu'}
+    - {first: 'Akihito', family: 'Taya'}
+    - {first: 'Yuuki', family: 'Nishiyama'}
+    - {first: 'Kaoru', family: 'Sezaki'}
+  title: 'Toward Detecting Maternity Neurosis by Using Passive Mobile Sensing: Preliminary Investigation'
+  conference:
+    full: '2024 IEEE International Conference on E-health Networking, Application & Services'
+    abbrv: 'HealthCom'
+  city: 'Nara'
+  country: 'Japan'
+  month: 11
+  prefix: 'poster, accepted'
+  year: '2024'
+  doi: 'https://doi.org/'
+
+- authors:
     - {first: 'Zhenbo', family: 'Wang'}
     - {first: 'Akihito', family: 'Taya'}
     - {first: 'Kato', family: 'Takaaki'}
@@ -27,7 +43,7 @@
   city: 'Melbourne'
   country: 'Australia'
   month: 10
-  prefix: 'poster, accepted'
+  prefix: 'poster'
   year: '2024'
   # doi: 'https://doi.org/'
 
@@ -46,7 +62,7 @@
   city: 'Melbourne'
   country: 'Australia'
   month: 10
-  prefix: 'poster, accepted'
+  prefix: 'poster'
   year: '2024'
   # doi: 'https://doi.org/'
 
