@@ -45,7 +45,7 @@
   month: 10
   prefix: 'poster'
   year: '2024'
-  # doi: 'https://doi.org/'
+  doi: 'https://doi.org/10.1145/3675094.3677583'
 
 - authors:
     - {first: 'Manaka', family: 'Ito'}
@@ -64,7 +64,7 @@
   month: 10
   prefix: 'poster'
   year: '2024'
-  # doi: 'https://doi.org/'
+  doi: 'https://doi.org/10.1145/3675094.3677579'
 
 - authors:
     - {first: 'Helinyi', family: 'Peng'}
