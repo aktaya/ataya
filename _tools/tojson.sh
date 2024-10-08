@@ -27,4 +27,3 @@ cat authors.txt | while read line; do
   fi
 done
 
-
