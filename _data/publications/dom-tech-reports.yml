@@ -23,6 +23,33 @@
 
 - authors:
     jp:
+      - {first: '昭仁', family: '田谷'}
+      - {first: '勇毅', family: '西山'}
+      - {first: '薫', family: '瀬崎'}
+    en:
+      - {first: 'Akihito', family: 'Taya'}
+      - {first: 'Yuuki', family: 'Nishiyama'}
+      - {first: 'Kaoru', family: 'Sezaki'}
+  title:
+    jp: '関数空間における交互方向乗数法を用いた知識蒸留による分散型連合学習'
+    en: 'Decentralized Federated Distillation Based on ADMM in Function Spaces'
+  notes:
+    jp:
+      full: '電子情報通信学会超知性ネットワークに関する分野横断型研究会(RISING)'
+      abbrv: '信学会 RISING研究会'
+    en:
+      full: 'IEICE RISING'
+      abbrv: 'IEICE RISING'
+  city:
+    jp: '札幌'
+    en: 'Sapporo'
+  month: 11
+  year: '2024'
+  prefix: 'poster'
+  lang: jp
+
+- authors:
+    jp:
       - {first: '直秀', family: '和久田'}
       - {first: '高至', family: '山本'}
       - {first: '理志', family: '西尾'}
@@ -304,7 +331,7 @@
       - {first: 'Takayuki', family: 'Nishio'}
       - {first: 'Akihito', family: 'Taya'}
   title:
-    jp: '無線LANにおけるビームフォーミングフィードバックと特異値分解の考察 '
+    jp: '無線LANにおけるビームフォーミングフィードバックと特異値分解の考察'
     en: 'Study on Beamforming Feedback in Wireless {LANs} and Singular Value Decomposition'
   notes:
     jp:

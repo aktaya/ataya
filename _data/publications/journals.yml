@@ -32,13 +32,13 @@
     abbrv: 'IEICE Trans. Commun.'
   vol: 'E108-B'
   num: '3'
-  pages: {'from': 1, 'to': 1}
+  pages: {'from': 1, 'to': 15}
   month: 3
   year: 2025
   lang: 'en'
-  # doi: 'https://doi.org/'
+  doi: 'https://doi.org/10.23919/transcom.2024EBP3056'
   visible: true
-  prefix: 'Accepted'
+  prefix: 'early access'
 
 - authors:
     - {first: "Hiroki", family: "Shimomura"}
