@@ -23,6 +23,75 @@
 
 - authors:
     jp:
+      - {first: '恵里', family: '細沼'}
+      - {first: '託', family: '山崎'}
+      - {first: '匠', family: '三好'}
+      - {first: '昭仁', family: '田谷'}
+      - {first: '勇毅', family: '西山'}
+      - {first: '薫', family: '瀬崎'}
+    en:
+      - {first: 'Eri', family: 'Hosonuma'}
+      - {first: 'Taku', family: 'Yamazaki'}
+      - {first: 'Takumi', family: 'Miyoshi'}
+      - {first: 'Akihito', family: 'Taya'}
+      - {first: 'Yuuki', family: 'Nishiyama'}
+      - {first: 'Kaoru', family: 'Sezaki'}
+  title:
+    jp: '生成型マルチモーダルセマンティック通信における意味的類似度に基づいた生成コスト分析'
+    en: 'Analyzing Generation Cost Based on Semantic Similarity in Generative Multi-Modal Semantic Communication'
+  notes:
+    jp:
+      full: '電子情報通信学会技術研究報告, vol.124, no.419, NS2024-234, pp.226-231, 2025年3月.'
+      abbrv: '信学技報 NS2024-234'
+    en:
+      full: 'IEICE Technical Reports, vol.124, no.419, NS2024-234, pp.226-231, March 2025.'
+      abbrv: 'IEICE Tech. Rep. NS2024-234'
+  city:
+    jp: '那覇'
+    en: 'Naha'
+  month: 3
+  year: '2025'
+  lang: jp
+
+- authors:
+    jp:
+      - {first: '愛香', family: '伊藤'}
+      - {first: '優未', family: '小嶋'}
+      - {first: '孝太', family: '坪内'}
+      - {first: '信彦', family: '西尾'}
+      - {first: '正倫', family: '下坂'}
+      - {first: '昭仁', family: '田谷'}
+      - {first: '薫', family: '瀬崎'}
+      - {first: '勇毅', family: '西山'}
+    en:
+      - {first: 'Manaka', family: 'Ito'}
+      - {first: 'Yumi', family: 'Kojima'}
+      - {first: 'Kota', family: 'Tsubouchi'}
+      - {first: 'Nobuhiko', family: 'Nishio'}
+      - {first: 'Masanori', family: 'Shimosaka'}
+      - {first: 'Akihito', family: 'Taya'}
+      - {first: 'Kaoru', family: 'Sezaki'}
+      - {first: 'Yuuki', family: 'Nishiyama'}
+  title:
+    jp: '常時装着型イヤラブルデバイス利用環境における音声通知タイミング最適化に向けた基礎検討'
+    en: ''
+  notes:
+    jp:
+      full: 'Japan UBI Symposium 2025'
+      abbrv: 'Japan UBI Symposium 2025'
+    en:
+      full: 'Japan UBI Symposium 2025'
+      abbrv: 'Japan UBI Symposium 2025'
+  city:
+    jp: '大阪'
+    en: 'Osaka'
+  month: 2
+  year: '2025'
+  prefix: 'poster'
+  lang: jp
+
+- authors:
+    jp:
       - {first: '昭仁', family: '田谷'}
       - {first: '勇毅', family: '西山'}
       - {first: '薫', family: '瀬崎'}
@@ -117,7 +186,7 @@
     en:
       - {first: 'Akihito', family: 'Taya'}
   title:
-    jp: ''
+    jp: '常時装着型イヤラブルデバイス利用環境における音声通知タイミング最適化に向けた基礎検討'
     en: ''
   notes:
     jp:
