@@ -18,6 +18,22 @@
 #   doi: 'https://doi.org/'
 #   visible: false
 
+- authors:
+    - {first: 'Yui', family: 'Yamashita'}
+    - {first: 'Akihito', family: 'Taya'}
+    - {first: 'Takumi', family: 'Wada'}
+    - {first: 'Yoshito', family: 'Tobe'}
+  title: 'Decision-tree-based distributed learning for {IoT} devices'
+  journal:
+    full: 'Journal of Reliable Intelligent Environments'
+    abbrv: 'J Reliable Intell Environ'
+  vol: '11'
+  num: '9'
+  pages: {'from': 1, 'to': 20}
+  month: 4
+  year: 2025
+  lang: 'en'
+  doi: 'http://doi.org/10.1007/s40860-025-00249-z'
 
 - authors:
   - {first: 'Eri', family: 'Hosonuma'}
@@ -32,13 +48,12 @@
     abbrv: 'IEICE Trans. Commun.'
   vol: 'E108-B'
   num: '3'
-  pages: {'from': 1, 'to': 15}
+  pages: {'from': 260, 'to': 273}
   month: 3
   year: 2025
   lang: 'en'
   doi: 'https://doi.org/10.23919/transcom.2024EBP3056'
   visible: true
-  prefix: 'early access'
 
 - authors:
     - {first: "Hiroki", family: "Shimomura"}

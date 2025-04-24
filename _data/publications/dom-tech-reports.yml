@@ -92,6 +92,34 @@
 
 - authors:
     jp:
+      - {first: '仁哉', family: '中村'}
+      - {first: '薫', family: '瀬崎'}
+      - {first: '昭仁', family: '田谷'}
+      - {first: '勇毅', family: '西山'}
+    en:
+      - {first: 'Jinya', family: 'Nakamura'}
+      - {first: 'Kaoru', family: 'Sezaki'}
+      - {first: 'Akihito', family: 'Taya'}
+      - {first: 'Yuuki', family: 'Nishiyama'}
+  title:
+    jp: '日常行動センサデータを用いた運動改善のための目標設定支援にむけて'
+    en: ''
+  notes:
+    jp:
+      full: '情報処理学会HCI研究会 2025-HCI-211, No. 41'
+      abbrv: '情処研報 2024-HCI0211, No. 41'
+    en:
+      full: ''
+      abbrv: ''
+  city:
+    jp: '那覇'
+    en: ''
+  month: 1
+  year: '2025'
+  lang: jp
+
+- authors:
+    jp:
       - {first: '昭仁', family: '田谷'}
       - {first: '勇毅', family: '西山'}
       - {first: '薫', family: '瀬崎'}

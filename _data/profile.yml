@@ -16,7 +16,6 @@ keywords:
   - mmWave Communications
   - Vehicular Communications
   - IoT / Sensor Networks
-  - Emotion Recognition
   - Machine Learning
   - Distributed Systems
 biography:
@@ -36,18 +35,18 @@ committee:
   jp:
     - role: 研究会幹事・運営委員
       details:
-        - 電子情報通信学会 SeMI研究会幹事補佐 (2021-2022), 幹事 (2023-)
-        - 情報処理学会 DPS研究会運営委員(2021-)
+        - 電子情報通信学会 SeMI研究会幹事補佐 (2021-2022), 幹事 (2023-2024)
+        - 情報処理学会 DPS研究会運営委員(2021-2024)
         - 情報処理学会 UBI研究会運営委員(2023-)
     - role: TPCメンバ
       details:
-        - GLOBECOM 2021, 2022, 2023, 2024
-        - ICC 2022, 2023, 2024
+        - GLOBECOM 2021, 2022, 2023, 2024, 2025
+        - ICC 2022, 2023, 2024, 2025
         - PIMRC 2022
     - role: 組織委員
       details:
         - 情報処理学会 DPSワークショップ 2022,2023 組織委員, 2024 副委員長
-        - ICMU2023 Regitration Chair
+        - ICMU 2023, 2025 Registration Chair
     - role: 論文編集委員
       details:
         - 情報処理学会 DPS特集号 2022, 2023, 2024
@@ -58,9 +57,9 @@ committee:
   en:
     - role: TPC Member
       details:
-        - GLOBECOM 2021, 2022, 2023, 2024
-        - ICC 2022, 2023, 2024
+        - GLOBECOM 2021, 2022, 2023, 2024, 2025
+        - ICC 2022, 2023, 2024, 2025
         - PIMRC 2022
     - role: Organizing Committee
       details:
-        - ICMU2023 Regitration Chair
+        - ICMU 2023, 2025 Registration Chair
