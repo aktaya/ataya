@@ -21,6 +21,62 @@
 #   prefix: ''
 #   lang: jp
 
+# TODO:
+# ソサイエティ大会 Tong Xing
+
+- authors:
+    jp:
+      - {first: '昭仁', family: '田谷'}
+      - {first: '勇毅', family: '西山'}
+      - {first: '薫', family: '瀬崎'}
+    en:
+      - {first: 'Akihito', family: 'Taya'}
+      - {first: 'Yuuki', family: 'Nishiyama'}
+      - {first: 'Kaoru', family: 'Sezaki'}
+  title:
+    jp: '交互方向乗数法を用いた知識蒸留による分散連合学習と制御理論との関連'
+    en: 'Connection between {ADMM}-Based Knowledge Distillation in Distributed Federated Learning and {PI} Control '
+  notes:
+    jp:
+      full: '電子情報通信学会 IEICE-RISING2025 vol.125'
+      abbrv: '信学会 IEICE-RISING2025 vol.125'
+    en:
+      full: 'IEICE RISING2025'
+      abbrv: 'IEICE RISING2025'
+  city:
+    jp: '盛岡'
+    en: 'Morioka'
+  month: 7
+  year: '2025'
+  lang: jp
+  prefix: '依頼講演'
+
+- authors:
+    jp:
+      - {first: '昭仁', family: '田谷'}
+      - {first: '勇毅', family: '西山'}
+      - {first: '薫', family: '瀬崎'}
+    en:
+      - {first: 'Akihito', family: 'Taya'}
+      - {first: 'Yuuki', family: 'Nishiyama'}
+      - {first: 'Kaoru', family: 'Sezaki'}
+  title:
+    jp: '大規模言語モデルを介したIoTにおける自然言語プログラミング'
+    en: 'Natural Language Programming for {IoT} Enabled by Large Language Models '
+  notes:
+    jp:
+      full: '電子情報通信学会技術研究報告 IEICE-SeMI2025-28'
+      abbrv: '信学技報 IEICE-SeMI2025-28'
+    en:
+      full: 'IEICE Technical Reports, IEICE-SeMI2025-28'
+      abbrv: 'IEICE Tech. Rep. IEICE-SeMI2025-28'
+  city:
+    jp: '盛岡'
+    en: 'Morioka'
+  month: 7
+  year: '2025'
+  lang: jp
+
 - authors:
     jp:
       - {first: '恵里', family: '細沼'}
@@ -41,11 +97,11 @@
     en: 'Analyzing Generation Cost Based on Semantic Similarity in Generative Multi-Modal Semantic Communication'
   notes:
     jp:
-      full: '電子情報通信学会技術研究報告, vol.124, no.419, NS2024-234, pp.226-231, 2025年3月.'
-      abbrv: '信学技報 NS2024-234'
+      full: '電子情報通信学会技術研究報告 IEICE-NS2024-234'
+      abbrv: '信学技報 IEICE-NS2024-234'
     en:
-      full: 'IEICE Technical Reports, vol.124, no.419, NS2024-234, pp.226-231, March 2025.'
-      abbrv: 'IEICE Tech. Rep. NS2024-234'
+      full: 'IEICE Technical Reports, IEICE-NS2024-234'
+      abbrv: 'IEICE Tech. Rep. IEICE-NS2024-234'
   city:
     jp: '那覇'
     en: 'Naha'

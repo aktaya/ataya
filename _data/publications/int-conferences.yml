@@ -14,6 +14,25 @@
 #   year: ''
 #   doi: 'https://doi.org/'
 
+# TODO:
+# UbiComp: Dong, Tang
+
+- authors:
+    - {first: 'Helinyi', family: 'Peng'}
+    - {first: 'Akihito', family: 'Taya'}
+    - {first: 'Yuuki', family: 'Nishiyama'}
+    - {first: 'Kaoru', family: 'Sezaki'}
+  title: '{AEDHunter}: Investigating and Enhancing {AED} Retrieval through a Mobile Application'
+  conference:
+    full: "CHI EA'25: Extended Abstracts of the CHI Conference on Human Factors in Computing Systems"
+    abbrv: 'CHI'
+  city: 'Yokohama'
+  country: 'Japan'
+  month: 4
+  year: '2025'
+  prefix: 'Late-breaking Work'
+  doi: 'https://doi.org/10.1145/3706599.3719746'
+
 - authors:
     - {first: 'Xiuwen', family: 'Gu'}
     - {first: 'Akihito', family: 'Taya'}
@@ -26,7 +45,7 @@
   city: 'Nara'
   country: 'Japan'
   month: 11
-  prefix: 'poster, accepted'
+  prefix: 'poster'
   year: '2024'
   doi: 'https://doi.org/'
 

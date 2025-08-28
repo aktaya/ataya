@@ -35,20 +35,22 @@ committee:
   jp:
     - role: 研究会幹事・運営委員
       details:
-        - 電子情報通信学会 SeMI研究会幹事補佐 (2021-2022), 幹事 (2023-2024)
+        - 電子情報通信学会 SeMI研究会幹事補佐 (2021-2022), 幹事 (2023-2024), 専門委員（2025-）
         - 情報処理学会 DPS研究会運営委員(2021-2024)
         - 情報処理学会 UBI研究会運営委員(2023-)
     - role: TPCメンバ
       details:
-        - GLOBECOM 2021, 2022, 2023, 2024, 2025
-        - ICC 2022, 2023, 2024, 2025
-        - PIMRC 2022
-        - APCC 2025
-        - ICMU 2025
+        - GLOBECOM WC (2021-2025), CQRM (2021-2025), Workshop on 6Gcomm (2021)
+        - ICC CQRM (2022-2025), Workshop on Emerging6G-com (2021)
+        - APCC (2025)
+        - PIMRC (2022)
+        - ICMU (2025)
+        - EAI Mobiquitous (2021)
+        - ACM SenSys Workshop on CCIoT (2021)
     - role: 組織委員
       details:
-        - 情報処理学会 DPSワークショップ 2022,2023 組織委員, 2024 副委員長
-        - ICMU 2023, 2025 Registration Chair
+        - 情報処理学会 DPSワークショップ 組織委員 (2022, 2023, 2025), 副委員長 (2024)
+        - ICMU Registration Chair (2023, 2025)
     - role: 論文編集委員
       details:
         - 情報処理学会 DPS特集号 2022, 2023, 2024
@@ -59,11 +61,13 @@ committee:
   en:
     - role: TPC Member
       details:
-        - GLOBECOM 2021, 2022, 2023, 2024, 2025
-        - ICC 2022, 2023, 2024, 2025
-        - PIMRC 2022
-        - APCC 2025
-        - ICMU 2025
+        - GLOBECOM WC (2021-2025), CQRM (2021-2025), Workshop on 6Gcomm (2021)
+        - ICC CQRM (2022-2025), Workshop on Emerging6G-com (2021)
+        - APCC (2025)
+        - PIMRC (2022)
+        - ICMU (2025)
+        - EAI Mobiquitous (2021)
+        - ACM SenSys Workshop on CCIoT (2021)
     - role: Organizing Committee
       details:
-        - ICMU 2023, 2025 Registration Chair
+        - ICMU Registration Chair (2023, 2025)
