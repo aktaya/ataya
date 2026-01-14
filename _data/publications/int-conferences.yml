@@ -15,7 +15,77 @@
 #   doi: 'https://doi.org/'
 
 # TODO:
-# UbiComp: Dong, Tang
+# CCNC
+
+# - authors:
+#     - {first: Akihito, family: Taya}
+#     - {first: 'Yuuki', family: 'Nishiyama'}
+#     - {first: 'Kaoru', family: 'Sezaki'}
+#   title: ''
+#   conference:
+#     full: ''
+#     abbrv: 'CCNC 2026'
+#   city: 'Las Vegas, NV'
+#   country: 'USA'
+#   month: 1
+#   year: '2026'
+#   pages: {"from": , "to": }
+#   doi: 'https://doi.org/10.1145/3737899.3768524'
+
+- authors:
+    - {first: Yui, family: Yamashita}
+    - {first: Akihito, family: Taya}
+    - {first: Yoshito, family: Tobe}
+  title: 'Robust Inference under Modality Missing in Multimodal Split Learning'
+  conference:
+    full: 'the Federated Learning and Edge AI for Privacy and Mobility in conjunction with ACM MobiCom 2025'
+    abbrv: 'FLEdge-AI 25'
+  city: 'Hong Kong'
+  country: 'China'
+  month: 11
+  year: '2025'
+  pages: {"from": 59, "to": 65}
+  doi: 'https://doi.org/10.1145/3737899.3768524'
+
+- authors:
+    - {first: 'Jia', family: 'Tang'}
+    - {first: 'Xiuwen', family: 'Gu'}
+    - {first: 'Akihito', family: 'Taya'}
+    - {first: 'Yuuki', family: 'Nishiyama'}
+    - {first: 'Kaoru', family: 'Sezaki'}
+  title: 'Toward Detecting Postpartum Depression Using Passive Mobile Sensing: Exploratory Analysis'
+  conference:
+    full: 'the 2025 ACM International Joint Conference on Pervasive and Ubiquitous Computing'
+    abbrv: 'UbiComp/ISWC 2025'
+  city: 'Espoo'
+  country: 'Finland'
+  month: 10
+  prefix: 'poster'
+  year: '2025'
+  pages: {"from": 281, "to": 285}
+  doi: 'https://doi.org/10.1145/3714394.3754405'
+
+- authors:
+    - {first: 'Xuefu', family: 'Dong'}
+    - {first: 'Liqiang', family: 'Xu'}
+    - {first: 'Lixing', family: 'He'}
+    - {first: 'Zengyi', family: 'Han'}
+    - {first: 'Kenneth', family: 'Christofferson'}
+    - {first: 'Yifei', family: 'Chen'}
+    - {first: 'Akihito', family: 'Taya'}
+    - {first: 'Yuuki', family: 'Nishiyama'}
+    - {first: 'Kaoru', family: 'Sezaki'}
+  title: 'Poster: Recognizing Hidden-in-the-Ear Private Key for Reliable Silent Speech Interface Using Multi-Task Learning'
+  conference:
+    full: 'the 2025 ACM International Joint Conference on Pervasive and Ubiquitous Computing'
+    abbrv: 'UbiComp/ISWC 2025'
+  city: 'Espoo'
+  country: 'Finland'
+  month: 10
+  prefix: 'poster'
+  year: '2025'
+  pages: {"from": 211, "to": 215}
+  doi: 'https://doi.org/10.1145/3714394.3754429'
 
 - authors:
     - {first: 'Helinyi', family: 'Peng'}
