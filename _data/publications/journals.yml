@@ -54,6 +54,24 @@
   doi: 'https://doi.org/10.1109/TSP.2025.3633721'
 
 - authors:
+    - {first: 'Yutong', family: 'Feng'}
+    - {first: 'Akihito', family: 'Taya'}
+    - {first: 'Yuuki', family: 'Nishiyama'}
+    - {first: 'Jun', family: 'Liu'}
+    - {first: 'Kaoru', family: 'Sezaki'}
+  title: 'Adaptive Detection of Spread Spectrum Signals With General Array Configuration'
+  journal:
+    full: 'IEEE Transactions on Signal Processing'
+    abbrv: 'IEEE Trans. Signal Process.'
+  vol: '73'
+  # num: ''
+  pages: {'from': 4826, 'to': 4839}
+  month: 11
+  year: 2025
+  lang: 'en'
+  doi: 'https://doi.org/10.1109/TSP.2025.3633721'
+
+- authors:
     - {first: 'Yui', family: 'Yamashita'}
     - {first: 'Akihito', family: 'Taya'}
     - {first: 'Takumi', family: 'Wada'}

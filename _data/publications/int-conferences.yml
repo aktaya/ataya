@@ -80,6 +80,7 @@
   month: 10
   prefix: 'Poster'
   year: '2025'
+  pages: {"from": 211, "to": 215}
   doi: 'https://doi.org/10.1145/3714394.3754429'
 
 - authors:
@@ -97,6 +98,7 @@
   month: 10
   prefix: 'Poster'
   year: '2025'
+  pages: {"from": 281, "to": 285}
   doi: 'https://doi.org/10.1145/3714394.3754405'
 
 - authors:
