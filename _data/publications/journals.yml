@@ -18,6 +18,41 @@
 #   doi: 'https://doi.org/'
 #   visible: false
 
+# TODO:
+# - authors:
+#     - {first: 'Helinyi', family: 'Peng'}
+#     - {first: 'Akihito', family: 'Taya'}
+#     - {first: 'Yuuki', family: 'Nishiyama'}
+#     - {first: 'Kaoru', family: 'Sezaki'}
+#   title: '{AEDHunter}: Investigating {AED} Retrieval in the Real World via Gamified Mobile Interaction and Sensing'
+#   journal:
+#     full: ''
+#     abbrv: ''
+#   vol: ''
+#   num: ''
+#   pages: {'from': 1, 'to': 1}
+#   month: 
+#   year: 2026
+#   lang: 'en'
+#   doi: 'https://doi.org/'
+
+- authors:
+    - {first: 'Yutong', family: 'Feng'}
+    - {first: 'Akihito', family: 'Taya'}
+    - {first: 'Yuuki', family: 'Nishiyama'}
+    - {first: 'Jun', family: 'Liu'}
+    - {first: 'Kaoru', family: 'Sezaki'}
+  title: 'Adaptive Detection of Spread Spectrum Signals With General Array Configuration'
+  journal:
+    full: 'IEEE Transactions on Signal Processing'
+    abbrv: 'IEEE TSP'
+  vol: '73'
+  pages: {'from': 4826, 'to': 4839}
+  month: 11
+  year: 2025
+  lang: 'en'
+  doi: 'https://doi.org/10.1109/TSP.2025.3633721'
+
 - authors:
     - {first: 'Yui', family: 'Yamashita'}
     - {first: 'Akihito', family: 'Taya'}

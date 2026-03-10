@@ -14,8 +14,90 @@
 #   year: ''
 #   doi: 'https://doi.org/'
 
-# TODO:
-# UbiComp: Dong, Tang
+- authors:
+    - {first: 'Yanzhi', family: 'Li'}
+    - {first: 'Qize', family: 'Feng'}
+    - {first: 'Xuefu', family: 'Dong'}
+    - {first: 'Yuuki', family: 'Nishiyama'}
+    - {first: 'Akihito', family: 'Taya'}
+    - {first: 'Kaoru', family: 'Sezaki'}
+  title: 'Estimation of the Center of Pressure Using Head Position During Balance Maintenance'
+  conference:
+    full: '8th International Conference on Activity and Behavior Computing'
+    abbrv: 'ABC 2026'
+  city: 'Muroran & Hakodate, Hokkaido'
+  country: 'Japan'
+  month: 3
+  prefix: ''
+  year: '2026'
+
+- authors:
+    - {first: 'Akihito', family: 'Taya'}
+    - {first: 'Yuuki', family: 'Nishiyama'}
+    - {first: 'Kaoru', family: 'Sezaki'}
+  title: 'A Mechanical {Wi-Fi} Antenna Device for Automatic Orientation Tuning with Bayesian Optimization'
+  conference:
+    full: 'IEEE Consumer Communications & Networking Conference 2026'
+    abbrv: 'CCNC 2026'
+  city: 'Las Vegas, NV'
+  country: 'USA'
+  month: 1
+  prefix: 'Demo'
+  year: '2026'
+
+- authors:
+    - {first: 'Yui', family: 'Yamashita'}
+    - {first: 'Akihito', family: 'Taya'}
+    - {first: 'Yoshito', family: 'Tobe'}
+  title: 'Robust Inference under Modality Missing in Multimodal Split Learning'
+  conference:
+    full: 'Workshop on Federated Learning and Edge AI for Privacy and Mobility in conjunction with the 31st Annual International Conference on Mobile Computing and Networking'
+    abbrv: "FLEdge-AI '25 adjunct MobiCom"
+  city: 'Hong Kong'
+  country: 'China'
+  month: 11
+  prefix: ''
+  year: '2025'
+  pages: {"from": 59, "to": 65}
+  doi: 'https://doi.org/10.1145/3737899.3768524'
+
+- authors:
+    - {first: 'Xuefu', family: 'Dong'}
+    - {first: 'Liqiang', family: 'Xu'}
+    - {first: 'Lixing', family: 'He'}
+    - {first: 'Zengyi', family: 'Han'}
+    - {first: 'Kenneth', family: 'Christofferson'}
+    - {first: 'Yifei', family: 'Chen'}
+    - {first: 'Akihito', family: 'Taya'}
+    - {first: 'Yuuki', family: 'Nishiyama'}
+    - {first: 'Kaoru', family: 'Sezaki'}
+  title: 'Poster: Recognizing Hidden-in-the-Ear Private Key for Reliable Silent Speech Interface Using Multi-Task Learning'
+  conference:
+    full: "Companion of the 2025 ACM International Joint Conference on Pervasive and Ubiquitous Computing"
+    abbrv: 'UbiComp/ISWC 2025'
+  city: 'Espoo'
+  country: 'Finland'
+  month: 10
+  prefix: 'Poster'
+  year: '2025'
+  doi: 'https://doi.org/10.1145/3714394.3754429'
+
+- authors:
+    - {first: 'Jia', family: 'Tang'}
+    - {first: 'Xiuwen', family: 'Gu'}
+    - {first: 'Akihito', family: 'Taya'}
+    - {first: 'Kaoru', family: 'Sezaki'}
+    - {first: 'Yuuki', family: 'Nishiyama'}
+  title: 'Toward Detecting Postpartum Depression Using Passive Mobile Sensing: Exploratory Analysis'
+  conference:
+    full: "Companion of the 2025 ACM International Joint Conference on Pervasive and Ubiquitous Computing"
+    abbrv: 'UbiComp/ISWC 2025'
+  city: 'Espoo'
+  country: 'Finland'
+  month: 10
+  prefix: 'Poster'
+  year: '2025'
+  doi: 'https://doi.org/10.1145/3714394.3754405'
 
 - authors:
     - {first: 'Helinyi', family: 'Peng'}
@@ -45,7 +127,7 @@
   city: 'Nara'
   country: 'Japan'
   month: 11
-  prefix: 'poster'
+  prefix: 'Poster'
   year: '2024'
   doi: 'https://doi.org/'
 
@@ -62,7 +144,7 @@
   city: 'Melbourne'
   country: 'Australia'
   month: 10
-  prefix: 'poster'
+  prefix: 'Poster'
   year: '2024'
   doi: 'https://doi.org/10.1145/3675094.3677583'
 
@@ -81,7 +163,7 @@
   city: 'Melbourne'
   country: 'Australia'
   month: 10
-  prefix: 'poster'
+  prefix: 'Poster'
   year: '2024'
   doi: 'https://doi.org/10.1145/3675094.3677579'
 
@@ -97,7 +179,7 @@
   city: 'Tokyo'
   country: 'Japan'
   month: 6
-  prefix: 'poster'
+  prefix: 'Poster'
   year: '2024'
   doi: 'https://doi.org/10.1145/3643832.3661401'
 
@@ -130,7 +212,7 @@
   city: 'Las Vegas, NV'
   country: 'USA'
   month: 1
-  prefix: 'poster'
+  prefix: 'Poster'
   year: '2024'
   #doi: 'https://doi.org/'
 
@@ -148,7 +230,7 @@
   city: 'Las Vegas, NV'
   country: 'USA'
   month: 1
-  prefix: 'poster'
+  prefix: 'Poster'
   year: '2024'
   #doi: 'https://doi.org/'
 
@@ -570,6 +652,7 @@
   city: Yokohama
   country: Japan
   month: 5
+  prefix: "Awarded"
   year: 2012
 
 - authors:

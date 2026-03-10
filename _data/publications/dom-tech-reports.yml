@@ -21,8 +21,176 @@
 #   prefix: ''
 #   lang: jp
 
-# TODO:
-# ソサイエティ大会 Tong Xing
+- authors:
+    jp:
+      - {first: '颯斗', family: '井上'}
+      - {first: '昌毅', family: '伊藤'}
+      - {first: '昭仁', family: '田谷'}
+      - {first: '勇毅', family: '西山'}
+      - {first: '薫', family: '瀬崎'}
+    en:
+      - {first: '', family: ''}
+  title:
+    jp: '京都市四条通における道路再配分政策が交通需要・バス運行に与える影響評価'
+    en: ''
+  notes:
+    jp:
+      full: '研究報告高度交通システムとスマートコミュニティ（ITS）, 2026-ITS-104'
+      abbrv: '2026-ITS-104'
+    en:
+      full: ''
+      abbrv: ''
+  city:
+    jp: '岡山'
+    en: 'Okayama'
+  month: 3
+  year: '2026'
+  lang: jp
+
+- authors:
+    jp:
+      - {first: '昭仁', family: '田谷'}
+      - {first: '勇毅', family: '西山'}
+      - {first: '薫', family: '瀬崎'}
+    en:
+      - {first: 'Akihito', family: 'Taya'}
+      - {first: 'Yuuki', family: 'Nishiyama'}
+      - {first: 'Kaoru', family: 'Sezaki'}
+  title:
+    jp: '確率的タスクとプライバシ保護を考慮したセマンティック通信の要件検討'
+    en: 'Requirements of Semantic Communications for Stochastic Task and Privacy Protection '
+  notes:
+    jp:
+      full: "電子情報通信学会技術研究報告 SeMI2025-62"
+      abbrv: "信学技報 SeMI2025-62"
+    en:
+      full: "IEICE Technical Reports SeMI2025-62"
+      abbrv: "IEICE Tech. Rep. SeMI2025-62"
+  city:
+    jp: '大分'
+    en: 'Oita'
+  month: 1
+  year: '2026'
+  prefix: ''
+  lang: jp
+
+- authors:
+    jp:
+      - {first: '優衣', family: '山下'}
+      - {first: '昭仁', family: '田谷'}
+      - {first: '義人', family: '戸辺'}
+    en:
+      - {first: 'Yui', family: 'Yamashita'}
+      - {first: 'Akihito', family: 'Taya'}
+      - {first: 'Yoshito', family: 'Tobe'}
+  title:
+    jp: 'マルチモーダルSplit Learningにおける欠損モダリティの補間手法'
+    en: 'Imputation Methods for Missing Modalities in Multimodal Split Learning'
+  notes:
+    jp:
+      full: '電子情報通信学会技術研究報告 SeMI2025-61'
+      abbrv: '信学技報 SeMI2025-61'
+    en:
+      full: 'IEICE Technical Reports SeMI2025-61'
+      abbrv: 'IEICE Tech. Rep. SeMI2025-61'
+  city:
+    jp: '大分'
+    en: 'Oita'
+  month: 1
+  year: '2026'
+  prefix: ''
+  lang: jp
+
+- authors:
+    jp:
+      - {first: 'Qize', family: 'Feng'}
+      - {first: 'Yanzhi', family: 'Li'}
+      - {first: 'Akihito', family: 'Taya'}
+      - {first: 'Kaoru', family: 'Sezaki'}
+      - {first: 'Yuuki', family: 'Nishiyama'}
+    en:
+      - {first: 'Qize', family: 'Feng'}
+      - {first: 'Yanzhi', family: 'Li'}
+      - {first: 'Akihito', family: 'Taya'}
+      - {first: 'Kaoru', family: 'Sezaki'}
+      - {first: 'Yuuki', family: 'Nishiyama'}
+  title:
+    jp: 'Towards Measuring Postural Sway Using Earable Devices'
+    en: 'Towards Measuring Postural Sway Using Earable Devices'
+  notes:
+    jp:
+      full: "情報処理学会UBI研究会，2025-UBI-88"
+      abbrv: "情処研報 2025-UBI-88"
+    en:
+      full: 'IPSJ Technical Reports, 2025-UBI-88'
+      abbrv: 'IPSJ Tech. Rep. 2025-UBI-88'
+  city:
+    jp: '淡路'
+    en: 'Awaji'
+  month: 11
+  year: '2025'
+  prefix: ''
+  lang: en
+
+- authors:
+    jp:
+      - {first: 'Tong', family: 'Xing'}
+      - {first: '昭仁', family: '田谷'}
+      - {first: '勇毅', family: '西山'}
+      - {first: '薫', family: '瀬崎'}
+    en:
+      - {first: 'Tong', family: 'Xing'}
+      - {first: 'Akihito', family: 'Taya'}
+      - {first: 'Yuuki', family: 'Nishiyama'}
+      - {first: 'Kaoru', family: 'Sezaki'}
+  title:
+    jp: "Toward synthesizing infants' daily motion data using LLM"
+    en: "Toward synthesizing infants' daily motion data using {LLM}"
+  notes:
+    jp:
+      full: '電子情報通信学会ソサイエティ大会 B-15-33'
+      abbrv: 'IEICEソサイエティ大会 B-15-33'
+    en:
+      full: 'IEICE Society Conference B-15-33'
+      abbrv: 'IEICE Society Conf. B-15-33'
+  city:
+    jp: '岡山'
+    en: 'Okayama'
+  month: 9
+  year: '2025'
+  prefix: ''
+  lang: en
+
+- authors:
+    jp:
+      - {first: '天', family: '高'}
+      - {first: '学甫', family: '董'}
+      - {first: '昭仁', family: '田谷'}
+      - {first: '勇毅', family: '西山'}
+      - {first: '薫', family: '瀬崎'}
+    en:
+      - {first: 'Tian', family: 'Gao'}
+      - {first: 'Xuefu', family: 'Dong'}
+      - {first: 'Akihito', family: 'Taya'}
+      - {first: 'Yuuki', family: 'Nishiyama'}
+      - {first: 'Kaoru', family: 'Sezaki'}
+  title:
+    jp: 'Expression Recognition Based on Ear Canal Shape Detection Using Earbud and Ultrasound'
+    en: 'Expression Recognition Based on Ear Canal Shape Detection Using Earbud and Ultrasound'
+  notes:
+    jp:
+      full: '第24回情報科学技術フォーラム'
+      abbrv: 'FIT2025'
+    en:
+      full: 'FIT2025'
+      abbrv: 'FIT2025'
+  city:
+    jp: '札幌'
+    en: 'Sapporo'
+  month: 9
+  year: '2025'
+  prefix: 'FIT論文賞'
+  lang: en
 
 - authors:
     jp:
@@ -143,7 +311,7 @@
     en: 'Osaka'
   month: 2
   year: '2025'
-  prefix: 'poster'
+  prefix: 'Poster'
   lang: jp
 
 - authors:
@@ -198,7 +366,7 @@
     en: 'Sapporo'
   month: 11
   year: '2024'
-  prefix: 'poster'
+  prefix: 'Poster, Awarded'
   lang: jp
 
 - authors:
@@ -498,7 +666,7 @@
     en: 'Sapporo'
   month: 10
   year: '2023'
-  prefix: 'poster'
+  prefix: 'Poster'
   lang: jp
 
 - authors:
@@ -526,7 +694,7 @@
     en: 'Takaoka'
   month: 10
   year: '2023'
-  prefix: 'poster'
+  prefix: 'Poster'
   lang: jp
 
 - authors:
@@ -559,7 +727,7 @@
     en: 'Takaoka'
   month: 10
   year: '2023'
-  prefix: 'poster'
+  prefix: 'Poster'
   lang: jp
 
 - authors:
@@ -592,7 +760,7 @@
     en: 'Nagoya'
   month: 9
   year: '2023'
-  prefix: 'poster'
+  prefix: 'Poster'
   lang: jp
 
 - authors:
@@ -625,7 +793,7 @@
     en: 'Nagoya'
   month: 9
   year: '2023'
-  prefix: 'poster'
+  prefix: 'Poster'
   lang: jp
 
 - authors:
@@ -2048,6 +2216,7 @@
     en: "Ishigaki (online)"
   month: 5
   year: 2021
+  prefix: "Awarded"
   lang: jp
 
 - authors:
@@ -2713,6 +2882,7 @@
     en: ""
   month: 9
   year: 2018
+  prefix: "Awarded"
   lang: jp
 
 - authors:
@@ -2769,6 +2939,7 @@
     en: ""
   month: 3
   year: 2018
+  prefix: "Awarded"
   lang: jp
 
 - authors:
