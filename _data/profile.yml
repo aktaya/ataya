@@ -40,11 +40,12 @@ committee:
         - 情報処理学会 UBI研究会運営委員(2023-)
     - role: TPCメンバ
       details:
-        - GLOBECOM WC (2021-2025), CQRM (2021-2025), Workshop on 6Gcomm (2021)
-        - ICC CQRM (2022-2025), Workshop on Emerging6G-com (2021)
+        - GLOBECOM WC (2021-2026), CQRM (2021-2026), Workshop on 6Gcomm (2024)
+        - ICC CQRM (2022-2026), Workshop on Emerging6G-com (2021)
+        - INFOCOM Demo (2026), Poster (2026), Workshop on RI-NTNs (2026)
+        - ICUFN (2026)
         - APCC (2025)
         - PIMRC (2022)
-        - ICMU (2025)
         - EAI Mobiquitous (2021)
         - ACM SenSys Workshop on CCIoT (2021)
     - role: 組織委員
@@ -61,11 +62,12 @@ committee:
   en:
     - role: TPC Member
       details:
-        - GLOBECOM WC (2021-2025), CQRM (2021-2025), Workshop on 6Gcomm (2021)
-        - ICC CQRM (2022-2025), Workshop on Emerging6G-com (2021)
+        - GLOBECOM WC (2021-2026), CQRM (2021-2026), Workshop on 6Gcomm (2024)
+        - ICC CQRM (2022-2026), Workshop on Emerging6G-com (2021)
+        - INFOCOM Demo (2026), Poster (2026), Workshop on RI-NTNs (2026)
+        - ICUFN (2026)
         - APCC (2025)
         - PIMRC (2022)
-        - ICMU (2025)
         - EAI Mobiquitous (2021)
         - ACM SenSys Workshop on CCIoT (2021)
     - role: Organizing Committee
