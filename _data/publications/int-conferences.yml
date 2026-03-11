@@ -42,7 +42,7 @@
   city: 'Las Vegas, NV'
   country: 'USA'
   month: 1
-  prefix: 'Demo'
+  prefix: 'Demo, Awarded'
   year: '2026'
 
 - authors:
@@ -78,7 +78,7 @@
   city: 'Espoo'
   country: 'Finland'
   month: 10
-  prefix: 'Poster'
+  prefix: 'Poster, Awarded'
   year: '2025'
   pages: {"from": 211, "to": 215}
   doi: 'https://doi.org/10.1145/3714394.3754429'
