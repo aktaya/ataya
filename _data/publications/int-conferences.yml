@@ -13,6 +13,11 @@
 #   prefix: ''
 #   year: ''
 #   doi: 'https://doi.org/'
+#
+# TODO:
+# Xuefu Dong, Wenwei Li, Minhao Cui, Zilong Wang, Lupeng Zhang, Akihito Taya, Nishiyama Yuuki, Kaoru Sezaki, Lili Qiu, Jie Xiong
+# From a Point to Hundreds: Embracing LiDAR on Commodity Smartphones for Fine-grained Pulmonary Function Sensing Inproceedings ForthcomingTo Appear
+# In: Proceedings of the 23rd ACM Conference on Embedded Networked Sensor Systems (SenSys ’26), Saint-Malo, France, Forthcoming.
 
 - authors:
     - {first: 'Yanzhi', family: 'Li'}
