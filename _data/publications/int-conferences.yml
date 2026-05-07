@@ -68,6 +68,7 @@
   month: 1
   prefix: 'Demo, Awarded'
   year: '2026'
+  doi: 'https://doi.org/10.1109/CCNC65079.2026.11366440'
   grangs:
     - 'JSPS KAKENHI Grant Number JP23K26109'
     - 'the Telecommunications Advancement Foundation'
