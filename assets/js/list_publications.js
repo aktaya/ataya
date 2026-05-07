@@ -499,6 +499,8 @@ const publish_data = {
     "grants": {{ pub.grants | jsonify }},
 };
 
+const filtered_data = {};
+
 const visible = {
     "en": {
         "journals": true,
@@ -525,7 +527,7 @@ const create_list_all = (lang, style, order) => {
                 "style": style[cat],
                 "descending": order,
             }
-            create_list(div_ids[cat], categories_text[cat], publish_data[cat], settings, visible[lang][cat], lang);
+            create_list(div_ids[cat], categories_text[cat], filtered_data[cat], settings, visible[lang][cat], lang);
         }
     );
 };
@@ -612,7 +614,23 @@ window.set_default_style = ((style, order) => {
     window.list_publish[window.lang]();
 });
 
+const search_publication = (query) => {
+    const query_trimmed = query.trim();
+    const regex = new RegExp(query_trimmed, "i");
+    categories.forEach((cat) => {
+        filtered_data[cat] = [];
+        publish_data[cat].forEach((doc) => {
+            if (regex.test(JSON.stringify(doc))) {
+                filtered_data[cat].push(doc);
+            }
+        });
+    });
+};
+
 (() => {
+    window.search_publication = search_publication;
+    window.search_publication(""); // initialize filtered_data
+
     // select format
     const btn_style = document.getElementsByClassName("format_btn");
     Array.from(btn_style).forEach((btn) => {
@@ -621,6 +639,13 @@ window.set_default_style = ((style, order) => {
             select_format();
             window.list_publish[window.lang]();
         });
+    });
+
+    // filter by search query
+    const search_input = document.getElementById("search_input");
+    search_input.addEventListener("input", () => {
+        window.search_publication(search_input.value);
+        window.list_publish[window.lang]();
     });
 
     // set format functions
