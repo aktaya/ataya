@@ -78,8 +78,10 @@ const sep = {
         "and": "",
         "etal": "et al.，",
         "period": "．",
-        "lquo": '"',
-        "rquo": '"',
+        // "lquo": '"',
+        // "rquo": '"',
+        "lquo": "&ldquo;",
+        "rquo": "&rdquo;",
     }
 };
 
