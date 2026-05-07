@@ -67,8 +67,10 @@ const sep = {
         "and": "and ",
         "etal": "et al., ",
         "period": ".",
-        "lquo": "&ldquo;",
-        "rquo": "&rdquo;",
+        "lquo": '"',
+        "rquo": '"',
+        // "lquo": "&ldquo;",
+        // "rquo": "&rdquo;",
     },
     "jp": {
         "comma": "，",
@@ -76,8 +78,8 @@ const sep = {
         "and": "",
         "etal": "et al.，",
         "period": "．",
-        "lquo": "&ldquo;",
-        "rquo": "&rdquo;",
+        "lquo": '"',
+        "rquo": '"',
     }
 };
 
