@@ -18,23 +18,40 @@
 #   doi: 'https://doi.org/'
 #   visible: false
 
-# TODO:
-# - authors:
-#     - {first: 'Helinyi', family: 'Peng'}
-#     - {first: 'Akihito', family: 'Taya'}
-#     - {first: 'Yuuki', family: 'Nishiyama'}
-#     - {first: 'Kaoru', family: 'Sezaki'}
-#   title: '{AEDHunter}: Investigating {AED} Retrieval in the Real World via Gamified Mobile Interaction and Sensing'
-#   journal:
-#     full: ''
-#     abbrv: ''
-#   vol: ''
-#   num: ''
-#   pages: {'from': 1, 'to': 1}
-#   month: 
-#   year: 2026
-#   lang: 'en'
-#   doi: 'https://doi.org/'
+- authors:
+    - {first: 'Akihito', family: 'Taya'}
+    - {first: 'Yuuki', family: 'Nishiyama'}
+    - {first: 'Kaoru', family: 'Sezaki'}
+  title: 'Function-Space {ADMM} for Decentralized Federated Learning: A Control Theoretic Perspective'
+  journal:
+    full: 'IEEE Internet of Things Journal'
+    abbrv: 'IEEE Internet Things J.'
+  # vol: ''
+  # num: ''
+  pages: {'from': 1, 'to': 16}
+  month: 5
+  year: 2026
+  lang: 'en'
+  doi: 'https://doi.org/10.1109/jiot.2026.3690200'
+  prefix: 'Early Access'
+  visible: true
+
+- authors:
+    - {first: 'Helinyi', family: 'Peng'}
+    - {first: 'Akihito', family: 'Taya'}
+    - {first: 'Yuuki', family: 'Nishiyama'}
+    - {first: 'Kaoru', family: 'Sezaki'}
+  title: '{AEDHunter}: Investigating {AED} Retrieval in the Real World via Gamified Mobile Interaction and Sensing'
+  journal:
+    full: 'Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies'
+    abbrv: 'Proc. ACM IMWUT'
+  vol: '10'
+  num: '1'
+  pages: {'from': 1, 'to': 30}
+  month: 3
+  year: 2026
+  lang: 'en'
+  doi: 'https://doi.org/10.1145/3789689'
 
 - authors:
     - {first: 'Yutong', family: 'Feng'}
