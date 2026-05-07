@@ -73,6 +73,9 @@
   year: '2026'
   prefix: ''
   lang: jp
+  grangs:
+    - 'JSPS 科研費 JP24K20759'
+    - 'JSPS 科研費 JP23K26109'
 
 - authors:
     jp:
@@ -191,6 +194,8 @@
   year: '2025'
   prefix: 'Awarded'
   lang: en
+  grangs:
+    - 'JSPS KAKENHI Grant Number JP25K15350'
 
 - authors:
     jp:
@@ -218,6 +223,9 @@
   year: '2025'
   lang: jp
   prefix: '依頼講演'
+  grangs:
+    - 'JSPS 科研費 JP24K20759'
+    - 'GMOインターネット財団研究助成制度'
 
 - authors:
     jp:
@@ -244,6 +252,8 @@
   month: 7
   year: '2025'
   lang: jp
+  grants:
+    - 'JSPS 科研費 JP24K20759'
 
 - authors:
     jp:
@@ -276,6 +286,8 @@
   month: 3
   year: '2025'
   lang: jp
+  grants:
+    - 'JST 次世代研究者挑戦的研究プログラム JPMJSP2108'
 
 - authors:
     jp:
@@ -341,6 +353,8 @@
   month: 1
   year: '2025'
   lang: jp
+  grangs:
+    - 'JSPS 科研費 JP23K17004'
 
 - authors:
     jp:
@@ -368,6 +382,8 @@
   year: '2024'
   prefix: 'Poster, Awarded'
   lang: jp
+  grangs:
+    - 'GMOインターネット財団研究助成制度'
 
 - authors:
     jp:

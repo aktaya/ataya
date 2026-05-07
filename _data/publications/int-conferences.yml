@@ -35,6 +35,7 @@
   month: 5
   prefix: 'Accepted'
   year: '2026'
+  #TODO: grants:
 
 - authors:
     - {first: 'Yanzhi', family: 'Li'}
@@ -52,6 +53,7 @@
   month: 3
   prefix: ''
   year: '2026'
+  #TODO: grants:
 
 - authors:
     - {first: 'Akihito', family: 'Taya'}
@@ -66,6 +68,9 @@
   month: 1
   prefix: 'Demo, Awarded'
   year: '2026'
+  grangs:
+    - 'JSPS KAKENHI Grant Number JP23K26109'
+    - 'the Telecommunications Advancement Foundation'
 
 - authors:
     - {first: 'Yui', family: 'Yamashita'}
@@ -82,6 +87,8 @@
   year: '2025'
   pages: {"from": 59, "to": 65}
   doi: 'https://doi.org/10.1145/3737899.3768524'
+  grangs:
+    - 'JSPS KAKENHI Grant NumberJP24K20759'
 
 - authors:
     - {first: 'Xuefu', family: 'Dong'}
@@ -104,6 +111,9 @@
   year: '2025'
   pages: {"from": 211, "to": 215}
   doi: 'https://doi.org/10.1145/3714394.3754429'
+  grants:
+    - 'JSPS KAKENHI Grant NumberJP24K20759'
+    - 'the Fundamental Research Funds for the Central Universities (3132025240), China'
 
 - authors:
     - {first: 'Jia', family: 'Tang'}
@@ -138,6 +148,9 @@
   year: '2025'
   prefix: 'Late-breaking Work'
   doi: 'https://doi.org/10.1145/3706599.3719746'
+  grangs:
+    - 'JSPS KAKENHI under Grant Number JP23KK0209'
+    - 'JSPS KAKENHI under Grant Number JP23K17004'
 
 - authors:
     - {first: 'Xiuwen', family: 'Gu'}

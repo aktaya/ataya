@@ -16,6 +16,8 @@
 #   year: 2022
 #   lang: 'en'
 #   doi: 'https://doi.org/'
+#   grants:
+#     - ''
 #   visible: false
 
 - authors:
@@ -34,6 +36,8 @@
   lang: 'en'
   doi: 'https://doi.org/10.1109/jiot.2026.3690200'
   prefix: 'Early Access'
+  grants:
+    - 'JSPS KAKENHI JP24K20759'
   visible: true
 
 - authors:
@@ -44,13 +48,17 @@
   title: '{AEDHunter}: Investigating {AED} Retrieval in the Real World via Gamified Mobile Interaction and Sensing'
   journal:
     full: 'Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies'
-    abbrv: 'Proc. ACM IMWUT'
+    abbrv: 'Proc. ACM Interact. Mob. Wearable Ubiquitous Technol.'
   vol: '10'
   num: '1'
   pages: {'from': 1, 'to': 30}
   month: 3
   year: 2026
   lang: 'en'
+  grants:
+    - 'JST PRESTO (JPMJPR2527)'
+    - 'JSPS KAKENHI (JP20H00622)'
+    - 'JST SPRING (JPMJSP2108)'
   doi: 'https://doi.org/10.1145/3789689'
 
 - authors:
@@ -87,6 +95,9 @@
   year: 2025
   lang: 'en'
   doi: 'http://doi.org/10.1007/s40860-025-00249-z'
+  grants:
+    - 'JSPS KAKENHI JP24K20759'
+    - 'the National Natural Science Foundation of China under Contract 62471450'
 
 - authors:
   - {first: 'Eri', family: 'Hosonuma'}
@@ -107,6 +118,8 @@
   lang: 'en'
   doi: 'https://doi.org/10.23919/transcom.2024EBP3056'
   visible: true
+  grants:
+    - 'NICT (JPJ012368C01101)'
 
 - authors:
     - {first: "Hiroki", family: "Shimomura"}
@@ -124,6 +137,10 @@
   year: 2024
   lang: "en"
   doi: 'https://doi.org/10.1109/OJVT.2024.3440400'
+  grants:
+    - 'MIC/SCOPE Grant JP196000002'
+    - 'JSPS KAKENHI JP23K24831'
+    - 'JSPS KAKENHI JP23K26109'
 
 - authors:
     - {first: "Hiroki", family: "Shimomura"}
@@ -143,6 +160,10 @@
   lang: "en"
   doi: 'https://doi.org/10.1109/LWC.2024.3373757'
   prefix: 'Letter'
+  grants:
+    - 'MIC/SCOPE JP196000002'
+    - 'JSPS KAKENHI JP22H03575'
+    - 'JSPS KAKENHI JP23H01414'
 
 - authors:
     - {first: "Yutong", family: "Feng"}
@@ -162,6 +183,10 @@
   lang: "en"
   doi: 'https://doi.org/10.1109/LSP.2023.3324573'
   prefix: 'Letter'
+  grants:
+    - 'JSPS KAKENHI JP21H04886'
+    - 'the Youth Innovation Promotion Association CAS under Grant CX2100060053'
+    - 'the Natural Science Foundation of Anhui Province under Grant 2208085J17'
 
 - authors:
     - {first: "Shota", family: "Ono"}
