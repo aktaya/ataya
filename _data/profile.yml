@@ -9,7 +9,8 @@ links:
   - {display: Google Scholar, url: 'https://scholar.google.co.jp/citations?user=oGxZGCAAAAAJ'}
   - {display: ResearchGate, url: 'https://www.researchgate.net/profile/Akihito_Taya'}
   - {display: researchmap, url: 'https://researchmap.jp/a_taya/?lang=en'}
-  - {display: GitHub, url: 'https://github.com/aktaya'}
+  - {display: GitHub1, url: 'https://github.com/aktaya'}
+  - {display: GitHub2, url: 'https://github.com/exyrias'}
   - {display: Sezaki Lab., url: 'https://www.mcl.iis.u-tokyo.ac.jp/'}
 keywords:
   - Wireless Communications
@@ -40,7 +41,7 @@ committee:
         - 情報処理学会 UBI研究会運営委員(2023-)
     - role: TPCメンバ
       details:
-        - GLOBECOM WC (2021-2026), CQRM (2021-2026), IoTSN (2026), Workshop on 6Gcomm (2024)
+        - GLOBECOM WC (2021-2026), CQRM (2021-2026), IoTSN (2026), Workshop on 6Gcomm (2021, 2024)
         - ICC CQRM (2022-2026), Workshop on Emerging6G-com (2021)
         - INFOCOM Demo (2026), Poster (2026), Workshop on RI-NTNs (2026)
         - ICUFN (2026)
