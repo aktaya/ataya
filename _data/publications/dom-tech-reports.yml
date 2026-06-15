@@ -73,7 +73,7 @@
   year: '2026'
   prefix: ''
   lang: jp
-  grangs:
+  grants:
     - 'JSPS 科研費 JP24K20759'
     - 'JSPS 科研費 JP23K26109'
 
@@ -194,7 +194,7 @@
   year: '2025'
   prefix: 'Awarded'
   lang: en
-  grangs:
+  grants:
     - 'JSPS KAKENHI Grant Number JP25K15350'
 
 - authors:
@@ -223,7 +223,7 @@
   year: '2025'
   lang: jp
   prefix: '依頼講演'
-  grangs:
+  grants:
     - 'JSPS 科研費 JP24K20759'
     - 'GMOインターネット財団研究助成制度'
 
@@ -353,7 +353,7 @@
   month: 1
   year: '2025'
   lang: jp
-  grangs:
+  grants:
     - 'JSPS 科研費 JP23K17004'
 
 - authors:
@@ -382,7 +382,7 @@
   year: '2024'
   prefix: 'Poster, Awarded'
   lang: jp
-  grangs:
+  grants:
     - 'GMOインターネット財団研究助成制度'
 
 - authors:
@@ -970,10 +970,15 @@
       - {first: "勇毅", family: "西山"}
       - {first: "薫", family: "瀬崎"}
     en:
+      - {first: "Eri", family: "Hosonuma"}
+      - {first: "Taku", family: "Yamazaki"}
+      - {first: "Takumi", family: "Miyoshi"}
       - {first: "Akihito", family: "Taya"}
+      - {first: "Yuuki", family: "Nishiyama"}
+      - {first: "Kaoru", family: "Sezaki"}
   title:
     jp: "LPWAによる屋内空間の混雑領域推定に向けた検討"
-    en: ""
+    en: "A Study for Estimating Congestion Area in Indoor Environment by {LPWA}"
   notes:
     jp:
       full: "電子情報通信学会総合大会 B-6-30"
@@ -997,10 +1002,15 @@
       - {first: "勇毅", family: "西山"}
       - {first: "薫", family: "瀬崎"}
     en:
+      - {first: "Shota", family: "Ono"}
+      - {first: "Taku", family: "Yamazaki"}
+      - {first: "Takumi", family: "Miyoshi"}
       - {first: "Akihito", family: "Taya"}
+      - {first: "Yuuki", family: "Nishiyama"}
+      - {first: "Kaoru", family: "Sezaki"}
   title:
     jp: "無線アドホックネットワークにおけるユーザ参加型連合学習の実装実験"
-    en: ""
+    en: "Implementation and Experiments of Participatory Federated Learning on {MANETs}"
   notes:
     jp:
       full: "電子情報通信学会総合大会 B-6-44"
@@ -1023,10 +1033,14 @@
       - {first: "勇毅", family: "西山"}
       - {first: "薫", family: "瀬崎"}
     en:
+      - {first: "Hidenaga", family: "Ushijima"}
+      - {first: "Riku", family: "Ishioka"}
       - {first: "Akihito", family: "Taya"}
+      - {first: "Yuuki", family: "Nishiyama"}
+      - {first: "Kaoru", family: "Sezaki"}
   title:
     jp: "自動運転車と歩行者間の合意形成手法の基礎的検討"
-    en: ""
+    en: "Basic study of consensus building methods between automated vehicles and pedestrians"
   notes:
     jp:
       full: "電子情報通信学会総合大会 A-13-6"
@@ -2166,17 +2180,17 @@
       - {first: "", family: ""}
   title:
     jp: "ビームフォーミングフィードバックを用いたワイヤレスセンシングにおける推定精度へのサブキャリア数の影響"
-    en: ""
+    en: "Impact of Number of Subcarriers to Estimation Accuracy in Wireless Sensing Using Beamforming Feedbacks"
   notes:
     jp:
       full: "電子情報通信学会ソサイエティ大会 B-15-11"
       abbrv: "IEICEソサイエティ大会 B-15-11"
     en:
-      full: ""
-      abbrv: ""
+      full: "IEICE Society Conference B-15-11"
+      abbrv: "IEICE Society Conf. B-15-11"
   city:
     jp: "オンライン開催"
-    en: ""
+    en: "online event"
   month: 9
   year: 2021
   lang: jp
@@ -2476,7 +2490,7 @@
       - {first: "Yoshito", family: "Tobe"}
   title:
     jp: "3次元情報を考慮した野生動物の行動経路の推定"
-    en: "Estimation of Wild Animal's Traces Using {3D} Map Information"
+    en: ""
   notes:
     jp:
       full: "電子情報通信学会技術研究報告 HPB第23回研究会"
@@ -2559,8 +2573,8 @@
       full: "電子情報通信学会総合大会 D-20-12"
       abbrv: "IEICE総合大会 D-20-12"
     en:
-      full: ""
-      abbrv: ""
+      full: "IEICE General Conference D-20-12"
+      abbrv: "IEICE General Conf. D-20-12"
   city:
     jp: "東広島"
     en: "Higashihiroshima"
@@ -2891,11 +2905,11 @@
       full: "電子情報通信学会ソサイエティ大会 B-15-3"
       abbrv: "IEICEソサイエティ大会 B-15-3"
     en:
-      full: ""
-      abbrv: ""
+      full: "IEICE Society Conference B-15-3"
+      abbrv: "IEICE Society Conf. B-15-3"
   city:
     jp: "金沢"
-    en: ""
+    en: "Kanazawa"
   month: 9
   year: 2018
   prefix: "Awarded"
@@ -2920,11 +2934,11 @@
       full: "電子情報通信学会技術研究報告 RCS2018-15"
       abbrv: "信学技報 RCS2018-15"
     en:
-      full: ""
-      abbrv: ""
+      full: "IEICE Technical Reports RCS2018-15"
+      abbrv: "IEICE Tech. Rep. RCS2018-15"
   city:
     jp: "山口"
-    en: ""
+    en: "Ymaguchi"
   month: 4
   year: 2018
   lang: jp
@@ -2952,7 +2966,7 @@
       abbrv: "IEICE General Conf. B-18-37"
   city:
     jp: "東京"
-    en: ""
+    en: "Tokyo"
   month: 3
   year: 2018
   prefix: "Awarded"
@@ -2977,11 +2991,11 @@
       full: "電子情報通信学会技術研究報告 IEICE-MoNA2017-69"
       abbrv: "信学技報 IEICE-MoNA2017-69"
     en:
-      full: ""
-      abbrv: ""
+      full: "IEICE Technical Reports IEICE-MoNA2017-69"
+      abbrv: "IEICE Tech. Rep. IEICE-MoNA2017-69"
   city:
     jp: "東京"
-    en: ""
+    en: "Tokyo"
   month: 2
   year: 2018
   lang: jp
@@ -3033,11 +3047,11 @@
       full: "電子情報通信学会ソサイエティ大会 B-15-4"
       abbrv: "IEICEソサイエティ大会 B-15-4"
     en:
-      full: ""
-      abbrv: ""
+      full: "IEICE Society Conference B-15-4"
+      abbrv: "IEICE Society Conf. B-15-4"
   city:
     jp: "東京"
-    en: ""
+    en: "Tokyo"
   month: 9
   year: 2017
   lang: jp
@@ -3071,7 +3085,7 @@
       abbrv: "IEICE General Conf. B-5-34"
   city:
     jp: "岡山"
-    en: ""
+    en: "Okayama"
   month: 3
   year: 2012
   lang: jp
@@ -3101,11 +3115,11 @@
       full: "電子情報通信学会技術研究報告 RCS2011-78"
       abbrv: "信学技報 RCS2011-78"
     en:
-      full: ""
-      abbrv: ""
+      full: 'IEICE Technical Reports RCS2011-78'
+      abbrv: 'IEICE Tech. Rep. RCS2011-78'
   city:
     jp: "旭川"
-    en: ""
+    en: "Asahikawa"
   month: 7
   year: 2011
   lang: jp
@@ -3135,8 +3149,8 @@
       full: "電子情報通信学会技術研究報告 RCS2010-302"
       abbrv: "信学技報 RCS2010-302"
     en:
-      full: ""
-      abbrv: ""
+      full: 'IEICE Technical Reports RCS2010-302'
+      abbrv: 'IEICE Tech. Rep. RCS2010-302'
   city:
     jp: "横須賀"
     en: ""
