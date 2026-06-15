@@ -2177,7 +2177,12 @@
       - {first: "理志", family: "西尾"}
       - {first: "昭仁", family: "田谷"}
     en:
-      - {first: "", family: ""}
+      - {first: "Sota", family: "Kondo"}
+      - {first: "Koji", family: "Yamamoto"}
+      - {first: "Yusuke", family: "Koda"}
+      - {first: "Kota", family: "Yamashita"}
+      - {first: "Takayuki", family: "Nishio"}
+      - {first: "Akihito", family: "Taya"}
   title:
     jp: "ビームフォーミングフィードバックを用いたワイヤレスセンシングにおける推定精度へのサブキャリア数の影響"
     en: "Impact of Number of Subcarriers to Estimation Accuracy in Wireless Sensing Using Beamforming Feedbacks"
