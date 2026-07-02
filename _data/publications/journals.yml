@@ -21,6 +21,29 @@
 #   visible: false
 
 - authors:
+    - {first: 'Yutong', family: 'Feng'}
+    - {first: 'Akihito', family: 'Taya'}
+    - {first: 'Yuuki', family: 'Nishiyama'}
+    - {first: 'Kaoru', family: 'Sezaki'}
+    - {first: 'Jun', family: 'Liu'}
+    - {first: 'Hongbin', family: 'Li'}
+  title: 'Persymmetric Subspace {GLRT} for Signal Detection With Known Waveform Under Steering Vector Uncertainties'
+  journal:
+    full: 'IEEE Transactions on Aerospace and Electronic Systems'
+    abbrv: 'IEEE Trans. Aerosp. Electron. Syst.'
+  # vol: ''
+  # num: ''
+  pages: {'from': 1, 'to': 12}
+  month: 7
+  year: 2026
+  lang: 'en'
+  doi: 'https://doi.org/10.1109/TAES.2026.3708812'
+  prefix: 'Early Access'
+  grants:
+    - 'JSPS KAKENHI JP24K20759'
+    - 'the National Natural Science Foundation of China under Contract 62471450'
+
+- authors:
     - {first: 'Akihito', family: 'Taya'}
     - {first: 'Yuuki', family: 'Nishiyama'}
     - {first: 'Kaoru', family: 'Sezaki'}
