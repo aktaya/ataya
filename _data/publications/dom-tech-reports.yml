@@ -387,6 +387,40 @@
 
 - authors:
     jp:
+      - {first: '恵里', family: '細沼'}
+      - {first: '託', family: '山崎'}
+      - {first: '匠', family: '三好'}
+      - {first: '昭仁', family: '田谷'}
+      - {first: '勇毅', family: '西山'}
+      - {first: '薫', family: '瀬崎'}
+    en:
+      - {first: 'Eri', family: 'Hosonuma'}
+      - {first: 'Taku', family: 'Yamazaki'}
+      - {first: 'Takumi', family: 'Miyoshi'}
+      - {first: 'Akihito', family: 'Taya'}
+      - {first: 'Yuuki', family: 'Nishiyama'}
+      - {first: 'Kaoru', family: 'Sezaki'}
+  title:
+    jp: '生成型画像伝送手法におけるエッジ抽出を用いた構図情報の再現性向上'
+    en: 'Generative Image Compression and Transmission Method Using Spatial and Descriptive Information'
+  notes:
+    jp:
+      full: '電子情報通信学会ソサイエティ大会 B-6-48'
+      abbrv: 'IEICEソサイエティ大会 B-6-48'
+    en:
+      full: 'IEICE Society Conference B-6-48'
+      abbrv: 'IEICE Society Conf. B-6-48'
+  city:
+    jp: '埼玉'
+    en: 'Saitama'
+  month: 9
+  year: '2024'
+  lang: jp
+  grants:
+    - 'JST 次世代研究者挑戦的研究プログラム JPMJSP2108'
+
+- authors:
+    jp:
       - {first: '直秀', family: '和久田'}
       - {first: '高至', family: '山本'}
       - {first: '理志', family: '西尾'}

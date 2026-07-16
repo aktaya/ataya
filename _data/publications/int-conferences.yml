@@ -59,7 +59,7 @@
     - {first: 'Akihito', family: 'Taya'}
     - {first: 'Yuuki', family: 'Nishiyama'}
     - {first: 'Kaoru', family: 'Sezaki'}
-  title: 'A Mechanical {Wi-Fi} Antenna Device for Automatic Orientation Tuning with Bayesian Optimization'
+  title: 'A Mechanical {Wi-Fi} Antenna Device for Automatic Orientation Tuning with {Bayesian} Optimization'
   conference:
     full: 'IEEE Consumer Communications & Networking Conference 2026'
     abbrv: 'CCNC 2026'
