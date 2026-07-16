@@ -402,7 +402,7 @@
       - {first: 'Kaoru', family: 'Sezaki'}
   title:
     jp: '生成型画像伝送手法におけるエッジ抽出を用いた構図情報の再現性向上'
-    en: 'Generative Image Compression and Transmission Method Using Spatial and Descriptive Information'
+    en: 'Improving Reproducibility of Image Composition by Edge Detection in Generation-based Transmission Method'
   notes:
     jp:
       full: '電子情報通信学会ソサイエティ大会 B-6-48'
