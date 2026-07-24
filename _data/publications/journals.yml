@@ -51,14 +51,13 @@
   journal:
     full: 'IEEE Internet of Things Journal'
     abbrv: 'IEEE Internet Things J.'
-  # vol: ''
-  # num: ''
-  pages: {'from': 1, 'to': 16}
-  month: 5
+  vol: '13'
+  num: '14'
+  pages: {'from': 32240, 'to': 32254}
+  month: 7
   year: 2026
   lang: 'en'
   doi: 'https://doi.org/10.1109/jiot.2026.3690200'
-  prefix: 'Early Access'
   grants:
     - 'JSPS KAKENHI JP24K20759'
   visible: true
